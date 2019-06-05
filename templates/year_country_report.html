@@ -1,25 +1,13 @@
 {% extends 'body.html' %}
 {% block content %}
     <div class="col text-center main-body mt-3 pb-4"> 
-      <h3> Results of {{country}} at APMO {{year}}  </h3>
+      <h3> Results of {{country}} at APMO {{year}} </h3>
 
       <hr>
-
-      <h4> General information</h4>
-
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="d-flex">
-            <ul class="list-group list-aims mx-auto justify-content-center">
-              <li class='list-group-item'> {{competition_info.num_countries}} participating countries </li>
-              <li class='list-group-item'> {{competition_info.num_contestants}} participating students </li>
-              <li class='list-group-item'> Mean score $\mu={{'%0.2f'| format(competition_info.mean|float)}}$</li>
-              <li class='list-group-item'> Standard deviation $\sigma={{'%0.2f'| format(competition_info.std|float)}}$</li>
-              <li class='list-group-item'> Gold cut-off ${{competition_info.gold}}$</li>
-              <li class='list-group-item'> Silver cut-off ${{competition_info.silver}}$</li>
-              <li class='list-group-item'> Bronze cut-off ${{competition_info.bronze}}$</li>
-            </ul>
-          </div>
-        </div>
-
+      {{table|safe}}
+      <hr>
+      <a class='small' href="/year_report/{{year}}"> Go to APMO {{year}} </a> - <a class='small' href="/country_report/{{code}}/all"> Go to {{country}} results </a>
+      <hr>
+      
+    </div>
 {% endblock %}
