@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 import glob, re, json
+import pandas as pd
 
 year_re=r'[0-9]{4}'
 
@@ -49,4 +50,17 @@ def year(year):
         by_country=file.read()
     with open('static/data/apmo_%s_info.json' % year) as json_file:
         competition_info = json.loads(json_file.read())
+    return render_template("year_report.html",year=year, by_country=by_country, competition_info=competition_info)
+
+@app.route('/country_report/<country>/<year>')
+def country(country, year):
+    if year=='all':
+        pass
+    if int(year)>=2016:
+        pass
+    with open('static/data/by_country_ranked_%s.html' % year, 'r') as file:
+        by_country=file.read()
+    with open('static/data/apmo_%s_info.json' % year) as json_file:
+        competition_info = json.loads(json_file.read())
+
     return render_template("year_report.html",year=year, by_country=by_country, competition_info=competition_info)
