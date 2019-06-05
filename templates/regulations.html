@@ -3,15 +3,23 @@
 
 <div class="col-lg-4 main-body text-left mt-3 pb-4"> 
     <h3> Full-text by year </h3>
+
+    <hr>
+
     <p>Download the full text of the APMO Regulations by year.</p>
 
     {% for value in reg_pairs %}
       <a href="/{{ value[1]}}" class="btn btn-info btn-sm d-but active mb-1" role="button" aria-pressed="true">{{value[0]}}</a>
     {% endfor %}
+
+    <hr>
+
+    <p class="small"> We do not have full-text regulations for the pre-2016 era. To contribute, visit the <a href="https://github.com/leomtz/apmowebsite"> GitHub repository</a>.
 </div>
 
     <div class="col-lg-8 main-body text-left mt-3 pb-4"> 
       <h3> Outline of regulations </h3>
+      <hr>
       <div class="d-flex">
         <ul class="list-group list-regs mx-auto justify-content-center">
       <li class='list-group-item'> The APMO contest consists of one four-hour paper consisting of five questions of varying difficulty and each having a maximum score of 7 points.</li>

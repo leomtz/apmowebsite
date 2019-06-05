@@ -65,11 +65,14 @@ The relevant files in the repository are:
 
 You can contribute to the project in several ways. We need help with the following:
 
-- Provide any kind of APMO results for the pre-2005 era. Please send to `leomtz@im.unam.mx`
+- Provide any kind of APMO results for the pre-2005 era.
+- Provide scores for the 2010-2015 era.
+- Provide scores or country rankings for the 2005-2009 era.
+- Write problem solutions for the pre-2005 era.
+- Provide full texts of the regulations for the pre-2015 era. 
 - Transform files from the 2005-2015 era from PDF to a data-friendly .csv format
 - Explore the data that we have and get new insights
 - Help with the general maintenance of the website (typos, corrections, etc)
-
 
 ## Licencing
 

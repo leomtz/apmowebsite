@@ -1,21 +1,30 @@
 {% extends 'body.html' %}
 {% block content %}
 
-<div class="col-md-6 main-body text-left mt-3 pb-4"> 
+<div class="col-md-6 main-body text-center mt-3 pb-4"> 
     <h3> Problem statements </h3>
+    <hr>
     <p>Download the APMO problem statements by year.</p>
-
+    <hr>
+    
     {% for value in prob_pairs %}
       <a href="/{{ value[1]}}" class="btn btn-info btn-sm d-but active mb-1" role="button" aria-pressed="true">{{value[0]}}</a>
     {% endfor %}
 </div>
 
-<div class="col-md-6 main-body text-left mt-3 pb-4"> 
+<div class="col-md-6 main-body text-center mt-3 pb-4"> 
     <h3> Problem solutions </h3>
+    <hr>
+    
     <p>Download the APMO problem solutions by year.</p>
+    <hr>
 
     {% for value in sol_pairs %}
         <a href="/{{ value[1]}}" class="btn btn-info btn-sm d-but active mb-1" role="button" aria-pressed="true">{{value[0]}}</a>
     {% endfor %}
+    <hr>
+
+    <p class="small"> To contribute problem solutions for the pre-2005 era, visit the <a href="https://github.com/leomtz/apmowebsite"> GitHub repository</a>.</p>
+
 </div>
 {% endblock %}

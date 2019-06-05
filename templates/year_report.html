@@ -23,7 +23,7 @@
         </div>
 
         <div class="col-lg-6">
-            <img class="w-100" src="/static/data/histogram2019.png">
+            <img class="w-100" src="/static/data/histogram_{{year}}.png">
           </div>
       </div>
 
@@ -70,7 +70,7 @@
                 <li class='list-group-item'> Standard deviation $\sigma={{'%0.2f'| format(competition_info.p_stds[j]|float)}}$</li>
             </ul>
           </div>
-          <img class="w-100" src="/static/data/histogram_P{{j+1}}_2019.png">
+          <img class="w-100" src="/static/data/histogram_p{{j+1}}_{{year}}.png">
         </div>
         {% endfor %}
       </div>

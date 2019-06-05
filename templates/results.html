@@ -1,22 +1,47 @@
 {% extends 'body.html' %}
 {% block content %}
-    <div class="col-md-4 text-center main-body mt-3 pb-4"> 
+    <div class="col-md-6 text-center main-body mt-3 pb-4"> 
       <h3> Yearly Reports </h3>
-      <p> Explore the reports for each year </p>
-      {% for j in range(2019,2004, -1) %}
+      
+      <hr>
+      <p> Full-reports </p>
+      
+      {% for j in range(2018,2015, -1) %}
+      <a href="/year_report/{{ j }}" class="btn btn-success btn-sm d-but active mb-1" role="button" aria-pressed="true">{{j}}</a>
+      {% endfor %}
+
+      <hr>
+
+      <p> Country rankings and awards only </p>
+      
+      {% for j in range(2015,2009, -1) %}
       <a href="/year_report/{{ j }}" class="btn btn-info btn-sm d-but active mb-1" role="button" aria-pressed="true">{{j}}</a>
-    {% endfor %}
+      {% endfor %}
+
+      <hr>
+
+      <p> Awards only </p>
+
+      {% for j in range(2009,2004, -1) %}
+      <a href="/year_report/{{ j }}" class="btn btn-secondary btn-sm d-but active mb-1" role="button" aria-pressed="true">{{j}}</a>
+      {% endfor %}
+
+      <hr>
 
     <p class="small"> We do not have information for the pre-2005 era. To contribute, visit the <a href="https://github.com/leomtz/apmowebsite"> GitHub repository</a>.</p>
     </div>
 
-    <div class="col -md-4 text-center main-body mt-3 pb-4"> 
+    <div class="col-md-6 text-center main-body mt-3 pb-4"> 
       <h3> Results by Country </h3>
-      <p> Explore the APMO results by country </p>
-    </div>
 
-    <div class="col-md-4 text-center main-body mt-3 pb-4"> 
-      <h3> Hall of Fame </h3>
-      <p> Explore the most sucessful contestants at APMO </p>
+      <hr>
+
+      <p> Explore the APMO results by country </p>
+      
+      <hr>
+      
+      {% for country in countries %}
+      <a href="/country_report/{{ country[0] }}/all" class="btn btn-info btn-sm active mb-1" role="button" aria-pressed="true">{{country[1]}}</a>
+      {% endfor %}
     </div>
 {% endblock %}
