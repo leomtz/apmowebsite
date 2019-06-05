@@ -1,0 +1,21 @@
+{% extends 'body.html' %}
+{% block content %}
+
+<div class="col-md-6 main-body text-left mt-3 pb-4"> 
+    <h3> Problem statements </h3>
+    <p>Download the APMO problem statements by year.</p>
+
+    {% for value in prob_pairs %}
+      <a href="/{{ value[1]}}" class="btn btn-info btn-sm d-but active mb-1" role="button" aria-pressed="true">{{value[0]}}</a>
+    {% endfor %}
+</div>
+
+<div class="col-md-6 main-body text-left mt-3 pb-4"> 
+    <h3> Problem solutions </h3>
+    <p>Download the APMO problem solutions by year.</p>
+
+    {% for value in sol_pairs %}
+        <a href="/{{ value[1]}}" class="btn btn-info btn-sm d-but active mb-1" role="button" aria-pressed="true">{{value[0]}}</a>
+    {% endfor %}
+</div>
+{% endblock %}

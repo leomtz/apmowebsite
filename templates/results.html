@@ -1,0 +1,20 @@
+{% extends 'body.html' %}
+{% block content %}
+    <div class="col-md-4 text-center main-body mt-3 pb-4"> 
+      <h3> Yearly Reports </h3>
+      <p> Explore the reports for each year </p>
+      {% for j in range(2019,1988, -1) %}
+      <a href="/year_report/{{ j }}" class="btn btn-info btn-sm d-but active mb-1" role="button" aria-pressed="true">{{j}}</a>
+    {% endfor %}
+    </div>
+
+    <div class="col -md-4 text-center main-body mt-3 pb-4"> 
+      <h3> Results by Country </h3>
+      <p> Explore the APMO results by country </p>
+    </div>
+
+    <div class="col-md-4 text-center main-body mt-3 pb-4"> 
+      <h3> Hall of Fame </h3>
+      <p> Explore the most sucessful contestants at APMO </p>
+    </div>
+{% endblock %}

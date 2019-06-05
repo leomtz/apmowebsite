@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Asian Pacific Mathematical Olympiad</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+    });
+    </script>
+</head>
+<body>
+
+  <header class="container text-center mt-4">
+      <a href='/'><img src="/static/apmologo.gif"></a>
+      <h2>Asian Pacific Mathematics Olympiad</h2>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+          <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto">
+              <li id="menu-0" class="nav-item">
+                  <a class="nav-link" href="/regulations">Regulations <span class="sr-only">(current)</span></a>
+              </li>
+              <li id="menu-1" class="nav-item">
+                  <a class="nav-link" href="/timeline">Timeline</a>
+              </li>
+              <li id="menu-3" class="nav-item">
+                  <a class="nav-link" href="/countries">Countries</a>
+              </li>
+              <li id="menu-2" class="nav-item">
+                  <a class="nav-link" href="/problems">Problems</a>
+              </li>
+              <li id="menu-3" class="nav-item">
+                  <a class="nav-link" href="/results">Results</a>
+              </li>
+              </ul>   
+          </div>
+      </nav>
+  </header>
+  
+<div class="container text-center ">    
+  <div class="row content">
+      {% block content %}{% endblock %}
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Webmaster: Leonardo Martínez-Sandoval </p>
+</footer>
+
+</body>
+</html>

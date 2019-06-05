@@ -1,0 +1,35 @@
+{% extends 'body.html' %}
+{% block content %}
+
+<div class="col-lg-4 main-body text-left mt-3 pb-4"> 
+    <h3> Full-text by year </h3>
+    <p>Download the full text of the APMO Regulations by year.</p>
+
+    {% for value in reg_pairs %}
+      <a href="/{{ value[1]}}" class="btn btn-info btn-sm d-but active mb-1" role="button" aria-pressed="true">{{value[0]}}</a>
+    {% endfor %}
+</div>
+
+    <div class="col-lg-8 main-body text-left mt-3 pb-4"> 
+      <h3> Outline of regulations </h3>
+      <div class="d-flex">
+        <ul class="list-group list-regs mx-auto justify-content-center">
+      <li class='list-group-item'> The APMO contest consists of one four-hour paper consisting of five questions of varying difficulty and each having a maximum score of 7 points.</li>
+      <li class='list-group-item'> Country representatives organize the competition locally. Any number of students may sit the exam in each country, but the results of at most 10 per country can be sent for official participation.  </li>
+      <li class='list-group-item'> Contestants should not have formally enrolled at a university (or equivalent post-secondary institution) and they must be younger than 20 years of age on the 1st July of the year of the contest. </li>
+      <li class='list-group-item'> The APMO is be held in the afternoon of the second Monday of March for participating countries in the North and South Americas, and in the morning of the second Tuesday of March for participating countries on the Western Pacific and in Asia. </li>
+      <li class='list-group-item'> The contest questions are to be collected from the contestants at the end of the APMO and are to be kept confidential until the Senior Coordinating Country posts them on the official APMO website. Each exam paper must contain a written legend, warning the students not to discuss the problems over the internet until that date.</li>
+      <li class='list-group-item'> All APMO contestants will receive a Certificate of Award, Honourable Mention or Representation. </li>
+      <li class='list-group-item'> The maximum total number of Award certificates per edition should be $(n+1)/2$, unless ties in the limiting cut-off happen. </li>
+      <li class='list-group-item'> Let $m$ and $\sigma$ be the mean and standard deviation of the individual scores for each year. Then a student is awarded:
+        <ul>
+            <li>A Gold Award if the obtained score is at least $m+\sigma$ and its local rank is $1$.</li>
+            <li>A Silver Award if the obtained score is at least $m+\frac{\sigma}{3}$ and its local rank is less than $3$.</li>
+            <li>A Bronze Award if the obtained score is at least $m-\frac{\sigma}{3}$ and its local rank is less than $7$.</li>
+            <li>An Honourable Mention if the student has not received an Award, but who has performed creditably according to some criteria determined each year; for example, a contestant who has obtained a perfect score of 7 for at least one question or has obtained scores of 5 or 6 for at least two questions. </li>
+        </ul>
+
+      </li>
+      </div>
+    </div>
+{% endblock %}

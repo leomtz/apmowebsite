@@ -1,0 +1,45 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+body{
+    background-image: url('/static/bg.jpeg');
+    background-attachment: fixed;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.d-but{
+  width:80px;
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  height: 100%;
+}
+
+.main-body, header{
+    background-color: rgba(255,255,255,0.9);
+    padding-top: 20px;
+}
+
+ul.list-aims{
+    width:500px;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 10px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;} 
+}
