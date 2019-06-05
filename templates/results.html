@@ -3,9 +3,11 @@
     <div class="col-md-4 text-center main-body mt-3 pb-4"> 
       <h3> Yearly Reports </h3>
       <p> Explore the reports for each year </p>
-      {% for j in range(2019,1988, -1) %}
+      {% for j in range(2019,2004, -1) %}
       <a href="/year_report/{{ j }}" class="btn btn-info btn-sm d-but active mb-1" role="button" aria-pressed="true">{{j}}</a>
     {% endfor %}
+
+    <p class="small"> We do not have information for the pre-2005 era. To contribute, visit the <a href="https://github.com/leomtz/apmowebsite"> GitHub repository</a>.</p>
     </div>
 
     <div class="col -md-4 text-center main-body mt-3 pb-4"> 

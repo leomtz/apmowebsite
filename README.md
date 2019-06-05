@@ -1,17 +1,17 @@
 # Website for the Asian Pacific Mathematics Olympiad
 
-![APMO LOGO](/static/apmologo.gif "Logo Title Text 1")
+![APMO logo](/static/apmologo.gif "Logo Title Text 1")
 
 The Asian Pacific Mathematics Olympiad (APMO) is a mathematical competition for countries in the Pacific-Rim Region.
       
 The APMO started in 1989. It has the following aims:
   
-- Discovering, encouraging and challenging mathematically gifted high-school students.
-- Fostering friendly international relations and cooperation between students and teachers throughout the region.
-- Creating opportunities for the exchange of information on school syllabi and practice.
-- Encouraging and supporting the mathematical involvement with Olympiad type activities in the participating countries and other countries of the region.
+- Discovering, encouraging and challenging mathematically gifted high-school students
+- Fostering friendly international relations and cooperation between students and teachers throughout the region
+- Creating opportunities for the exchange of information on school syllabi and practice
+- Encouraging and supporting the mathematical involvement with Olympiad type activities in the participating countries and other countries of the region
 
-The website is hosted at http://www.apmo-official.org. This is the GitHub repository to manage and contribute to the website. 
+The website is hosted at http://www.apmo-official.org. This is the GitHub repository to manage and contribute to the website.
 
 ## How the website works
 
@@ -25,37 +25,52 @@ The website is served with a combination of the following technologies:
 
 If you want to run a local version for development, my strong recommendation is that you get Anaconda and replace the Boostrap and MathJax CDNs with local intallations.
 
+## The Web Development part
+
+The relevant files in the repository are:
+
+- `webpage.py` is the Flask app that routes everything
+- `templates/` is th directory with the Jinja2 templates
+
+## The Data part
+
+Since 2016, we have complete score tables that include countries, contestant names, detailed problem scores and gender. This is what we call a <i> full score table </i>. The ideal situation for a year is to have its full score table in a standard data format (`.csv` or `.xlsx`).
+
+With a full score table we can generate many useful reports to be displayed on the website:
+
+- Overview of APMO results over the years
+- Detailed yearly report
+    - General information of edition
+    - Country rankings per year
+    - Awards per year
+    - Problem statistics
+    - Detailed results by country
+- Overview of results by country over the years
+- Detailed results by country over the years
+
+Unfortunately, before 2016 we only have partial information:
+
+- There is no result information pre-2005.
+- In the period 2005-2009 we only have information on the awards. We have full names and countries. This is currently in PDF form.
+- In the period 2010-2015 we have information on awards (as above), country rankings per year and general information on the edition. This is currently in PDF form.
+
+The relevant files in the repository are:
+
+- `data/` has Jupyter notebooks for processing data and folders with data
+- `data/results_pre2016` have the PDFs with results in the period 2005-2009
+- `data/data_clean` are the clean score tables from 2016 onwards
+- `data/reports` is the directory where the yearly reports are created
+
 ## How to contribute
 
 You can contribute to the project in several ways. We need help with the following:
 
-- Transform old result files (in PDF) to the more data-friendly .csv format
+- Provide any kind of APMO results for the pre-2005 era. Please send to `leomtz@im.unam.mx`
+- Transform files from the 2005-2015 era from PDF to a data-friendly .csv format
 - Explore the data that we have and get new insights
 - Help with the general maintenance of the website (typos, corrections, etc)
 
-## The Web Development part
-
-- The Flask 
-
-## The Data part
-
-For each year:
-
-- Scores by person (best)
-- Report of medals
-- Report by countries
-- Report of problems
-
-For each country
-
-- Number of medals per year
-- Scores by person
-
-Problems
-
-- Problem statements
-- Problem solutions
 
 ## Licencing
 
-As of now, 
+As of now, please send any requests to use part of this data or code to Leonardo Martínez (`leomtz@im.unam.mx`).
