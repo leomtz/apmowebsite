@@ -7,6 +7,8 @@
 
       <h4> General information</h4>
 
+      <hr>
+
       <div class="row">
         <div class="col-lg-6">
           <div class="d-flex">
@@ -31,11 +33,16 @@
 
       <h4> Country ranking  </h4>
 
+      <hr>
+
           {{by_country|safe}}
 
       <hr>
 
       <h4> Awards </h4>
+
+      <hr>
+
       <details>
         <summary> Show Gold Awards</summary> 
         {% for j in competition_info.g_awd %} {{j}}, {% endfor %}
@@ -59,6 +66,8 @@
       <hr>
 
       <h4> Statistics by problem </h4>
+
+      <hr>
       
       <div class="row">
         {% for j in range(5) %}
