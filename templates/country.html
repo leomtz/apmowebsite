@@ -1,0 +1,12 @@
+{% extends 'body.html' %}
+{% block content %}
+    <div class="col text-center main-body mt-3 pb-4"> 
+      <h3> Results for {{ country }}  </h3>
+      <hr>
+      {{table|safe}}
+      {{table_short|safe}}
+
+      <p class="d-inline d-lg-none"> * Con. - Number of contestants </p>
+      <hr>
+    </div>
+{% endblock %}

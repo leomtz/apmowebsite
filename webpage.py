@@ -1,12 +1,42 @@
 from flask import Flask, render_template
 import glob, re, json
 import pandas as pd
+pd.set_option('max_colwidth', 70)
 
 year_re=r'[0-9]{4}'
 
 app = Flask(__name__)
 
+files_ranked_all=glob.glob('data/reports/by_country_ranked_*.csv')
+ranked_all_dfs=[]
+for filename in files_ranked_all:
+    year=filename[-8:-4]
+    temp_df=pd.read_csv(filename)
+    temp_df['Year']=year
+    ranked_all_dfs.append(temp_df)
+ranked_all_df=pd.concat(ranked_all_dfs, axis=0)
+
 # An auxiliary function for creating a table
+
+def apmo_editions():
+    editions_df = pd.read_csv('data/apmo_editions.csv', dtype={'year':object,
+    'gold_cutoff':object, 'silver_cutoff':object, 'bronze_cutoff':object, 'num_countries':object,'num_contestants':object
+    }).drop("chair", axis=1)
+    editions_df.columns=['Year', 'Num. Countries', 'Num. Contestants', 'Gold cut', 'Silver cut', 'Bronze cut', 'SCC *', 'ACC *', 'MC *']
+    editions_df.sort_values('Year', ascending=False,inplace=True)
+    editions_df['Results']='<a href=/year_report/' + editions_df.Year.astype(str) +'> Go </a>'
+    table=editions_df.to_html(index=False, classes='d-none d-lg-table table table-striped table-sm', border=0, justify='center',na_rep='', escape=False)
+    return table
+
+def apmo_editions_short():
+    editions_df = pd.read_csv('data/apmo_editions.csv', dtype={'year':object,
+    'gold_cutoff':object, 'silver_cutoff':object, 'bronze_cutoff':object, 'num_countries':object,'num_contestants':object
+    }).drop(['senior', 'assistant', 'moderating', 'chair'], axis=1)
+    editions_df.columns=['Year', 'Cou.*', 'Con.*', 'Gold', 'Silver', 'Bronze']
+    editions_df.sort_values('Year', ascending=False,inplace=True)
+    editions_df['More']='<a href=/year_report/' + editions_df.Year.astype(str) +'> Go </a>'
+    table=editions_df.to_html(index=False, classes='d-table d-lg-none table table-striped table-sm', border=0, justify='center',na_rep='', escape=False)
+    return table
 
 def country_year_table(code,year): 
     year_res_df = pd.read_csv('data/reports/score_awards_%s.csv' % year)
@@ -17,22 +47,45 @@ def country_year_table(code,year):
     table=to_report.to_html(index=False, classes='table table-striped table-sm',border=0,justify='center')
     return table, country
 
-def apmo_editions():
-    editions_df = pd.read_csv('data/apmo_editions.csv', dtype={'year':object,
-    'gold_cutoff':object, 'silver_cutoff':object, 'bronze_cutoff':object, 'num_countries':object,'num_contestants':object
-    }).drop("chair", axis=1)
-    editions_df.columns=['Year', 'Num. Countries', 'Num. Contestants', 'Gold cut', 'Silver cut', 'Bronze cut', 'SCC', 'ACC', 'MC']
-    editions_df.sort_values('Year', ascending=False,inplace=True)
-    editions_df['Results']='<a href=year_report/' + editions_df.Year.astype(str) +'> Go </a>'
-    table=editions_df.to_html(index=False, classes='table table-striped table-sm', border=0, justify='center',na_rep='', escape=False)
-    return table
+def country_all_table(code):
+    country_all_df=ranked_all_df[ranked_all_df['Code']==code].reset_index().drop('index', axis=1).sort_values('Year', ascending=False)
+    country_all_df['Details']='<a href="/country_report/' + country_all_df.Code.astype(str) +'/' + country_all_df.Year.astype(str) + '"> Scores </a>'
+    country_all_df['Year']='<a href=/year_report/' + country_all_df.Year.astype(str) + '> ' + country_all_df.Year.astype(str) + ' </a>'
+    country=country_all_df['Country'][0]
+    country_all_df.drop(['Code', 'Country'], axis=1, inplace=True)
+    list_columns=country_all_df.columns.tolist()
+    new_columns=[list_columns[-2]]+list_columns[:-2]+[list_columns[-1]]
+    country_all_df=country_all_df[new_columns]
+    table=country_all_df.to_html(index=False, classes='d-none d-lg-table table table-striped table-sm', border=0, justify='center',na_rep='', escape=False)
+    return table, country
+
+def country_all_table_short(code):
+    country_all_df=ranked_all_df[ranked_all_df['Code']==code].reset_index().drop('index', axis=1).sort_values('Year', ascending=False)
+    country_all_df['Details']='<a href="/country_report/' + country_all_df.Code.astype(str) +'/' + country_all_df.Year.astype(str) + '"> Scores </a>'
+    country_all_df['Year']='<a href=/year_report/' + country_all_df.Year.astype(str) + '> ' + country_all_df.Year.astype(str) + ' </a>'
+    country=country_all_df['Country'][0]
+    country_all_df['Awards (G,S,B,HM)']=country_all_df['Gold Awards'].astype(str) + ', ' + country_all_df['Silver Awards'].astype(str) + ', ' + country_all_df['Bronze Awards'].astype(str) + ', ' + country_all_df['Honorable Mentions'].astype(str)
+    country_all_df.drop(['Code', 'Country','Gold Awards', 'Silver Awards', 'Bronze Awards', 'Honorable Mentions'], axis=1, inplace=True)
+    list_columns=country_all_df.columns.tolist()
+    new_columns=[list_columns[-3]]+list_columns[:-3]+[list_columns[-1]]+[list_columns[-2]]
+    country_all_df=country_all_df[new_columns]
+    country_all_df.columns=['Year', 'Rank', 'Con.*', 'Score', 'Awards (G,S,B,HM)', ' Details']
+    table=country_all_df.to_html(index=False, classes='d-table d-lg-none table table-striped table-sm', border=0, justify='center',na_rep='', escape=False)
+    return table, country
 
 def participating_countries():
     countries_df = pd.read_csv('data/apmo_countries.csv')
     countries_df.columns=['Code', 'Country', 'Status', 'Current Representative']
     countries_df.sort_values('Country', inplace=True)
-    countries_df['Results']='<a href=country_report/' + countries_df.Code.astype(str) +'/all> Go </a>'
+    countries_df['Results']='<a href="/country_report/' + countries_df.Code.astype(str) +'/all"> Go </a>'
     table=countries_df.to_html(index=False, classes='table table-striped table-sm', border=0, justify='center',na_rep='', escape=False)
+    return table
+
+def ranked_table(year):
+    ranked_df = pd.read_csv('data/reports/by_country_ranked_%s.csv' % year)
+    ranked_df['Country']='<a href="/country_report/' + ranked_df.Code.astype(str) + ('/%s">' % year) + ranked_df.Country + '</a>'
+    ranked_df.drop(['Code'], axis=1, inplace=True)
+    table=ranked_df.to_html(index=False, classes='table table-striped table-sm', border=0, justify='center',na_rep='', escape=False)
     return table
 
 # The routing begins here
@@ -52,7 +105,8 @@ def regulations():
 @app.route('/timeline')
 def timeline():
     table=apmo_editions()
-    return render_template("timeline.html", table=table)
+    table_short=apmo_editions_short()
+    return render_template("timeline.html", table=table, table_short=table_short)
 
 @app.route('/countries')
 def countries():
@@ -76,21 +130,24 @@ def problems():
 @app.route('/results')
 def results():
     countries=[[x['code'],x['country']]  for _, x in pd.read_csv('data/apmo_countries.csv')[['code','country']].iterrows()]
-    print(countries)
     return render_template("results.html",countries=countries)
 
 @app.route('/year_report/<year>')
 def year(year):
-    with open('data/reports/by_country_ranked_%s.html' % year, 'r') as file:
-        by_country=file.read()
-    with open('data/reports/apmo_%s_info.json' % year) as json_file:
-        competition_info = json.loads(json_file.read())
-    return render_template("year_report.html",year=year, by_country=by_country, competition_info=competition_info)
+    if int(year) in range(2005,2020):
+        with open('data/reports/apmo_%s_info.json' % year) as json_file:
+            competition_info = json.loads(json_file.read())
+        table=ranked_table(year)
+        return render_template("year_report.html",year=year, table=table, competition_info=competition_info)
+    else:
+        return render_template('not_enough_info.html')
 
 @app.route('/country_report/<code>/<year>')
 def country(code, year):
     if year=='all':
-        return('Full country view')
+        table, country= country_all_table(code)
+        table_short, country= country_all_table_short(code)
+        return render_template('country.html', country=country, table=table,  table_short=table_short)
     elif int(year)<=2015:
         return('Not enough info to display')
     elif int(year) in range(2016,2020): 
