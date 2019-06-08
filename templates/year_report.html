@@ -10,7 +10,7 @@
       <hr>
 
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-md-5 col-lg-6">
           <div class="d-flex">
             <ul class="list-group list-aims mx-auto justify-content-center">
               <li class='list-group-item'> {{competition_info.num_countries}} participating countries </li>
@@ -24,7 +24,7 @@
           </div>
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-md-7 col-lg-6">
             <img class="w-100" src="/static/data/histogram_{{year}}.png">
           </div>
       </div>
@@ -37,6 +37,9 @@
           <p class="small">Click on a country name to see detailed results</p>
 
           {{table|safe}}
+          {{table_short|safe}}
+
+          <p class="d-inline d-lg-none"> * Con. - Number of contestants </p>
 
       <hr>
 
@@ -72,7 +75,7 @@
       
       <div class="row">
         {% for j in range(5) %}
-        <div class="col-lg-6 mt-4">
+        <div class="col-md-6 mt-4">
         <h4>Problem {{j+1}}</h4>
           <div class="d-flex">
             <ul class="list-group list-aims mx-auto justify-content-center">

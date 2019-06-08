@@ -16,7 +16,7 @@ for filename in files_ranked_all:
     ranked_all_dfs.append(temp_df)
 ranked_all_df=pd.concat(ranked_all_dfs, axis=0)
 
-# An auxiliary function for creating a table
+# Auxiliary table creating functions
 
 def apmo_editions():
     editions_df = pd.read_csv('data/apmo_editions.csv', dtype={'year':object,
@@ -44,7 +44,22 @@ def country_year_table(code,year):
     country=to_report['country'][0]
     to_report.drop(['country', 'sex', 'code'], axis=1, inplace=True)
     to_report.columns=["Rank", "Last Name", "First Name", "P1", "P2", "P3", "P4", "P5", "Total", "Award"]
-    table=to_report.to_html(index=False, classes='table table-striped table-sm',border=0,justify='center')
+    table=to_report.to_html(index=False, classes='d-none d-lg-table table table-striped table-sm',border=0,justify='center', escape=False)
+    return table, country
+
+def country_year_table_short(code,year): 
+    year_res_df = pd.read_csv('data/reports/score_awards_%s.csv' % year)
+    to_report = year_res_df[year_res_df.code == code].reset_index().drop('index', axis=1)
+    country=to_report['country'][0]
+    to_report.award = to_report.award.map({'Gold':'G', 'Silver':'S', 'Bronze': 'B', 'Hon. Men.': 'HM', '':''})
+    to_report.drop(['country', 'sex', 'code'], axis=1, inplace=True)
+    to_report['scores']=to_report.p1.astype(str)+', ' + to_report.p2.astype(str) + ', ' + to_report.p3.astype(str) + ', ' + to_report.p4.astype(str) + ', ' + to_report.p5.astype(str) + ', <b>' + to_report.total.astype(str) + '</b>'
+    to_report.drop(['p1','p2','p3','p4','p5','total'], axis=1, inplace=True)
+    list_columns=to_report.columns.tolist()
+    new_columns=list_columns[:-2]+list_columns[-1:-3:-1]
+    to_report=to_report[new_columns]
+    to_report.columns=["Rank", "Last Name", "First Name", "Scores", "Award"]
+    table=to_report.to_html(index=False, classes='d-table d-lg-none table table-striped table-sm',border=0,justify='center', escape=False)
     return table, country
 
 def country_all_table(code):
@@ -75,7 +90,7 @@ def country_all_table_short(code):
 
 def participating_countries():
     countries_df = pd.read_csv('data/apmo_countries.csv')
-    countries_df.columns=['Code', 'Country', 'Status', 'Current Representative']
+    countries_df.columns=['Code', 'Country', 'Status', 'Contact']
     countries_df.sort_values('Country', inplace=True)
     countries_df['Results']='<a href="/country_report/' + countries_df.Code.astype(str) +'/all"> Go </a>'
     table=countries_df.to_html(index=False, classes='table table-striped table-sm', border=0, justify='center',na_rep='', escape=False)
@@ -85,7 +100,16 @@ def ranked_table(year):
     ranked_df = pd.read_csv('data/reports/by_country_ranked_%s.csv' % year)
     ranked_df['Country']='<a href="/country_report/' + ranked_df.Code.astype(str) + ('/%s">' % year) + ranked_df.Country + '</a>'
     ranked_df.drop(['Code'], axis=1, inplace=True)
-    table=ranked_df.to_html(index=False, classes='table table-striped table-sm', border=0, justify='center',na_rep='', escape=False)
+    table=ranked_df.to_html(index=False, classes='d-none d-lg-table table table-striped table-sm', border=0, justify='center',na_rep='', escape=False)
+    return table
+
+def ranked_table_short(year):
+    ranked_df = pd.read_csv('data/reports/by_country_ranked_%s.csv' % year)
+    ranked_df['Country']='<a href="/country_report/' + ranked_df.Code.astype(str) + ('/%s">' % year) + ranked_df.Country + '</a>'
+    ranked_df['Awards (G,S,B,HM)']=ranked_df['Gold Awards'].astype(str) + ', ' + ranked_df['Silver Awards'].astype(str) + ', ' + ranked_df['Bronze Awards'].astype(str) + ', ' + ranked_df['Honorable Mentions'].astype(str)
+    ranked_df.drop(['Code','Gold Awards', 'Silver Awards', 'Bronze Awards', 'Honorable Mentions'], axis=1, inplace=True)
+    ranked_df.columns=['Rank','Country', 'Con.*', 'Score', 'Awards (G,S,B,HM)']
+    table=ranked_df.to_html(index=False, classes='d-table d-lg-none table table-striped table-sm', border=0, justify='center',na_rep='', escape=False)
     return table
 
 # The routing begins here
@@ -138,18 +162,23 @@ def year(year):
         with open('data/reports/apmo_%s_info.json' % year) as json_file:
             competition_info = json.loads(json_file.read())
         table=ranked_table(year)
-        return render_template("year_report.html",year=year, table=table, competition_info=competition_info)
+        table_short = ranked_table_short(year)
+        return render_template("year_report.html",year=year, table=table, table_short=table_short, competition_info=competition_info)
     else:
         return render_template('not_enough_info.html')
 
 @app.route('/country_report/<code>/<year>')
 def country(code, year):
     if year=='all':
-        table, country= country_all_table(code)
+        try:
+            table, country=country_all_table(code)
+        except:
+            return render_template('not_enough_info.html')
         table_short, country= country_all_table_short(code)
         return render_template('country.html', country=country, table=table,  table_short=table_short)
     elif int(year)<=2015:
         return('Not enough info to display')
     elif int(year) in range(2016,2020): 
         table, country = country_year_table(code, year)
-        return render_template('year_country_report.html', code=code, year=year, country=country, table=table)
+        table_short, country= country_year_table_short(code, year)
+        return render_template('year_country_report.html', code=code, year=year, country=country, table=table, table_short=table_short)
