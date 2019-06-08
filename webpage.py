@@ -1,6 +1,12 @@
 from flask import Flask, render_template
 import glob, re, json
 import pandas as pd
+import os
+
+THIS_FILE = os.path.abspath(__file__)
+THIS_DIR = os.path.dirname(THIS_FILE)
+os.chdir(THIS_DIR)
+
 pd.set_option('max_colwidth', 70)
 
 year_re=r'[0-9]{4}'
@@ -158,12 +164,14 @@ def results():
 
 @app.route('/year_report/<year>')
 def year(year):
-    if int(year) in range(2005,2020):
+    if int(year) in range(2016,2020):
         with open('data/reports/apmo_%s_info.json' % year) as json_file:
             competition_info = json.loads(json_file.read())
         table=ranked_table(year)
         table_short = ranked_table_short(year)
         return render_template("year_report.html",year=year, table=table, table_short=table_short, competition_info=competition_info)
+    elif int(year) in range(2005,2016):
+        return results()
     else:
         return render_template('not_enough_info.html')
 
