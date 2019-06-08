@@ -48,7 +48,7 @@ With a full score table we can generate many useful reports to be displayed on t
 - Overview of results by country over the years
 - Detailed results by country over the years
 
-Unfortunately, before 2016 we only have partial information:
+Unfortunately, for the pre-2016 period we only have partial information:
 
 - There is no result information pre-2005.
 - In the period 2005-2009 we only have information on the awards. We have full names and countries. This is currently in PDF form.
@@ -57,19 +57,19 @@ Unfortunately, before 2016 we only have partial information:
 The relevant files in the repository are:
 
 - `data/` has Jupyter notebooks for processing data and folders with data
-- `data/results_pre2016` have the PDFs with results in the period 2005-2009
-- `data/data_clean` are the clean score tables from 2016 onwards
+- `data/results_pre2016` has the PDFs with results in the period 2005-2009
+- `data/data_clean` contains the clean score tables from 2016 onwards
 - `data/reports` is the directory where the yearly reports are created
 
 ## How to contribute
 
 You can contribute to the project in several ways. We need help with the following:
 
-- Provide any kind of APMO results for the pre-2005 era.
-- Provide scores for the 2010-2015 era.
-- Provide scores or country rankings for the 2005-2009 era.
-- Write problem solutions for the pre-2005 era.
-- Provide full texts of the regulations for the pre-2015 era. 
+- Provide any kind of APMO results for the pre-2005 era
+- Provide scores for the 2010-2015 era
+- Provide scores or country rankings for the 2005-2009 era
+- Write problem solutions for the pre-2005 era
+- Provide full texts of the regulations for the pre-2015 era 
 - Transform files from the 2005-2015 era from PDF to a data-friendly .csv format
 - Explore the data that we have and get new insights
 - Help with the general maintenance of the website (typos, corrections, etc)
