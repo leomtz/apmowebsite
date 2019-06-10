@@ -4,7 +4,7 @@ ARG,Argentina,2,CARRANZA VELEZ,MATEO,M,7,7,0,0,3,17,Silver
 ARG,Argentina,3,DI ZANZO,BRUNO,M,7,7,1,0,0,15,Silver
 ARG,Argentina,4,RAIMUNDEZ,MATÍAS EZEQUIEL,M,7,7,0,0,0,14,Bronze
 ARG,Argentina,5,MASLIAH,JULIAN,M,7,7,0,0,0,14,Bronze
-ARG,Argentina,6,SOLO,CARLOS MIGUEL,M,7,7,0,0,0,14,Bronze
+ARG,Argentina,6,SOTO,CARLOS MIGUEL,M,7,7,0,0,0,14,Bronze
 ARG,Argentina,7,CABBRERA,JULIAN MAXIMO,M,7,3,0,0,4,14,Bronze
 ARG,Argentina,8,MOZZATTI,FRANCISCO,M,7,4,0,0,1,12,Hon. Men.
 ARG,Argentina,9,LOUYS SANSO,JEAN PAUL,M,4,7,0,0,0,11,Hon. Men.
@@ -104,7 +104,7 @@ IND,India,3,SWAMINATHAN,HARIHAR,M,7,7,1,0,0,15,Silver
 IND,India,4,GHOSH,RAJARSHI KANTA,M,7,7,0,0,1,15,Bronze
 IND,India,5,NISHVAAN,SAI H.,M,7,7,0,0,1,15,Bronze
 IND,India,6,KULKARNI,ANISH YOGESH,M,7,7,0,0,1,15,Bronze
-IND,India,7,GHOSHAL,ANUBHAB,M,7,7,0,0,0,14,Bronze
+IND,India,7,GHOSAL,ANUBHAB,M,7,7,0,0,0,14,Bronze
 IND,India,8,GANDHI,MAHAVIR,M,7,7,0,0,0,14,Hon. Men.
 IND,India,9,MITTAL,OJAS,M,7,7,0,0,0,14,Hon. Men.
 IND,India,10,AGRAWALLA,BHAVYA,M,7,7,0,0,0,14,Hon. Men.
@@ -181,7 +181,7 @@ MEX,Mexico,2,Páez de la Cruz,Carlos Alberto,M,7,7,3,0,0,17,Silver
 MEX,Mexico,3,Hernández Palacios,Eric Iván,M,7,7,1,0,0,15,Silver
 MEX,Mexico,4,Gutiérrez Chávez,Bruno,M,7,7,0,0,0,14,Bronze
 MEX,Mexico,5,Hinojosa Téllez,Diego,M,7,7,0,0,0,14,Bronze
-MEX,Mexico,6,Sydykova Méndez,Nuria,M,7,7,0,0,0,14,Bronze
+MEX,Mexico,6,Sydykova Méndez,Nuria,F,7,7,0,0,0,14,Bronze
 MEX,Mexico,7,de Juan Millón,Jacobo,M,7,7,0,0,0,14,Bronze
 MEX,Mexico,8,Salazar Verástica,Crisanto,M,7,5,0,0,0,12,Hon. Men.
 MEX,Mexico,9,González Cázares,Jonatan Alejandro,M,4,7,0,0,0,11,Hon. Men.
