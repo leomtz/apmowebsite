@@ -163,7 +163,7 @@ def results():
     return render_template("results.html",countries=countries)
 
 @app.route('/year_report/<year>')
-def year(year):
+def year_report(year):
     if int(year) in range(2016,2020):
         with open('data/reports/apmo_%s_info.json' % year) as json_file:
             competition_info = json.loads(json_file.read())
@@ -179,10 +179,10 @@ def year(year):
 def country(code, year):
     if year=='all':
         try:
-            table, country=country_all_table(code)
+            table, country = country_all_table(code)
+            table_short, country = country_all_table_short(code)
         except:
             return render_template('not_enough_info.html')
-        table_short, country= country_all_table_short(code)
         return render_template('country.html', country=country, table=table,  table_short=table_short)
     elif int(year)<=2015:
         return('Not enough info to display')
