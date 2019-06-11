@@ -185,7 +185,7 @@ def country(code, year):
             return render_template('not_enough_info.html')
         return render_template('country.html', country=country, table=table,  table_short=table_short)
     elif int(year)<=2015:
-        return('Not enough info to display')
+        return render_template('not_enough_info.html')
     elif int(year) in range(2016,2020): 
         table, country = country_year_table(code, year)
         table_short, country= country_year_table_short(code, year)
