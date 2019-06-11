@@ -29,11 +29,11 @@
       <li class='list-group-item'> The contest questions are to be collected from the contestants at the end of the APMO and are to be kept confidential until the Senior Coordinating Country posts them on the official APMO website. Each exam paper must contain a written legend, warning the students not to discuss the problems over the internet until that date.</li>
       <li class='list-group-item'> All APMO contestants will receive a Certificate of Award, Honourable Mention or Representation. </li>
       <li class='list-group-item'> The maximum total number of Award certificates per edition should be $(n+1)/2$, unless ties in the limiting cut-off happen. </li>
-      <li class='list-group-item'> Let $m$ and $\sigma$ be the mean and standard deviation of the individual scores for each year. Then a student is awarded:
+      <li class='list-group-item'> Let $m$ and $\sigma$ be the mean and standard deviation of the individual scores for each year. Let $r$ be the rank of a student within his/her country. Then the student is awarded:
         <ul>
-            <li>A Gold Award if the obtained score is at least $m+\sigma$ and its local rank is $1$.</li>
-            <li>A Silver Award if the obtained score is at least $m+\frac{\sigma}{3}$ and its local rank is at most $3$.</li>
-            <li>A Bronze Award if the obtained score is at least $m-\frac{\sigma}{3}$ and its local rank is at most  $7$.</li>
+            <li>A Gold Award if the obtained score is at least $m+\sigma$ and $r=1$. </li>
+            <li>A Silver Award if the obtained score is at least $m+\frac{\sigma}{3}$ and $r\leq 3$.</li>
+            <li>A Bronze Award if the obtained score is at least $m-\frac{\sigma}{3}$ and $r\leq 7$.</li>
             <li>An Honourable Mention if the student has not received an Award, but who has performed creditably according to some criteria determined each year; for example, a contestant who has obtained a perfect score of 7 for at least one question or has obtained scores of 5 or 6 for at least two questions. </li>
         </ul>
 
