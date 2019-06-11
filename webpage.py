@@ -70,27 +70,25 @@ def country_year_table_short(code,year):
 
 def country_all_table(code):
     country_all_df=ranked_all_df[ranked_all_df['Code']==code].reset_index().drop('index', axis=1).sort_values('Year', ascending=False)
-    country_all_df['Details']='<a href="/country_report/' + country_all_df.Code.astype(str) +'/' + country_all_df.Year.astype(str) + '"> Scores </a>'
-    country_all_df['Year']='<a href=/year_report/' + country_all_df.Year.astype(str) + '> ' + country_all_df.Year.astype(str) + ' </a>'
+    country_all_df['Year']='<a href=/country_report/' + code + '/' + country_all_df.Year.astype(str) + '> ' + country_all_df.Year.astype(str) + ' </a>'
     country=country_all_df['Country'][0]
     country_all_df.drop(['Code', 'Country'], axis=1, inplace=True)
     list_columns=country_all_df.columns.tolist()
-    new_columns=[list_columns[-2]]+list_columns[:-2]+[list_columns[-1]]
+    new_columns=[list_columns[-1]]+list_columns[:-1]
     country_all_df=country_all_df[new_columns]
     table=country_all_df.to_html(index=False, classes='d-none d-lg-table table table-striped table-sm', border=0, justify='center',na_rep='', escape=False)
     return table, country
 
 def country_all_table_short(code):
     country_all_df=ranked_all_df[ranked_all_df['Code']==code].reset_index().drop('index', axis=1).sort_values('Year', ascending=False)
-    country_all_df['Details']='<a href="/country_report/' + country_all_df.Code.astype(str) +'/' + country_all_df.Year.astype(str) + '"> Scores </a>'
-    country_all_df['Year']='<a href=/year_report/' + country_all_df.Year.astype(str) + '> ' + country_all_df.Year.astype(str) + ' </a>'
+    country_all_df['Year']='<a href=/country_report/' + code + '/' + country_all_df.Year.astype(str) + '> ' + country_all_df.Year.astype(str) + ' </a>'
     country=country_all_df['Country'][0]
     country_all_df['Awards (G,S,B,HM)']=country_all_df['Gold Awards'].astype(str) + ', ' + country_all_df['Silver Awards'].astype(str) + ', ' + country_all_df['Bronze Awards'].astype(str) + ', ' + country_all_df['Honorable Mentions'].astype(str)
     country_all_df.drop(['Code', 'Country','Gold Awards', 'Silver Awards', 'Bronze Awards', 'Honorable Mentions'], axis=1, inplace=True)
     list_columns=country_all_df.columns.tolist()
-    new_columns=[list_columns[-3]]+list_columns[:-3]+[list_columns[-1]]+[list_columns[-2]]
+    new_columns=[list_columns[-2]]+list_columns[:-2]+[list_columns[-1]] 
     country_all_df=country_all_df[new_columns]
-    country_all_df.columns=['Year', 'Rank', 'Con.*', 'Score', 'Awards (G,S,B,HM)', ' Details']
+    country_all_df.columns=['Year', 'Rank', 'Contestants', 'Score', 'Awards (G,S,B,HM)']
     table=country_all_df.to_html(index=False, classes='d-table d-lg-none table table-striped table-sm', border=0, justify='center',na_rep='', escape=False)
     return table, country
 
@@ -117,6 +115,14 @@ def ranked_table_short(year):
     ranked_df.columns=['Rank','Country', 'Con.*', 'Score', 'Awards (G,S,B,HM)']
     table=ranked_df.to_html(index=False, classes='d-table d-lg-none table table-striped table-sm', border=0, justify='center',na_rep='', escape=False)
     return table
+
+def load_info(year):
+    try:
+        with open('data/reports/apmo_%s_info.json' % year) as json_file:
+            return json.loads(json_file.read())
+    except:
+        with open('data/reports/apmo_dummy_info.json') as json_file:
+            return json.loads(json_file.read())
 
 # The routing begins here
 
@@ -164,9 +170,12 @@ def results():
 
 @app.route('/year_report/<year>')
 def year_report(year):
-    if int(year) in range(2016,2020):
-        with open('data/reports/apmo_%s_info.json' % year) as json_file:
-            competition_info = json.loads(json_file.read())
+    try:
+        year=int(year)
+    except:
+        return render_template('not_enough_info.html')
+    if year in range(2010,2020):
+        competition_info=load_info(year)
         table=ranked_table(year)
         table_short = ranked_table_short(year)
         return render_template("year_report.html",year=year, table=table, table_short=table_short, competition_info=competition_info)
@@ -181,12 +190,17 @@ def country(code, year):
         try:
             table, country = country_all_table(code)
             table_short, country = country_all_table_short(code)
+            return render_template('country.html', country=country, table=table,  table_short=table_short)
         except:
             return render_template('not_enough_info.html')
-        return render_template('country.html', country=country, table=table,  table_short=table_short)
-    elif int(year)<=2015:
+    try:
+        year=int(year)
+        if year in range(2016,2020):
+            table, country = country_year_table(code, year)
+            table_short, country= country_year_table_short(code, year)
+            return render_template('year_country_report.html', code=code, year=year, country=country, table=table, table_short=table_short)
+        else:
+            return render_template('not_enough_info.html')
+    except:
         return render_template('not_enough_info.html')
-    elif int(year) in range(2016,2020): 
-        table, country = country_year_table(code, year)
-        table_short, country= country_year_table_short(code, year)
-        return render_template('year_country_report.html', code=code, year=year, country=country, table=table, table_short=table_short)
+       

@@ -1,0 +1,16 @@
+{
+    "num_contestants": "299", 
+    "num_countries": "33", 
+    "num_awards": "155", 
+    "gold": "25", 
+    "silver": "19", 
+    "bronze": "13", 
+    "mean": "15.33", 
+    "std": "8.78", 
+    "g_awd": ["No information available"], 
+    "s_awd": ["No information available"], 
+    "b_awd": ["No information available"], 
+    "h_men": ["No information available"], 
+    "p_means": ["5.27", "4.77", "2.84", "2.27", "0.18"],
+    "p_stds": ["NA", "NA", "NA", "NA", "NA"]
+}
