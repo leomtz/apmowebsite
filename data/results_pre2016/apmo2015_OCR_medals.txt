@@ -1,0 +1,160 @@
+Gold
+AUS 1,Yip,Jeremy
+BRA 1,Sacramento Oliveira,Pedro Henrique
+CAN 1,Song,Zhuoqun (Alex)
+JPN 1,Takuya,Inoue
+KOR 1,Choi,Jae Won
+MEX 1,Ortiz Rhoton,Juan Carlos
+RUS 1,Bochkov,Ivan
+SGP 1,Toh,Shan Hong (Dylan)
+TWN 1,Chen,Brian
+THA 1,Akkaraphab,Nathanon
+USA 1,Liu,Allen
+
+Silver
+AUS 2,Gunning,Alexander
+AUS 3,Song,Yang
+BRA 2,Corato Zanarella,Murilo
+BRA 3,de Oliveira Pacanowski,Alessandro
+CAN 2,Sun,Kevin
+CAN 3,Pan,Michael
+COL 1,Cáceres,Daniel
+HKG 1,Yu,Hoi Wai
+HKG 2,Cheung,Wai Lam
+HKG 3,Lee,Shun Ming Samuel
+IND 1,Biswas,Debam
+IDN 1,Woenardi,Jonathan M.
+IDN 2,Arizaputra,Rezky
+IDN 3,Jayakusuma,Henry
+JPN 2,Kento,Nomura
+JPN 3,Terunari,Fuji
+KAZ 1,Amanbayeva,Aruzhan
+KAZ 2,Ismailov,Akhan
+KOR 2,Park,Jong woo
+KOR 3,Kim,Jae-Hyung
+MAS 1,Anzo Teh,Zhao Yang
+MAS 2,Justin Lim,Kai Ze
+MAS 3,Tan,Kin Aun
+MEX 2,Beuchot Castellanos,Kevin William
+NZL 1,Han,George
+NZL 2,Shen,Kevin
+PER 1,Espinoza Palacios,Jimmy Axel
+PER 2,Vigo Cadenillas,Diego Martin
+PER 3,Altamirano Modesto,Christian Omar
+PHI 1,Wu,Farrel Eldrian
+PHI 2,Sy,Adrian Reginald
+PHI 3,Dulay,Kyle Patrick
+RUS 2,Gladkov,Nikita
+RUS 3,Losev,Ilya
+SGP 2,Chew,Xuan Da (Clarence)
+SGP 3,Lee,Hua Jun (Eugene)
+TWN 2,Chen,Po-Jui
+TWN 3,Hsieh,Yao-Ching
+THA 2,Boonsiriseth,Krit
+THA 3,Khampitak,Thatchanok
+USA 2,Narayana,Shyam
+USA 3,Liu,Yang
+
+Bronze
+ARG 1,Marchionna,Agustín Luis
+AUS 4,Yoo,Henry
+AUS 5,Baker,Thomas
+AUS 6,Lu,Allen
+AUS 7,Kucherov,Ilia
+BGD 1,Elahi,Asif-E
+BGD 2,Anwar,Sanzeed
+BGD 3,Zakaria,FM
+BGD 4,Hasan,Adib
+BGD 5,Turzo,Sazid Akhter
+BGD 6,Habib,Siam
+BGD 7,Kundu,Pritom
+BRA 4,Campos Vargas,João César
+BRA 5,Toneatti Vercelli,Cabriel
+BRA 6,Lima Braga,Daniel
+BRA 7,Galvão de Barros,Lucas Pereira
+CAN 4,Huang,Yan (Bill)
+CAN 5,Qi,Qi
+CAN 6,Xiong,Ruiming (Max)
+CAN 7,Guo,Daniel
+COL 2,Díaz,Juan Sebastián
+COL 3,De la Hoz,Nicolás
+COL 4,Lebbos,Andrés Felipe
+ECU 1,Flores Azua,Anthony Joshue
+SLV 1,Gil Alvarado,Carlos Rafael
+SLV 2,Carranza Menjivar,Gabriel Emiliano
+HKG 4,Cheung,Yat Sum
+HKG 5,Leung,Yui Hin Aruin
+HKG 6,Tang,Dik Man Damian
+HKG 7,Tung,Kam Chuen
+IND 2,Majumdar,Sagnik
+IND 3,Sabir,Shaik
+IND 4,Khelkar,Dhruva
+IND 5,Patki,Ragini
+IND 6,Tiwari,Samarjh
+IDN 4,Partono,Ruben S.
+IDN 5,Wiratama,Erlang
+IDN 6,Afifurrahman,Muhammad
+IDN 7,Cahyadi,Louis
+JPN 4,Satoshi,Hayakawa
+JPN 5,So,Kumabe
+JPN 6,Takahiro,Ueoro
+JPN 7,Tasuki,Kinjo
+KAZ 3,Tuzelov,Dinmukhamet
+KAZ 4,Kadyrakunov,Olzhas
+KAZ 5,Zimanov,Temirkhan
+KAZ 6,Kushek,Abubakir
+KAZ 7,Amangeldin,Temirlan
+KOR 4,Hong,Eui Cheon
+KOR 5,Lee,You Seong
+KOR 6,Kim,Chaewon
+KOR 7,Kim,Se Hoon
+MAS 4,How,Si Yu
+MAS 5,Khongon,Yi Kye
+MAS 6,Ivan Chan,Kai Chin
+MEX 3,Medrano Martin del Campo,Olga
+MEX 4,Ramos Tormo,Luis Xavier
+MEX 5,Tuirán Rangel,José Ramón
+MEX 6,Carino Escobar,Rodrigo Andrés
+MEX 7,García Morán,Leonardo Ariel
+NZL 3,Lee,Miles Yee-Cheng
+PER 4,Coronel Baldeón,Jemisson Daniel
+PER 5,Alcántra Castillo,Raúl Alfredo
+PER 6,Herrera Huamán,Jeferson Andree
+PER 7,Felen Chavez,Henry
+RUS 4,Bogdanov,Ilya
+RUS 5,Frolov,Ivan
+RUS 6,Sokolov,Ignat
+RUS 7,Hodunov,Pavel
+SAU 1,A1 Shammari,Shaden
+SAU 2,Habibullah,Al Zubair
+SAU 3,Saleh,Salman
+SAU 4,A1 Nufaili,A1 Hamza
+SGP 4,Howe,Choong Yin
+SGP 5,Lin,Kewei (David)
+SGP 6,Tan,Siah Yong
+SGP 7,Wang,Peng Jun (Bryan)
+SYR 1,Rahma,Sami
+LKA 1,Wijewardena,Mevan
+TWN 4,Chiu,Yu-Pin
+TWN 5,Yu,Hung-Hsun
+TWN 6,Liao,Tai-Ning
+TWN 7,Wang,Yi-Tsung
+TJK 1,Klychev,Kalomiddin
+TJK 2,Madmurodov,Nasimjon
+TJK 3,Anvar,Alisher
+TJK 4,Mahmudov,Dilovar
+TJK 5,Amdukarim,Samariddin
+TJK 6,Bobiev,Sobirjon
+THA 4,Ngamsangrat,Thee
+THA 5,Wongseree,Peeradon
+THA 6,Vivatsethachai,Suchan
+THA 7,Akaresereenont,Wichapon
+TTO 1,Ramakrishnan,Prasanna
+TKM 1,Annamuhammedov,Muhammetnazar
+TKM 2,Iljanov,Perman
+TKM 3,Owlyagulyyev,Dovlet
+TKM 4,Nurgeldiyev,Dovran
+USA 4,Gurev,Jack
+USA 5,Kural,Michael
+USA 6,Yang,Kevin
+USA 7,Lee,Calvin
