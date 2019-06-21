@@ -31,8 +31,12 @@
         </div>
 
         <div class="col-md-7 col-lg-6">
+            {% if problem_stats %}
             <img class="w-100" src="/static/data/histogram_{{year}}.png">
-          </div>
+            {% else %}
+            <p> </p>
+            {% endif %}
+        </div>
       </div>
 
       <hr>
@@ -90,7 +94,11 @@
                 <li class='list-group-item'> Standard deviation $\sigma={{'%0.2f'| format(competition_info.p_stds[j]|float)}}$</li>
             </ul>
           </div>
+          {% if problem_stats %}
           <img class="w-100" src="/static/data/histogram_p{{j+1}}_{{year}}.png">
+          {% else %}
+          <p> </p>
+          {% endif %}
         </div>
         {% endfor %}
       </div>

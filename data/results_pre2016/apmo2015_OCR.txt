@@ -47,21 +47,24 @@ Mean(m) : 	5.27 	4.77 	2.84 	2.27 	0.18 	15.33
 Names of Contestant 	
 Country code 	Medal 	
 Last 	First 	
-AUS 1 	Yip 	Jeremy 	Gold 	
-BRA 1 	Sacramento Oliveira 	Pedro Henri ue 	Gold 	
-CAN 1 	Song 	Zhuo un (Alex) 	Gold 	
-JPN 1 	Takuya 	Inoue 	Gold 	
-KOR 1 	Choi 	Jae Won 	Gold 	
-MEX 1 	Ortiz Rhoton 	Juan Carlos 	Gold 	
-RUS 1 	Bochkov 	Ivan 	Gold 	
-SGP 1 	Toh 	Shan Hong, Dylan 	Gold 	
-TWN 1 	Chen 	Brian 	Gold 	
-THA 1 	Akkaraphab 	Nathanon 	Gold 	
-USA 1 	Liu 	Allen 	Gold 	
-AUS 2 	Gunning 	Alexander 	Silver 	
-AUS 3 	Son 	Yan 	Silver 	
-BRA 2 	Corato Zanarella 	Murilo 	Silver 	
-BRA 3 	de Oliveira Pacanowski 	Alessandro 	Silver 	
+
+Gold
+AUS 1,Yip,Jeremy,Gold 	
+BRA 1,Sacramento Oliveira 	Pedro Henrique 	Gold 	
+CAN 1, 	Song 	Zhuo un (Alex) 	Gold 	
+JPN 1, 	Takuya 	Inoue 	Gold 	
+KOR 1, 	Choi 	Jae Won 	Gold 	
+MEX 1, 	Ortiz Rhoton 	Juan Carlos 	Gold 	
+RUS 1, 	Bochkov 	Ivan 	Gold 	
+SGP 1, 	Toh 	Shan Hong, Dylan 	Gold 	
+TWN 1, 	Chen 	Brian 	Gold 	
+THA 1, 	Akkaraphab 	Nathanon 	Gold 	
+USA 1, 	Liu 	Allen 	Gold
+ 	
+AUS 2, 	Gunning 	Alexander 	Silver 	
+AUS 3, 	Son 	Yan 	Silver 	
+BRA 2, 	Corato Zanarella 	Murilo 	Silver 	
+BRA 3, 	de Oliveira Pacanowski 	Alessandro 	Silver 	
 CAN 2 	Sun 	Kevin 	Silver 	
 CAN 3 	Pan 	Michael 	Silver 	
 COL 1 	Cåceres 	Daniel 	Silver 	

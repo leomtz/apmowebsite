@@ -175,10 +175,13 @@ def year_report(year):
     except:
         return render_template('not_enough_info.html')
     if year in range(2010,2020):
+        problem_stats=False
+        if year in range(2016,2020):
+            problem_stats=True
         competition_info=load_info(year)
         table=ranked_table(year)
         table_short = ranked_table_short(year)
-        return render_template("year_report.html",year=year, table=table, table_short=table_short, competition_info=competition_info)
+        return render_template("year_report.html",year=year, table=table, table_short=table_short, competition_info=competition_info,problem_stats=problem_stats)
     elif int(year) in range(2005,2016):
         return results()
     else:
