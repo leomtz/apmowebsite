@@ -168,6 +168,10 @@ def results():
     countries=[[x['code'],x['country']]  for _, x in pd.read_csv('data/apmo_countries.csv')[['code','country']].iterrows()]
     return render_template("results.html",countries=countries)
 
+@app.route('/meeting2019')
+def meeting():
+    return render_template("meeting.html")
+
 @app.route('/year_report/<year>')
 def year_report(year):
     try:
