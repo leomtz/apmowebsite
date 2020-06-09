@@ -77,6 +77,7 @@ You can contribute to the project in several ways. We need help with the followi
 ## Contributors
 
 - Carlos Yuzo Shine - Information Brazil 2012-2015
+- Richard Bollard - Information Australia 1989-2009
 
 ## Licencing
 
