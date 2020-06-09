@@ -80,6 +80,7 @@ You can contribute to the project in several ways. We need help with the followi
 - Richard Bollard - Information Australia 1989-2009
 - OBM Webpage - Names Brazil contestants 2010-2011
 - Richard Eden - Solutions APMO 1990 and 1995-2003
+- Richard Eden - Detailed information Philippines 2008-2015
 
 ## Licencing
 
