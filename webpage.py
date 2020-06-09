@@ -202,7 +202,7 @@ def country(code, year):
             return render_template('not_enough_info.html')
     try:
         year=int(year)
-        if year in range(2016,2021):
+        if year in range(2012,2021):
             table, country = country_year_table(code, year)
             table_short, country= country_year_table_short(code, year)
             return render_template('year_country_report.html', code=code, year=year, country=country, table=table, table_short=table_short)
