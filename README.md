@@ -67,12 +67,16 @@ You can contribute to the project in several ways. We need help with the followi
 
 - Provide any kind of APMO results for the pre-2005 era
 - Provide scores for the 2010-2015 era
-- Provide scores or country rankings for the 2005-2009 era
+- Provide scores or country rankings for the 2005-2016 era
 - Write problem solutions for the pre-2005 era
 - Provide full texts of the regulations for the pre-2015 era 
 - Transform files from the 2005-2015 era from PDF to a data-friendly .csv format
 - Explore the data that we have and get new insights
 - Help with the general maintenance of the website (typos, corrections, etc)
+
+## Contributors
+
+- Carlos Yuzo Shine - Information Brazil 2012-2015
 
 ## Licencing
 
