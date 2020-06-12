@@ -9,16 +9,16 @@ ARG,Argentina,7,DE RICO,Franco,M,7,0,2,0,0,9,Hon. Men.
 ARG,Argentina,8,LOUYS SANZO,Jean Paul,M,0,7,0,0,1,8,Hon. Men.
 ARG,Argentina,9,IOTTI,Franco,M,0,7,0,0,0,7,Hon. Men.
 ARG,Argentina,10,LUPIN,Martín Gabriel,M,7,0,0,0,0,7,Hon. Men.
-AUS,Australia,1,Hadyn,TANG,M,7,7,6,7,0,27,Gold
-AUS,Australia,2,William,STEINBERG,M,7,7,1,7,0,22,Silver
-AUS,Australia,3,Andres,BURITICA,M,7,7,2,4,0,20,Silver
-AUS,Australia,4,Fengshuo (Fredy) ,YE (YIP),M,7,7,3,1,0,18,Bronze
-AUS,Australia,5,Zijin (Aaron),XU,M,7,7,0,3,0,17,Bronze
-AUS,Australia,6,Grace,HE,F,7,7,0,3,0,17,Bronze
-AUS,Australia,7,Liam,COY,M,7,7,1,1,0,16,Bronze
-AUS,Australia,8,Yang,ZHANG,M,7,7,2,0,0,16,Hon. Men.
-AUS,Australia,9,Haibing,WANG,M,7,7,2,0,0,16,Hon. Men.
-AUS,Australia,10,Jason,CHI,M,7,7,1,1,0,16,Hon. Men.
+AUS,Australia,1,TANG,Hadyn,M,7,7,6,7,0,27,Gold
+AUS,Australia,2,STEINBERG,William,M,7,7,1,7,0,22,Silver
+AUS,Australia,3,BURITICA,Andres,M,7,7,2,4,0,20,Silver
+AUS,Australia,4,YE (YIP),Fengshuo (Fredy) ,M,7,7,3,1,0,18,Bronze
+AUS,Australia,5,XU,Zijin (Aaron),M,7,7,0,3,0,17,Bronze
+AUS,Australia,6,HE,Grace,F,7,7,0,3,0,17,Bronze
+AUS,Australia,7,COY,Liam,M,7,7,1,1,0,16,Bronze
+AUS,Australia,8,ZHANG,Yang,M,7,7,2,0,0,16,Hon. Men.
+AUS,Australia,9,WANG,Haibing,M,7,7,2,0,0,16,Hon. Men.
+AUS,Australia,10,CHI,Jason,M,7,7,1,1,0,16,Hon. Men.
 AZE,Azerbaijan,1,MAMMADOV,ABBAS,M,7,7,2,2,0,18,Silver
 AZE,Azerbaijan,2,AGHAZADA,MURAD,M,7,7,0,0,0,14,Bronze
 AZE,Azerbaijan,3,GULIYEV,VUGAR,M,7,7,0,0,0,14,Bronze
@@ -102,14 +102,14 @@ IND,India,8,MITTAL,TEJAS,M,7,7,2,0,0,16,Hon. Men.
 IND,India,9,KAUSTAV,SUCHIR,M,7,7,0,0,0,14,Hon. Men.
 IND,India,10,DESAI,SAHIL ,M,7,7,0,0,0,14,Hon. Men.
 IDN,Indonesia,1,Julistiono,Aaron Alvarado Kristanto,M,7,7,7,0,0,21,Gold
-IDN,Indonesia,2,A Widjaja,Stanve A Widjaja,M,7,6,5,0,0,18,Silver
+IDN,Indonesia,2,Widjaja,Stanve Avrilium,M,7,6,5,0,0,18,Silver
 IDN,Indonesia,3,Iverson,Valentio,M,7,7,0,0,0,14,Bronze
-IDN,Indonesia,4,Faiq Fauzi,Muhammad,M,7,7,0,0,0,14,Bronze
-IDN,Indonesia,5,Erin Mariangel,Gabriela ,F,7,7,0,0,0,14,Bronze
-IDN,Indonesia,6,Halim Santoso,Ferdinand ,M,7,7,0,0,0,14,Bronze
-IDN,Indonesia,7,Dwireswara Salim,Farrel ,M,7,7,0,0,0,14,Bronze
-IDN,Indonesia,8,Christian Nitisastro,Jonathan ,M,7,7,0,0,0,14,Hon. Men.
-IDN,Indonesia,9,Lukas Christanto,Nathaniel Lukas Christanto,M,7,6,0,0,0,13,Hon. Men.
+IDN,Indonesia,4,Fauzi,Muhammad Faiq ,M,7,7,0,0,0,14,Bronze
+IDN,Indonesia,5,Mariangel,Gabriela Erin ,F,7,7,0,0,0,14,Bronze
+IDN,Indonesia,6,Santoso,Ferdinand Halim ,M,7,7,0,0,0,14,Bronze
+IDN,Indonesia,7,Salim,Farrel Dwireswara ,M,7,7,0,0,0,14,Bronze
+IDN,Indonesia,8,Nitisastro,Jonathan Christian,M,7,7,0,0,0,14,Hon. Men.
+IDN,Indonesia,9,Christanto,Nathaniel Lukas ,M,7,6,0,0,0,13,Hon. Men.
 IDN,Indonesia,10,Hartono,Billie,M,7,6,0,0,0,13,Hon. Men.
 IRN,Islamic Republic of Iran,1,Mirzaei Anari,Ali,M,7,7,6,7,0,27,Gold
 IRN,Islamic Republic of Iran,2,Haghi,Alireza,M,7,7,7,4,0,25,Silver
@@ -282,7 +282,7 @@ TWN,Taiwan,8,LEE,PING-HUNG,M,7,7,2,0,0,16,Hon. Men.
 TWN,Taiwan,9,CHENG,PAI-LI,M,7,7,2,0,0,16,Hon. Men.
 TWN,Taiwan,10,CHEN,HUNG-YU,M,7,7,2,0,0,16,Hon. Men.
 TJK,Tajikistan,1,Pirov,Vazirdzon,M,7,7,7,0,0,21,Gold
-TJK,Tajikistan,2,Rustamov,Djamshed,M,7,7,0,0,0,14,Bronze
+TJK,Tajikistan,2,Rustamov,Jamshed,M,7,7,0,0,0,14,Bronze
 TJK,Tajikistan,3,Pakhlavonov,Usmonali,M,7,7,0,0,0,14,Bronze
 TJK,Tajikistan,4,Khairidinov,Sino,M,7,7,0,0,0,14,Bronze
 TJK,Tajikistan,5,Dadabaev,Raufjon,M,7,3,0,0,0,10,Hon. Men.
