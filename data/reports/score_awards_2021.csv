@@ -1,0 +1,345 @@
+code,country,rank,last,first,sex,p1,p2,p3,p4,p5,total,award
+ARG,Argentina,1,CABRERA,Julián Máximo,M,7,7,7,0,4,25,Gold
+ARG,Argentina,2,ZIGER,Bruno Martín,M,7,7,7,0,1,22,Silver
+ARG,Argentina,3,RAIMUNDEZ,Matías Ezequiel,M,7,7,0,0,0,14,Bronze
+ARG,Argentina,4,RUIZ DÍAZ,Lorenzo,M,7,5,0,0,0,12,Bronze
+ARG,Argentina,5,MOZZATTI,Francesco,M,7,0,0,0,1,8,Hon. Men.
+ARG,Argentina,6,NAGUIL,Ignacio Javier,M,7,0,0,0,0,7,Hon. Men.
+ARG,Argentina,7,KLIR,Felipe Bautista,M,7,0,0,0,0,7,Hon. Men.
+ARG,Argentina,8,BOTTAZZI,Franco,M,7,0,0,0,0,7,Hon. Men.
+ARG,Argentina,9,SANDLERIS,Lucas,M,7,0,0,0,0,7,Hon. Men.
+ARG,Argentina,10,CIRELLI,Francisco,M,7,0,0,0,0,7,Hon. Men.
+AUS,Australia,1,Buritica,Andres,M,7,3,7,5,0,22,Gold
+AUS,Australia,2,Tang,Hadyn,M,7,7,0,7,0,21,Silver
+AUS,Australia,3,Cheah,William,M,7,7,0,0,0,14,Bronze
+AUS,Australia,4,Chen,Xiaoyu,M,7,0,6,0,0,13,Bronze
+AUS,Australia,5,Chi,Jason,M,5,5,0,0,0,10,Bronze
+AUS,Australia,6,Zhang,Zirui (Harry),M,7,2,0,0,0,9,Hon. Men.
+AUS,Australia,7,Wu,Yuzheng (Tony),M,1,7,0,0,0,8,Hon. Men.
+AUS,Australia,8,Xu,Cloris,F,7,0,1,0,0,8,Hon. Men.
+AUS,Australia,9,Zhou,Chenxiao (Kevin),M,7,1,0,0,0,8,Hon. Men.
+AUS,Australia,10,Wang,Haibing,M,7,1,0,0,0,8,Hon. Men.
+BGD,Bangladesh,1,Rubab,Md. Maruf Hasan,M,7,6,7,0,0,20,Gold
+BGD,Bangladesh,2,Disha,Nujhat Ahmed,F,7,0,7,0,0,14,Bronze
+BGD,Bangladesh,3,Sadik,Adnan,M,7,5,0,0,0,12,Bronze
+BGD,Bangladesh,4,Hasan,Dewan Saadman,M,7,0,0,2,0,9,Hon. Men.
+BGD,Bangladesh,5,Zahin,Thamim Nur,M,7,0,0,0,0,7,Hon. Men.
+BGD,Bangladesh,6,Alam,Md. Fuad Al,M,7,0,0,0,0,7,Hon. Men.
+BGD,Bangladesh,7,Chowdhury,Muttakin Ahmed,M,7,0,0,0,0,7,Hon. Men.
+BGD,Bangladesh,8,Adib,Fahim Faiaz,M,7,0,0,0,0,7,Hon. Men.
+BGD,Bangladesh,9,Ninad,Muhaiminul Islam,M,7,0,0,0,0,7,Hon. Men.
+BGD,Bangladesh,10,Chowdhury,Tahmid Hameem,M,6,0,0,0,0,6,
+BOL,Bolivia,1,Pozo Vargas,Carlos Andrés,M,1,0,7,0,0,8,Hon. Men.
+BOL,Bolivia,2,Araujo Saenz,Jaime Esteban,M,7,0,0,0,0,7,Hon. Men.
+BOL,Bolivia,3,Martinez Nuñez,Marvin Mario,M,7,0,0,0,0,7,Hon. Men.
+BRA,Brazil,1,Ramos Viana Costa,João Pedro,M,7,7,7,0,0,21,Gold
+BRA,Brazil,2,Paschoal Longo,Olavo,M,7,7,0,2,2,18,Silver
+BRA,Brazil,3,Andrade Carvalho Barros,Pablo,M,7,5,0,0,6,18,Silver
+BRA,Brazil,4,Salgado Domingues Porto,Rodrigo,M,7,2,7,0,0,16,Bronze
+BRA,Brazil,5,Ribeiro Paiva,Gabriel,M,7,0,7,0,1,15,Bronze
+BRA,Brazil,6,Neves da Cruz,Gustavo,M,7,7,0,0,0,14,Bronze
+BRA,Brazil,7,Prado Porto,Yvens Ian,M,7,0,7,0,0,14,Bronze
+BRA,Brazil,8,Pontes Saraiva de Moraes,Enzo,M,7,0,7,0,0,14,Hon. Men.
+BRA,Brazil,9,Machado Lage,Marcelo,M,7,6,0,0,0,13,Hon. Men.
+BRA,Brazil,10,de Carvalho Oliveira,Miguel,M,7,3,0,2,0,12,Hon. Men.
+CAN,Canada,1,Zhou,Zixiang,M,7,7,7,7,1,29,Gold
+CAN,Canada,2,Sahami,Arvin,M,7,7,7,0,7,28,Silver
+CAN,Canada,3,Shen,Eric,M,7,6,7,2,0,22,Silver
+CAN,Canada,4,Bei,Warren,M,7,1,7,5,0,20,Bronze
+CAN,Canada,5,Wang,Kaixin,M,7,7,0,1,5,20,Bronze
+CAN,Canada,6,Guo,Thomas,M,7,7,0,2,2,18,Bronze
+CAN,Canada,7,Min,Kevin,M,7,7,2,0,0,16,Bronze
+CAN,Canada,8,Labelle,Antoine,M,6,7,0,0,1,14,Hon. Men.
+CAN,Canada,9,Wen,Andrew,M,5,2,7,0,0,14,Hon. Men.
+CAN,Canada,10,Yang,James,M,7,6,0,0,0,13,Hon. Men.
+COL,Colombia,1,Aparicio,Esteban,M,7,0,0,7,0,14,Bronze
+COL,Colombia,2,Reyes,Juan Esteban,M,7,0,0,2,1,10,Bronze
+COL,Colombia,3,Sarria,Lorenzo,M,7,0,0,0,0,7,Hon. Men.
+COL,Colombia,4,Palencia,Nicolás,M,7,0,0,0,0,7,Hon. Men.
+COL,Colombia,5,Vargas,Juan Felipe,M,7,0,0,0,0,7,Hon. Men.
+COL,Colombia,6,Torres,Pablo,M,4,0,0,0,0,4,
+COL,Colombia,7,Escorcia,Alejandro,M,4,0,0,0,0,4,
+COL,Colombia,8,Lizcano,Mateo,M,3,0,0,0,0,3,
+COL,Colombia,9,Jara,Ana Maria,F,0,0,0,1,0,1,
+COL,Colombia,10,Giraldo,Juanita,F,1,0,0,0,0,1,
+CRI,Costa Rica,1,Álvarez Pacheco,José Javier,M,7,0,0,2,0,9,Hon. Men.
+CRI,Costa Rica,2,Campos Rojas,Alejandro,M,7,0,1,0,0,8,Hon. Men.
+CRI,Costa Rica,3,Delgado Páez,Ernesto Mariano,M,7,0,0,0,0,7,Hon. Men.
+CRI,Costa Rica,4,Loría Vinueza,Leonardo,M,7,0,0,0,0,7,Hon. Men.
+CRI,Costa Rica,5,Lipschitz Kesselman,Nicole,F,7,0,0,0,0,7,Hon. Men.
+CRI,Costa Rica,6,Shum Apuy,Carlos Felipe,M,7,0,0,0,0,7,Hon. Men.
+CRI,Costa Rica,7,Vásquez Sandí,Maricruz,F,5,0,0,0,0,5,
+CRI,Costa Rica,8,Acuña García,Kristel Fiorella,F,3,0,0,0,0,3,
+CRI,Costa Rica,9,Escobar Arrieta,Guillermo,M,1,0,0,0,0,1,
+CRI,Costa Rica,10,Aguirre Guido,Isaac,M,0,0,0,0,1,1,
+ECU,Ecuador,1,Yu,Jiamao,M,7,0,7,2,0,16,Silver
+ECU,Ecuador,2,Cajas Toapanta,Jahir Manuel,M,2,0,1,0,0,3,
+ECU,Ecuador,3,Guzmán Chang,Miguel Ángel,M,1,0,0,0,0,1,
+ECU,Ecuador,4,Cevallos Robles,Mauricio Andrés,M,0,0,0,0,0,0,
+ECU,Ecuador,5,García Naranjo,María Cristina,F,0,0,0,0,0,0,
+ECU,Ecuador,6,Indacochea Rosado,María José,F,0,0,0,0,0,0,
+ECU,Ecuador,7,Valarezo Oyola,Natasha Fernanda,F,0,0,0,0,0,0,
+ECU,Ecuador,8,García Casanova,Ilidio Samuel,M,0,0,0,0,0,0,
+ECU,Ecuador,9,Carlosama Morales,Keny Ezaú,M,0,0,0,0,0,0,
+ECU,Ecuador,10,Parrales Santana,Ingrid Micaela,F,0,0,0,0,0,0,
+SLV,El Salvador,1,Domínguez Castaneda,Fernado Daniel,M,7,2,0,0,0,9,Hon. Men.
+SLV,El Salvador,2,Cabrera Guardado,José Manuel,M,7,0,0,0,0,7,Hon. Men.
+SLV,El Salvador,3,Carranza Escobar,José Miguel,M,7,0,0,0,0,7,Hon. Men.
+SLV,El Salvador,4,Punyed González,Jaime Sebastián,M,7,0,0,0,0,7,Hon. Men.
+SLV,El Salvador,5,Flores Martínez,César Esaú,M,7,0,0,0,0,7,Hon. Men.
+SLV,El Salvador,6,Cabrera Silvas,Maryorie Damaris,F,1,0,0,0,0,1,
+HKG,Hong Kong,1,Yau,Ching Yan Timothy,M,7,7,7,0,3,24,Gold
+HKG,Hong Kong,2,Chu,Chak Hei,M,7,7,7,2,0,23,Silver
+HKG,Hong Kong,3,Chui,Tsz Fung,M,7,7,7,2,0,23,Silver
+HKG,Hong Kong,4,Leung,Harris,M,7,6,0,7,0,20,Bronze
+HKG,Hong Kong,5,Lai,Wai Lok,M,7,7,2,0,0,16,Bronze
+HKG,Hong Kong,6,Ip,Tsz Tsz Oi,F,7,0,0,7,0,14,Bronze
+HKG,Hong Kong,7,Yiu,Chun Hei,M,7,0,0,0,6,13,Bronze
+HKG,Hong Kong,8,Chong,Hon Tsun Hanks,M,7,0,0,5,0,12,Hon. Men.
+HKG,Hong Kong,9,Cheng,Nick Hang,M,7,0,0,2,0,9,Hon. Men.
+HKG,Hong Kong,10,Xie,Lingrui,M,7,0,0,2,0,9,Hon. Men.
+IDN,Indonesia,1,Stanve Avrilium,Widjaja,M,5,7,0,7,7,26,Gold
+IDN,Indonesia,2,Aaron Alvarado ,Julistiono,M,7,5,7,0,0,19,Silver
+IDN,Indonesia,3,Farrel Dwireswara ,Salim,M,4,4,6,0,0,14,Bronze
+IDN,Indonesia,4,Evelyn ,Lianto,F,6,5,0,0,0,11,Bronze
+IDN,Indonesia,5,Vanya Priscillia,Bendatu,F,7,2,0,0,0,9,Hon. Men.
+IDN,Indonesia,6,Ahmad Faqih ,Al Ghiffary,M,6,0,0,2,0,8,
+IDN,Indonesia,7,Elbert,Benedict,M,1,7,0,0,0,8,Hon. Men.
+IDN,Indonesia,8,Andrew Daniel,Janong,M,7,0,0,0,0,7,Hon. Men.
+IDN,Indonesia,9,Gabriela Erin,Mariangel,F,7,0,0,0,0,7,Hon. Men.
+IDN,Indonesia,10,Sandy Kristian,Waluyo,M,7,0,0,0,0,7,Hon. Men.
+IRN,Islamic Republic of Iran,1,Azizeddin,Sina,M,7,7,7,0,1,22,Gold
+IRN,Islamic Republic of Iran,2,Ghavi,Amir Mohammad,M,7,5,7,0,2,21,Silver
+IRN,Islamic Republic of Iran,3,Mahroughi,Ilia,M,7,7,7,0,0,21,Silver
+IRN,Islamic Republic of Iran,4,Bandari,Amir Mohammad,M,7,0,6,7,0,20,Bronze
+IRN,Islamic Republic of Iran,5,Mahmoudkhan,Pourya,M,6,7,7,0,0,20,Bronze
+IRN,Islamic Republic of Iran,6,Yadollahi,Matin,M,7,4,7,2,0,20,Bronze
+IRN,Islamic Republic of Iran,7,Arefnia,Matin,M,5,0,7,0,5,17,Bronze
+IRN,Islamic Republic of Iran,8,Rezaei,Ali Reza,M,7,0,7,2,1,17,Hon. Men.
+IRN,Islamic Republic of Iran,9,Majidi,Ashkan,M,5,4,6,2,0,17,
+IRN,Islamic Republic of Iran,10,Khosravian,Mohammad Reza,M,7,0,6,0,0,13,Hon. Men.
+JPN,Japan,1,Yuhi,Kamio,M,7,7,7,7,0,28,Gold
+JPN,Japan,2,Takumi,Sannormiya,M,7,5,7,2,0,21,Silver
+JPN,Japan,3,Yuya,Oki,M,7,7,0,6,0,20,Silver
+JPN,Japan,4,Tomoki,Yoshida,M,7,5,7,0,0,18,Bronze
+JPN,Japan,5,Tasuku,Imoto,M,7,5,0,7,0,18,Bronze
+JPN,Japan,6,Koichiro,Kobayashi,M,6,5,7,0,0,18,Bronze
+JPN,Japan,7,Yui,Tokita,M,7,0,5,4,0,16,Bronze
+JPN,Japan,8,Hiroto,Takayama,M,7,0,7,1,0,15,Hon. Men.
+JPN,Japan,9,Ryomei,Sugai,M,7,7,0,0,0,14,Hon. Men.
+JPN,Japan,10,Yuma ,Hamaguchi,M,7,0,7,0,0,14,Hon. Men.
+KAZ,Kazakhstan,1,Duisenbekov,Danat,M,7,6,0,0,5,18,Silver
+KAZ,Kazakhstan,2,Raushanov,Marlen,M,7,5,5,0,0,17,Silver
+KAZ,Kazakhstan,3,Ten,Yuriy,M,7,0,7,2,0,16,Silver
+KAZ,Kazakhstan,4,Yurkevich,Miron,M,7,0,7,0,0,14,Bronze
+KAZ,Kazakhstan,5,Omar,Makhmut,M,7,0,7,0,0,14,Bronze
+KAZ,Kazakhstan,6,Dyussenbayev,Kozykorpesh,M,7,0,7,0,0,14,Bronze
+KAZ,Kazakhstan,7,Bektemir,Kazybek,M,7,0,7,0,0,14,Bronze
+KAZ,Kazakhstan,8,Alpysbekov,Alikhan,M,7,0,7,0,0,14,Hon. Men.
+KAZ,Kazakhstan,9,Abdirazak,Nurassyl,M,7,0,7,0,0,14,Hon. Men.
+KAZ,Kazakhstan,10,Dalabay,Abylay,M,7,0,7,0,0,14,Hon. Men.
+KGZ,Kyrgyzstan,1,Belekov,Myrzabek,M,7,3,0,0,0,10,Bronze
+KGZ,Kyrgyzstan,2,Esengulov,Erbol,M,7,0,0,0,2,9,Hon. Men.
+KGZ,Kyrgyzstan,3,Askerbekov,Tilek,M,7,0,0,0,0,7,Hon. Men.
+KGZ,Kyrgyzstan,4,Apiev,Erdan,M,7,0,0,0,0,7,Hon. Men.
+KGZ,Kyrgyzstan,5,Iskanderov,Eldar,M,1,0,0,0,0,1,
+KGZ,Kyrgyzstan,6,Anarbai kyzy,Elnura,F,0,0,0,0,0,0,
+KGZ,Kyrgyzstan,7,Tursunov,Abdumalik,M,0,0,0,0,0,0,
+KGZ,Kyrgyzstan,8,Korniyash,Fedor,M,0,0,0,0,0,0,
+KGZ,Kyrgyzstan,9,Baktybekov,Talgat,M,0,0,0,0,0,0,
+KGZ,Kyrgyzstan,10,Atalov,Arabidin,M,0,0,0,0,0,0,
+MYS,Malaysia,1,JER REN,WONG,M,7,7,7,2,0,23,Gold
+MYS,Malaysia,2,TRISTAN,CHAANG TZE SHEN,M,7,7,7,0,0,21,Silver
+MYS,Malaysia,3,LI XUAN,TAN,M,7,0,0,7,1,15,Silver
+MYS,Malaysia,4,TAYE CHENG EAN,IAN GEORGE,M,7,0,6,0,0,13,Bronze
+MYS,Malaysia,5,MING HENG,TAN,M,7,0,0,5,0,12,Bronze
+MYS,Malaysia,6,HUA ZHI,VEE,M,7,3,0,0,0,10,Bronze
+MYS,Malaysia,7,JIAN XIANG,WOON,M,7,0,0,0,1,8,Hon. Men.
+MYS,Malaysia,8,JIN SENG,TEE,M,7,0,0,0,0,7,Hon. Men.
+MYS,Malaysia,9,LEE SHI YANG,BRYAN,M,7,0,0,0,0,7,Hon. Men.
+MYS,Malaysia,10,XING YI,ANG,M,7,0,0,0,0,7,Hon. Men.
+MEX,Mexico,1,Astudillo Marbán,Omar Farid,M,7,7,6,0,0,20,Gold
+MEX,Mexico,2,Ramos Aguilar,Carlos Emilio,M,7,7,6,0,0,20,Silver
+MEX,Mexico,3,Cantú Rodríguez,Tomás Francisco,M,7,5,7,0,0,19,Silver
+MEX,Mexico,4,Ochoa Quintero,Daniel Alejandro,M,7,4,6,1,0,18,Bronze
+MEX,Mexico,5,Ruelas Valtierra,Samantha,F,7,0,7,1,0,15,Bronze
+MEX,Mexico,6,Reyes González,José Alejandro,M,7,0,7,0,0,14,Bronze
+MEX,Mexico,7,Valeriano Quiroz,Pablo Alhui,M,7,0,7,0,0,14,Bronze
+MEX,Mexico,8,Villarreal Grimaldo,Diego Alfonso,M,7,5,0,0,0,12,Hon. Men.
+MEX,Mexico,9,Ransom Treviño,Eric,M,5,0,6,0,0,11,
+MEX,Mexico,10,Illanes Martínez de la Vega,Ana,F,7,0,2,0,1,10,Hon. Men.
+MAR,Morocco,1,Aya,Aguerjout,F,6,0,4,0,0,10,Bronze
+MAR,Morocco,2,Youssef,Bouhtouch,M,6,1,0,0,0,7,
+MAR,Morocco,3,Mouad,Enoua,M,7,0,0,0,0,7,Hon. Men.
+MAR,Morocco,4,Ayman,Motii,M,6,0,0,0,0,6,
+MAR,Morocco,5,Ismail,Guennoun,M,5,1,0,0,0,6,
+MAR,Morocco,6,Adam,Al Kharraz,M,6,0,0,0,0,6,
+MAR,Morocco,7,Hiba,Benabbou,F,4,0,0,0,1,5,
+MAR,Morocco,8,Abdelkayoum,Kaddouri,M,5,0,0,0,0,5,
+MAR,Morocco,9,Adam,Hatim,M,4,0,0,0,0,4,
+MAR,Morocco,10,Farid,Mohieddine,M,4,0,0,0,0,4,
+NZL,New Zealand,1,Chin,Ning,M,2,0,7,0,0,9,Hon. Men.
+NZL,New Zealand,2,Harrison,Harry,M,3,5,0,0,0,8,
+NZL,New Zealand,3,Devereux,Tobias,M,7,0,0,0,0,7,Hon. Men.
+NZL,New Zealand,4,Merz,Brena,F,7,0,0,0,0,7,Hon. Men.
+NZL,New Zealand,5,Baguley,Hamish,M,7,0,0,0,0,7,Hon. Men.
+NZL,New Zealand,6,Xu,James,M,7,0,0,0,0,7,Hon. Men.
+NZL,New Zealand,7,Lee,Eric,M,7,0,0,0,0,7,Hon. Men.
+NZL,New Zealand,8,Lu,Ethan,M,7,0,0,0,0,7,Hon. Men.
+NZL,New Zealand,9,Zhao,Brian,M,5,0,0,2,0,7,
+NZL,New Zealand,10,Han,Phillip,M,6,0,0,0,0,6,
+NIC,Nicaragua,1,González Rugama,Richard Antonio,M,7,7,0,0,0,14,Bronze
+NIC,Nicaragua,2,Sánchez,Marcos Ulises,M,7,2,0,0,0,9,Hon. Men.
+NIC,Nicaragua,3,González Trujillo,Néstor Daniel,M,7,0,0,0,0,7,Hon. Men.
+NIC,Nicaragua,4,Rodríguez Gutiérrez,Isaac Dahir,M,7,0,0,0,0,7,Hon. Men.
+NIC,Nicaragua,5,Solórzano García,Carlos Alberto,M,7,0,0,0,0,7,Hon. Men.
+NIC,Nicaragua,6,Baldizón Molina,Dayton Josue,M,4,0,0,0,0,4,
+NIC,Nicaragua,7,Calero Cordero,Adrian Alexander,M,2,0,0,0,0,2,
+NIC,Nicaragua,8,Espinoza Olivares,Oscar Yamil,M,0,0,0,0,0,0,
+NIC,Nicaragua,9,Rodríguez Galeano,Mario Alejandro,M,0,0,0,0,0,0,
+NIC,Nicaragua,10,Tinoco Cerda,Kenny Jordan,M,0,0,0,0,0,0,
+PAN,Panama,1,Modes,Luis,M,3,3,3,0,0,9,
+PAN,Panama,2,Aguilar,Alejandro,M,7,0,0,0,0,7,Hon. Men.
+PAN,Panama,3,Frauca,Adrian,M,3,0,0,0,0,3,
+PAN,Panama,4,Zeballos,Temistocles,M,3,0,0,0,0,3,
+PAN,Panama,5,Marciaga,Leonardo,M,2,0,0,0,0,2,
+PAN,Panama,6,Maza,Ana Lucia,F,0,0,0,0,0,0,
+PAN,Panama,7,Liu,Jorge,M,0,0,0,0,0,0,
+PER,Peru,1,MIN LEE,YOHAN,M,7,7,7,0,0,21,Gold
+PER,Peru,2,GUTIERREZ BUSTAMANTE,MIJAIL LEONEL,M,7,5,7,1,0,20,Silver
+PER,Peru,3,CORONADO ALCALA,DIEGO ALONSO,M,6,7,7,0,0,20,Silver
+PER,Peru,4,GUERRA CAMANA,JOAQUIN ERNESTO,M,6,5,7,0,0,18,Bronze
+PER,Peru,5,FERMIN JIMENEZ,CARLA SOFIA,F,7,7,2,0,0,16,Bronze
+PER,Peru,6,FARFAN ORE,ANGELO D'STEFFANO,M,7,0,7,0,0,14,Bronze
+PER,Peru,7,SEBASTIAN HECTOR,LUNA RODRIGUEZ,M,7,0,7,0,0,14,Bronze
+PER,Peru,8,BALBUENA VELASQUEZ,EDUARDO JOSUE,M,7,0,7,0,0,14,Hon. Men.
+PER,Peru,9,TASAYCO PACHAS,JUAN MATHIUS,M,7,0,6,0,0,13,Hon. Men.
+PER,Peru,10,MUNGI MOZO,KRISTHIANO JOEL,M,5,0,6,0,0,11,
+PHL,Philippines,1,BALETE,Immanuel Josiah,M,7,5,0,5,0,17,Silver
+PHL,Philippines,2,DALIDA,Raphael Dylan,M,7,0,0,7,0,14,Bronze
+PHL,Philippines,3,CHUA,Shawn Darren,M,7,0,0,7,0,14,Bronze
+PHL,Philippines,4,DELA CRUZ,Vincent,M,7,7,0,0,0,14,Bronze
+PHL,Philippines,5,BONA,Sarji Elijah,M,6,7,0,0,0,13,Bronze
+PHL,Philippines,6,SANCHEZ,Bryce Ainsley,M,7,4,0,1,0,12,Bronze
+PHL,Philippines,7,ABAD,Jose Lorenzo,M,5,0,6,0,0,11,Bronze
+PHL,Philippines,8,TY,Stephen James,M,7,0,1,0,0,8,Hon. Men.
+PHL,Philippines,9,REYES,Steven,M,7,1,0,0,0,8,Hon. Men.
+PHL,Philippines,10,WU,Filbert Ephraim,M,7,1,0,0,0,8,Hon. Men.
+KOR,Republic of Korea,1,Choi,Woojin,M,7,5,7,7,5,31,Gold
+KOR,Republic of Korea,2,Kim,Jimin,M,7,7,7,7,0,28,Silver
+KOR,Republic of Korea,3,Jung,Yuchan,M,7,5,7,2,7,28,Silver
+KOR,Republic of Korea,4,Choi,Hyunwoo,M,7,7,7,5,0,26,Bronze
+KOR,Republic of Korea,5,Lee,SeungHwan,M,7,5,7,6,0,25,Bronze
+KOR,Republic of Korea,6,Kim,Minjun,M,7,7,7,0,0,21,Bronze
+KOR,Republic of Korea,7,WOO,SANGYEOP,M,7,5,7,2,0,21,Bronze
+KOR,Republic of Korea,8,Lee,Gyudong,M,7,5,7,2,0,21,Hon. Men.
+KOR,Republic of Korea,9,CHOI,MIN KYU,M,7,7,7,0,0,21,Hon. Men.
+KOR,Republic of Korea,10,Shin,Jaehoon,M,7,7,0,0,7,21,Hon. Men.
+MKD,Macedonia,1,Grashkoski,Luka,M,7,0,7,0,1,15,Silver
+MKD,Macedonia,2,Sukleski,Blazhe,M,7,0,7,0,0,14,Bronze
+MKD,Macedonia,3,Spirovski,Nikola,M,7,0,7,0,0,14,Bronze
+MKD,Macedonia,4,Kuzmanovska,Stefanija,F,0,0,7,0,0,7,Hon. Men.
+MKD,Macedonia,5,Davkov,Damjan,M,7,0,0,0,0,7,Hon. Men.
+MKD,Macedonia,6,Stavrov,David,M,4,0,0,0,0,4,
+MKD,Macedonia,7,Tasikj,Aleksij,M,2,0,0,0,0,2,
+MKD,Macedonia,8,Cvetanovski,Nikola,M,0,0,0,0,0,0,
+MKD,Macedonia,9,Gelev,Matej,M,0,0,0,0,0,0,
+MKD,Macedonia,10,Zikova,Ivona,F,0,0,0,0,0,0,
+RUS,Russia,1,Goguadze,Andrej,M,7,0,3,5,7,22,Gold
+RUS,Russia,2,Troshkin,Kirill,M,7,7,7,0,0,21,Silver
+RUS,Russia,3,Chobanyan,Samvel,M,7,7,7,0,0,21,Silver
+RUS,Russia,4,Artem'ev,Aleksandr,M,7,0,7,0,1,15,Bronze
+RUS,Russia,5,Eliseev,Aleksandr,M,7,0,7,0,0,14,Bronze
+RUS,Russia,6,Efimov,Artem,M,7,0,7,0,0,14,Bronze
+RUS,Russia,7,Karpov,Aleksandr,M,7,0,0,2,4,13,Bronze
+RUS,Russia,8,Cherepanov,Dmitrij,M,7,6,0,0,0,13,Hon. Men.
+RUS,Russia,9,Ovsyannikov,Vladimir,M,7,0,0,4,1,12,Hon. Men.
+RUS,Russia,10,Rubcov,Artemij,M,7,0,0,0,1,8,Hon. Men.
+SAU,Saudi Arabia,1,Marwan,Alkhayat,M,7,7,0,0,0,14,Bronze
+SAU,Saudi Arabia,2,Hamza,AlShaikhi,M,7,0,0,6,0,13,Bronze
+SAU,Saudi Arabia,3,Mohammad,Aldubaisi,M,7,4,0,0,0,11,Bronze
+SAU,Saudi Arabia,4,Muath,Alghamdi,M,7,2,0,0,0,9,Hon. Men.
+SAU,Saudi Arabia,5,Abdulrahman,Nassief,M,7,0,0,0,1,8,Hon. Men.
+SAU,Saudi Arabia,6,Hadi,Al Aithan,M,7,1,0,0,0,8,Hon. Men.
+SAU,Saudi Arabia,7,Khalid,AlJabri,M,7,1,0,0,0,8,Hon. Men.
+SAU,Saudi Arabia,8,Mahdi,Albaik,M,7,0,0,0,0,7,Hon. Men.
+SAU,Saudi Arabia,9,Rafaa,Qanash,F,7,0,0,0,0,7,Hon. Men.
+SAU,Saudi Arabia,10,Ali,Alramadhan,M,6,0,0,0,1,7,
+SGP,Singapore,1,Boo,"Tse Yang, Lucas",M,7,7,7,2,1,24,Gold
+SGP,Singapore,2,Hu,Xinghui,F,7,4,7,2,0,20,Silver
+SGP,Singapore,3,Low,Choo Ray,M,7,6,7,0,0,20,Silver
+SGP,Singapore,4,Ong,"Ee Shua, Etienne",M,7,0,7,0,0,14,Bronze
+SGP,Singapore,5,Liu,Zihan,M,6,0,0,7,0,13,Bronze
+SGP,Singapore,6,Wong,"Wern Jieh, Ryan",M,7,0,6,0,0,13,Bronze
+SGP,Singapore,7,Cheong,Eason,M,7,0,6,0,0,13,Bronze
+SGP,Singapore,8,Lim,Jin Tao,M,7,0,0,5,0,12,Hon. Men.
+SGP,Singapore,9,Peh,Yan Xi,M,5,0,7,0,0,12,Hon. Men.
+SGP,Singapore,10,Chew,"Keyn-Hantz, Edden",M,7,5,0,0,0,12,Hon. Men.
+LKA,Sri Lanka,1,Wanasinghe,Thidas Bandara,M,7,0,0,0,0,7,Hon. Men.
+LKA,Sri Lanka,2,Gunawardana,Pulitha Thiyasara,M,7,0,0,0,0,7,Hon. Men.
+LKA,Sri Lanka,3,Pathirana,Luchitha Disal,M,2,0,0,0,0,2,
+LKA,Sri Lanka,4,Thirukkumaran,Theiventhiran,M,0,0,0,0,0,0,
+LKA,Sri Lanka,5,Thuwaragesh,Jayachandran,M,0,0,0,0,0,0,
+SYR,Syria,1,Khalil,Al Hussein,M,7,7,0,0,0,14,Bronze
+SYR,Syria,2,Backour,Ali,M,7,6,0,0,1,14,Bronze
+SYR,Syria,3,AlMouine,M. Fouad,M,7,0,0,0,0,7,Hon. Men.
+SYR,Syria,4,Rajjoub,Khalid,M,5,0,0,0,0,5,
+SYR,Syria,5,Bousbet,Hussein,M,5,0,0,0,0,5,
+SYR,Syria,6,Hourieh,Mouhammad Ali,M,4,0,0,0,0,4,
+SYR,Syria,7,Ahmad,Alaa Aldeen,M,4,0,0,0,0,4,
+SYR,Syria,8,Khaddour,Haidara,M,1,0,0,0,0,1,
+SYR,Syria,9,Seif Askar,Marie Noel,F,1,0,0,0,0,1,
+SYR,Syria,10,Shalan,Mohammed Lwais,M,1,0,0,0,0,1,
+TWN,Taiwan,1,CHENG,PAI-LI,M,7,7,7,2,0,23,Gold
+TWN,Taiwan,2,HSIN,WEI-HSUAN,M,7,0,7,0,7,21,Silver
+TWN,Taiwan,3,CHIAO,YI-HSIANG,M,7,7,7,0,0,21,Silver
+TWN,Taiwan,4,CHEN,HSIN-JUI,M,7,5,7,0,0,19,Bronze
+TWN,Taiwan,5,WU,PO-HAN,M,7,7,0,2,2,18,Bronze
+TWN,Taiwan,6,LIAO,CHIH-KAI,M,5,5,7,0,0,17,Bronze
+TWN,Taiwan,7,TSENG,WEI-FU,M,7,0,7,2,0,16,Bronze
+TWN,Taiwan,8,CHEN,WEI-CHUNG,M,7,7,0,0,0,14,Hon. Men.
+TWN,Taiwan,9,CHEN,HUNG-YU,M,7,0,0,7,0,14,Hon. Men.
+TWN,Taiwan,10,HUANG,CHUNG-CHUN,M,7,5,0,2,0,14,Hon. Men.
+TJK,Tajikistan,1,Pakhavonov,Usmonali,M,7,6,7,0,0,20,Gold
+TJK,Tajikistan,2,Pirov,Vazirdzhon,M,7,0,7,0,0,14,Bronze
+TJK,Tajikistan,3,Rustamov,Jamshed,M,7,0,7,0,0,14,Bronze
+TJK,Tajikistan,4,Rakhmonov,Furuzonfar,M,7,0,7,0,0,14,Bronze
+TJK,Tajikistan,5,Aliev,Usmon,M,7,0,7,0,0,14,Bronze
+TJK,Tajikistan,6,Khayridinov,Sino,M,7,0,7,0,0,14,Bronze
+TJK,Tajikistan,7,Khatamov,Abdurauf,M,7,0,0,0,0,7,Hon. Men.
+TJK,Tajikistan,8,Murodzoda,Emomalijon,M,7,0,0,0,0,7,Hon. Men.
+TJK,Tajikistan,9,Dadabaev,Raufdzhon,M,7,0,0,0,0,7,Hon. Men.
+TJK,Tajikistan,10,Usmonov,Timur,M,7,0,0,0,0,7,Hon. Men.
+THA,Thailand,1,Anchaleenukoon,Nithid,M,7,7,7,3,0,24,Gold
+THA,Thailand,2,Piyakamalanon,Gongphop,M,6,5,7,3,0,21,Silver
+THA,Thailand,3,Meejitpaisarn,Vorapas,M,6,0,7,0,7,20,Silver
+THA,Thailand,4,Rawangwong,Vasawat,M,6,7,7,0,0,20,Bronze
+THA,Thailand,5,Thongjarast,Sarunyu,M,5,0,7,5,0,17,Bronze
+THA,Thailand,6,Rungaramsin,Worrawat,M,7,2,7,0,0,16,Bronze
+THA,Thailand,7,Opasmetikul,Kitti,M,7,0,7,1,0,15,Bronze
+THA,Thailand,8,Sridam,Pipitchaya,M,7,7,0,1,0,15,Hon. Men.
+THA,Thailand,9,Hengsuvanich,Siravit,M,7,0,7,0,0,14,Hon. Men.
+THA,Thailand,10,Tantikul,Sitta,M,6,0,7,0,0,13,Hon. Men.
+TKM,Turkmenistan,1,Nurmyradov,Dovlet,M,7,0,0,0,1,8,Hon. Men.
+TKM,Turkmenistan,2,Vellekov,Emir,M,1,0,7,0,0,8,Hon. Men.
+TKM,Turkmenistan,3,Garlyyev,Aydyn,M,7,0,0,0,0,7,Hon. Men.
+TKM,Turkmenistan,4,Zamanova,Jennet,F,7,0,0,0,0,7,Hon. Men.
+TKM,Turkmenistan,5,Jumayev,Akgurban,M,7,0,0,0,0,7,Hon. Men.
+TKM,Turkmenistan,6,Atayev,Hajymuhammet,M,7,0,0,0,0,7,Hon. Men.
+TKM,Turkmenistan,7,Gochmyradov,Muhammetmyrat,M,7,0,0,0,0,7,Hon. Men.
+TKM,Turkmenistan,8,Tanrygulyyev,Nagym,M,7,0,0,0,0,7,Hon. Men.
+TKM,Turkmenistan,9,Gayypov,Didar,M,7,0,0,0,0,7,Hon. Men.
+TKM,Turkmenistan,10,Isayev,Dovletgeldi,M,7,0,0,0,0,7,Hon. Men.
+URY,Uruguay,1,Puschiasis,Hernán,M,7,0,3,0,0,10,Bronze
+URY,Uruguay,2,Rodríguez,Tobias,M,0,0,0,1,0,1,
+URY,Uruguay,3,Akerman,Mauro,M,1,0,0,0,0,1,
+USA,United States of America,1,Li,Maxim,M,7,7,7,7,7,35,Gold
+USA,United States of America,2,Walsh,Noah,M,7,7,7,2,7,30,Silver
+USA,United States of America,3,Wang,Zifan,M,7,7,7,2,6,29,Silver
+USA,United States of America,4,Whyte,Jaedon,M,7,7,7,7,0,28,Bronze
+USA,United States of America,5,Das,Rishabh,M,7,7,7,0,6,27,Bronze
+USA,United States of America,6,Robitaille,Luke,M,7,6,7,0,7,27,Bronze
+USA,United States of America,7,Chen,Xinyang,M,7,6,7,7,0,27,Bronze
+USA,United States of America,8,Xia,Daniel,M,7,6,7,0,6,26,Hon. Men.
+USA,United States of America,9,Gu,Andrew,M,6,7,7,6,0,26,Hon. Men.
+USA,United States of America,10,Chen,Quanlin,M,7,7,7,1,4,26,Hon. Men.
