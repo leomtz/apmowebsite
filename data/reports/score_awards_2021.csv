@@ -89,11 +89,11 @@ SLV,El Salvador,4,Punyed González,Jaime Sebastián,M,7,0,0,0,0,7,Hon. Men.
 SLV,El Salvador,5,Flores Martínez,César Esaú,M,7,0,0,0,0,7,Hon. Men.
 SLV,El Salvador,6,Cabrera Silvas,Maryorie Damaris,F,1,0,0,0,0,1,
 HKG,Hong Kong,1,Yau,Ching Yan Timothy,M,7,7,7,0,3,24,Gold
-HKG,Hong Kong,2,Chu,Chak Hei,M,7,7,7,2,0,23,Silver
+HKG,Hong Kong,2,Chu,Cheuk Hei,M,7,7,7,2,0,23,Silver
 HKG,Hong Kong,3,Chui,Tsz Fung,M,7,7,7,2,0,23,Silver
 HKG,Hong Kong,4,Leung,Harris,M,7,6,0,7,0,20,Bronze
 HKG,Hong Kong,5,Lai,Wai Lok,M,7,7,2,0,0,16,Bronze
-HKG,Hong Kong,6,Ip,Tsz Tsz Oi,F,7,0,0,7,0,14,Bronze
+HKG,Hong Kong,6,Ip,Tsz Oi,F,7,0,0,7,0,14,Bronze
 HKG,Hong Kong,7,Yiu,Chun Hei,M,7,0,0,0,6,13,Bronze
 HKG,Hong Kong,8,Chong,Hon Tsun Hanks,M,7,0,0,5,0,12,Hon. Men.
 HKG,Hong Kong,9,Cheng,Nick Hang,M,7,0,0,2,0,9,Hon. Men.
@@ -119,10 +119,10 @@ IRN,Islamic Republic of Iran,8,Rezaei,Ali Reza,M,7,0,7,2,1,17,Hon. Men.
 IRN,Islamic Republic of Iran,9,Majidi,Ashkan,M,5,4,6,2,0,17,
 IRN,Islamic Republic of Iran,10,Khosravian,Mohammad Reza,M,7,0,6,0,0,13,Hon. Men.
 JPN,Japan,1,Yuhi,Kamio,M,7,7,7,7,0,28,Gold
-JPN,Japan,2,Takumi,Sannormiya,M,7,5,7,2,0,21,Silver
+JPN,Japan,2,Takumi,Sannomiya,M,7,5,7,2,0,21,Silver
 JPN,Japan,3,Yuya,Oki,M,7,7,0,6,0,20,Silver
-JPN,Japan,4,Tomoki,Yoshida,M,7,5,7,0,0,18,Bronze
-JPN,Japan,5,Tasuku,Imoto,M,7,5,0,7,0,18,Bronze
+JPN,Japan,4,Tomoki,Yoshida,M,7,5,7,0,0,19,Bronze
+JPN,Japan,5,Tasuku,Imoto,M,7,5,0,7,0,19,Bronze
 JPN,Japan,6,Koichiro,Kobayashi,M,6,5,7,0,0,18,Bronze
 JPN,Japan,7,Yui,Tokita,M,7,0,5,4,0,16,Bronze
 JPN,Japan,8,Hiroto,Takayama,M,7,0,7,1,0,15,Hon. Men.
@@ -138,7 +138,7 @@ KAZ,Kazakhstan,7,Bektemir,Kazybek,M,7,0,7,0,0,14,Bronze
 KAZ,Kazakhstan,8,Alpysbekov,Alikhan,M,7,0,7,0,0,14,Hon. Men.
 KAZ,Kazakhstan,9,Abdirazak,Nurassyl,M,7,0,7,0,0,14,Hon. Men.
 KAZ,Kazakhstan,10,Dalabay,Abylay,M,7,0,7,0,0,14,Hon. Men.
-KGZ,Kyrgyzstan,1,Belekov,Myrzabek,M,7,3,0,0,0,10,Bronze
+KGZ,Kyrgyzstan,1,Belekov,Myrzabek,M,7,0,0,0,0,7,Hon. Men.
 KGZ,Kyrgyzstan,2,Esengulov,Erbol,M,7,0,0,0,2,9,Hon. Men.
 KGZ,Kyrgyzstan,3,Askerbekov,Tilek,M,7,0,0,0,0,7,Hon. Men.
 KGZ,Kyrgyzstan,4,Apiev,Erdan,M,7,0,0,0,0,7,Hon. Men.
@@ -198,7 +198,7 @@ NIC,Nicaragua,7,Calero Cordero,Adrian Alexander,M,2,0,0,0,0,2,
 NIC,Nicaragua,8,Espinoza Olivares,Oscar Yamil,M,0,0,0,0,0,0,
 NIC,Nicaragua,9,Rodríguez Galeano,Mario Alejandro,M,0,0,0,0,0,0,
 NIC,Nicaragua,10,Tinoco Cerda,Kenny Jordan,M,0,0,0,0,0,0,
-PAN,Panama,1,Modes,Luis,M,3,3,3,0,0,9,
+PAN,Panama,1,Modes,Luis,M,3,5,3,0,0,11,Bronze
 PAN,Panama,2,Aguilar,Alejandro,M,7,0,0,0,0,7,Hon. Men.
 PAN,Panama,3,Frauca,Adrian,M,3,0,0,0,0,3,
 PAN,Panama,4,Zeballos,Temistocles,M,3,0,0,0,0,3,
