@@ -1,11 +1,11 @@
 code,country,rank,last,first,sex,p1,p2,p3,p4,p5,total,award
-AUS,Australia,1,Leong,Chris,,-,-,-,-,-,17,Gold
-AUS,Australia,2,White,Graham,,-,-,-,-,-,14,Silver
-AUS,Australia,3,Nandakumar,Vinoth,,-,-,-,-,-,13,Silver
-AUS,Australia,4,Leung,Brian,,-,-,-,-,-,11,Bronze
-AUS,Australia,5,Ngai,Matthew,,-,-,-,-,-,11,Bronze
-AUS,Australia,6,Muirhead,Stephen,,-,-,-,-,-,10,Bronze
-AUS,Australia,7,Chow,Sam,,-,-,-,-,-,10,Bronze
-AUS,Australia,8,Libling,Matthew,,-,-,-,-,-,8,Hon. Men.
-AUS,Australia,9,Ramchen,Kim,,-,-,-,-,-,7,Hon. Men.
-AUS,Australia,10,Libling,Charles,,-,-,-,-,-,7,Hon. Men.
+AUS,Australia,1,Leong,Chris,M,7,0,7,3,0,17,Gold
+AUS,Australia,2,White,Graham,M,7,0,7,0,0,14,Silver
+AUS,Australia,3,Nandakumar,Vinoth,M,7,0,0,0,6,13,Silver
+AUS,Australia,4,Leung,Brian,M,7,0,1,3,0,11,Bronze
+AUS,Australia,5,Ngai,Matthew,M,7,0,1,3,0,11,Bronze
+AUS,Australia,6,Muirhead,Stephen,M,7,0,0,3,0,10,Bronze
+AUS,Australia,7,Chow,Sam,M,7,0,0,3,0,10,Bronze
+AUS,Australia,8,Libling,Matthew,M,7,0,1,0,0,8,Hon. Men.
+AUS,Australia,9,Ramchen,Kim,M,7,0,0,0,0,7,Hon. Men.
+AUS,Australia,10,Libling,Charles,M,7,0,0,0,0,7,Hon. Men.

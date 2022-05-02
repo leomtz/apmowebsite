@@ -1,11 +1,11 @@
 code,country,rank,last,first,sex,p1,p2,p3,p4,p5,total,award
-AUS,Australia,1,Henderson,Anthony,,-,-,-,-,-,35,Gold
-AUS,Australia,2,Burton,Benjamin,,-,-,-,-,-,28,Silver
-AUS,Australia,3,Calegari,Frank,,-,-,-,-,-,25,Silver
-AUS,Australia,4,Banner,Adrian,,-,-,-,-,-,23,Bronze
-AUS,Australia,5,Ip,Lawrence,,-,-,-,-,-,21,Bronze
-AUS,Australia,6,McCallum,Rupert,,-,-,-,-,-,19,Bronze
-AUS,Australia,7,Pearce,Brett,,-,-,-,-,-,19,Bronze
-AUS,Australia,8,Brent,Geoffrey,,-,-,-,-,-,16,Hon. Men.
-AUS,Australia,9,Hawkins,William,,-,-,-,-,-,15,Hon. Men.
-AUS,Australia,10,Russell,Michael,,-,-,-,-,-,10,Hon. Men.
+AUS,Australia,1,Henderson,Anthony,,7,7,7,7,7,35,Gold
+AUS,Australia,2,Burton,Benjamin,,7,7,7,7,0,28,Silver
+AUS,Australia,3,Calegari,Frank,,7,7,1,6,4,25,Silver
+AUS,Australia,4,Banner,Adrian,,4,7,1,7,4,23,Bronze
+AUS,Australia,5,Ip,Lawrence,,7,7,0,7,0,21,Bronze
+AUS,Australia,6,McCallum,Rupert,,6,0,6,7,0,19,Bronze
+AUS,Australia,7,Pearce,Brett,,6,0,5,7,1,19,Bronze
+AUS,Australia,8,Brent,Geoffrey,,7,0,0,7,2,16,Hon. Men.
+AUS,Australia,9,Hawkins,William,,5,0,3,7,0,15,Hon. Men.
+AUS,Australia,10,Russell,Michael,,7,0,0,3,0,10,Hon. Men.

@@ -1,11 +1,11 @@
 code,country,rank,last,first,sex,p1,p2,p3,p4,p5,total,award
-AUS,Australia,1,White,Graham,,-,-,-,-,-,22,Silver
-AUS,Australia,2,Norrish,Mark,,-,-,-,-,-,21,Silver
-AUS,Australia,3,Nandakumar,Vinoth,,-,-,-,-,-,18,Bronze
-AUS,Australia,4,Pilch,Konrad,,-,-,-,-,-,18,Bronze
-AUS,Australia,5,Allgeuer,Philipp,,-,-,-,-,-,18,Bronze
-AUS,Australia,6,Menzies,Max,,-,-,-,-,-,17,Bronze
-AUS,Australia,7,Ng,Matthew,,-,-,-,-,-,16,Bronze
-AUS,Australia,8,Pham,Vinh,,-,-,-,-,-,16,Hon. Men.
-AUS,Australia,9,Li,Charles,,-,-,-,-,-,15,Hon. Men.
-AUS,Australia,10,Gardam,Giles,,-,-,-,-,-,14,Hon. Men.
+AUS,Australia,1,White,Graham,M,7,4,4,0,7,22,Silver
+AUS,Australia,2,Norrish,Mark,M,7,7,0,0,7,21,Silver
+AUS,Australia,3,Nandakumar,Vinoth,M,7,0,4,7,0,18,Bronze
+AUS,Australia,4,Pilch,Konrad,M,7,0,4,0,7,18,Bronze
+AUS,Australia,5,Allgeuer,Philipp,M,7,0,4,0,7,18,Bronze
+AUS,Australia,6,Menzies,Max,M,7,1,4,0,5,17,Bronze
+AUS,Australia,7,Ng,Matthew,M,2,7,0,0,7,16,Bronze
+AUS,Australia,8,Pham,Vinh,M,7,0,4,0,5,16,Hon. Men.
+AUS,Australia,9,Li,Charles,M,7,1,0,0,7,15,Hon. Men.
+AUS,Australia,10,Gardam,Giles,M,7,0,0,0,7,14,Hon. Men.

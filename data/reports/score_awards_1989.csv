@@ -1,11 +1,41 @@
 code,country,rank,last,first,sex,p1,p2,p3,p4,p5,total,award
-AUS,Australia,1,Calegari,Danny,,-,-,-,-,-,29,Gold
-AUS,Australia,2,Davey,Kevin,,-,-,-,-,-,25,Silver
-AUS,Australia,3,Kisin,Mark ,,-,-,-,-,-,22,Silver
-AUS,Australia,4,Offer,Alan,,-,-,-,-,-,22,Bronze
-AUS,Australia,5,Weatherson,Brian,,-,-,-,-,-,18,Bronze
-AUS,Australia,6,Yip,Dominic,,-,-,-,-,-,17,Bronze
-AUS,Australia,7,Gleeson,Philip,,-,-,-,-,-,16,Bronze
-AUS,Australia,8,Eckett,Christopher,,-,-,-,-,-,16,Hon. Men.
-AUS,Australia,9,Loy,Clement,,-,-,-,-,-,16,Hon. Men.
-AUS,Australia,10,Wong,Alan ,,-,-,-,-,-,15,Hon. Men.
+AUS,Australia,1,Calegari,Danny,,7,6,7,2,7,29,Gold
+AUS,Australia,2,Davey,Kevin,,7,7,7,1,3,25,Silver
+AUS,Australia,3,Kisin,Mark ,,7,7,7,0,1,22,Silver
+AUS,Australia,4,Offer,Alan,,7,7,7,0,1,22,Bronze
+AUS,Australia,5,Weatherson,Brian,,7,2,7,0,2,18,Bronze
+AUS,Australia,6,Yip,Dominic,,7,2,7,0,2,17,Bronze
+AUS,Australia,7,Gleeson,Philip,,7,1,7,0,1,16,Bronze
+AUS,Australia,8,Eckett,Christopher,,7,2,7,0,0,16,Hon. Men.
+AUS,Australia,9,Loy,Clement,,7,2,7,0,0,16,Hon. Men.
+AUS,Australia,10,Wong,Alan ,,7,1,7,0,0,15,Hon. Men.
+,Canada,1,Unknown,Unknown,,-,-,-,-,-,22,Silver
+,Canada,2,Unknown,Unknown,,-,-,-,-,-,21,Silver
+,Canada,3,Unknown,Unknown,,-,-,-,-,-,19,Silver
+,Canada,4,Unknown,Unknown,,-,-,-,-,-,18,Bronze
+,Canada,5,Unknown,Unknown,,-,-,-,-,-,17,Bronze
+,Canada,6,Unknown,Unknown,,-,-,-,-,-,12,
+,Canada,7,Unknown,Unknown,,-,-,-,-,-,12,
+,Canada,8,Unknown,Unknown,,-,-,-,-,-,11,
+,Canada,9,Unknown,Unknown,,-,-,-,-,-,11,
+,Canada,10,Unknown,Unknown,,-,-,-,-,-,10,
+,Hong Kong,1,Unknown,Unknown,,-,-,-,-,-,21,Silver
+,Hong Kong,2,Unknown,Unknown,,-,-,-,-,-,20,Silver
+,Hong Kong,3,Unknown,Unknown,,-,-,-,-,-,20,Silver
+,Hong Kong,4,Unknown,Unknown,,-,-,-,-,-,18,Bronze
+,Hong Kong,5,Unknown,Unknown,,-,-,-,-,-,18,Bronze
+,Hong Kong,6,Unknown,Unknown,,-,-,-,-,-,18,Bronze
+,Hong Kong,7,Unknown,Unknown,,-,-,-,-,-,18,Bronze
+,Hong Kong,8,Unknown,Unknown,,-,-,-,-,-,16,Hon. Men.
+,Hong Kong,9,Unknown,Unknown,,-,-,-,-,-,16,Hon. Men.
+,Hong Kong,10,Unknown,Unknown,,-,-,-,-,-,16,Hon. Men.
+,Singapore,1,Unknown,Unknown,,-,-,-,-,-,25,Gold
+,Singapore,2,Unknown,Unknown,,-,-,-,-,-,23,Silver
+,Singapore,3,Unknown,Unknown,,-,-,-,-,-,21,Silver
+,Singapore,4,Unknown,Unknown,,-,-,-,-,-,15,Hon. Men.
+,Singapore,5,Unknown,Unknown,,-,-,-,-,-,15,Hon. Men.
+,Singapore,6,Unknown,Unknown,,-,-,-,-,-,14,Hon. Men.
+,Singapore,7,Unknown,Unknown,,-,-,-,-,-,13,Hon. Men.
+,Singapore,8,Unknown,Unknown,,-,-,-,-,-,8,
+,Singapore,9,Unknown,Unknown,,-,-,-,-,-,8,
+,Singapore,10,Unknown,Unknown,,-,-,-,-,-,1,

@@ -1,11 +1,81 @@
 code,country,rank,last,first,sex,p1,p2,p3,p4,p5,total,award
-AUS,Australia,1,Weatherson,Brian,,-,-,-,-,-,30,Gold
-AUS,Australia,2,Wilson,Simon,,-,-,-,-,-,19,Silver
-AUS,Australia,3,Yip,Dominic,,-,-,-,-,-,17,Silver
-AUS,Australia,4,Adam,Timothy,,-,-,-,-,-,16,Bronze
-AUS,Australia,5,Lau,Joseph,,-,-,-,-,-,16,Bronze
-AUS,Australia,6,Cameron,Luke,,-,-,-,-,-,16,Bronze
-AUS,Australia,7,Wong,Alan ,,-,-,-,-,-,14,Bronze
-AUS,Australia,8,Di Pasquale,Angelo,,-,-,-,-,-,13,Hon. Men.
-AUS,Australia,9,Sellner,Stuart,,-,-,-,-,-,12,Hon. Men.
-AUS,Australia,10,Sengupta,Aghik,,-,-,-,-,-,12,Hon. Men.
+AUS,Australia,1,Weatherson,Brian,,6,7,7,3,7,30,Gold
+AUS,Australia,2,Wilson,Simon,,0,7,5,6,1,19,Silver
+AUS,Australia,3,Yip,Dominic,,4,7,1,5,0,17,Silver
+AUS,Australia,4,Adam,Timothy,,6,0,2,1,7,16,Bronze
+AUS,Australia,5,Lau,Joseph,,0,7,2,7,0,16,Bronze
+AUS,Australia,6,Cameron,Luke,,0,7,7,2,0,16,Bronze
+AUS,Australia,7,Wong,Alan ,,0,7,6,1,0,14,Bronze
+AUS,Australia,8,Di Pasquale,Angelo,,1,7,4,1,0,13,Hon. Men.
+AUS,Australia,9,Sellner,Stuart,,3,0,0,2,7,12,Hon. Men.
+AUS,Australia,10,Sengupta,Aghik,,1,7,2,2,0,12,Hon. Men.
+NZL,New Zealand,1,Unknown,Unknown,,-,-,-,-,-,15,Silver
+NZL,New Zealand,2,Unknown,Unknown,,-,-,-,-,-,9,Hon. Men.
+NZL,New Zealand,3,Unknown,Unknown,,-,-,-,-,-,6,
+NZL,New Zealand,4,Unknown,Unknown,,-,-,-,-,-,6,
+NZL,New Zealand,5,Unknown,Unknown,,-,-,-,-,-,6,
+NZL,New Zealand,6,Unknown,Unknown,,-,-,-,-,-,5,
+NZL,New Zealand,7,Unknown,Unknown,,-,-,-,-,-,5,
+NZL,New Zealand,8,Unknown,Unknown,,-,-,-,-,-,4,
+KOR,Korea,1,Unknown,Unknown,,-,-,-,-,-,26,Gold
+KOR,Korea,2,Unknown,Unknown,,-,-,-,-,-,22,Silver
+KOR,Korea,3,Unknown,Unknown,,-,-,-,-,-,19,Silver
+KOR,Korea,4,Unknown,Unknown,,-,-,-,-,-,17,Bronze
+KOR,Korea,5,Unknown,Unknown,,-,-,-,-,-,15,Bronze
+KOR,Korea,6,Unknown,Unknown,,-,-,-,-,-,15,Bronze
+KOR,Korea,7,Unknown,Unknown,,-,-,-,-,-,14,Bronze
+KOR,Korea,8,Unknown,Unknown,,-,-,-,-,-,14,Hon. Men.
+KOR,Korea,9,Unknown,Unknown,,-,-,-,-,-,11,Hon. Men.
+KOR,Korea,10,Unknown,Unknown,,-,-,-,-,-,10,Hon. Men.
+THA,Thailand,1,Unknown,Unknown,,-,-,-,-,-,12,Bronze
+THA,Thailand,2,Unknown,Unknown,,-,-,-,-,-,12,Bronze
+PHL,Philippines,1,Unknown,Unknown,,-,-,-,-,-,20,Gold
+PHL,Philippines,2,Unknown,Unknown,,-,-,-,-,-,12,Bronze
+PHL,Philippines,3,Unknown,Unknown,,-,-,-,-,-,11,Bronze
+PHL,Philippines,4,Unknown,Unknown,,-,-,-,-,-,11,Bronze
+PHL,Philippines,5,Unknown,Unknown,,-,-,-,-,-,11,Bronze
+PHL,Philippines,6,Unknown,Unknown,,-,-,-,-,-,10,Hon. Men.
+PHL,Philippines,7,Unknown,Unknown,,-,-,-,-,-,10,
+PHL,Philippines,8,Unknown,Unknown,,-,-,-,-,-,9,Hon. Men.
+PHL,Philippines,9,Unknown,Unknown,,-,-,-,-,-,7,Hon. Men.
+PHL,Philippines,10,Unknown,Unknown,,-,-,-,-,-,6,
+MEX,Mexico,1,Unknown,Unknown,,-,-,-,-,-,13,Bronze
+MEX,Mexico,2,Unknown,Unknown,,-,-,-,-,-,12,Bronze
+MEX,Mexico,3,Unknown,Unknown,,-,-,-,-,-,11,Bronze
+MEX,Mexico,4,Unknown,Unknown,,-,-,-,-,-,8,
+MEX,Mexico,5,Unknown,Unknown,,-,-,-,-,-,7,
+MEX,Mexico,6,Unknown,Unknown,,-,-,-,-,-,7,
+MEX,Mexico,7,Unknown,Unknown,,-,-,-,-,-,4,
+MEX,Mexico,8,Unknown,Unknown,,-,-,-,-,-,4,
+MEX,Mexico,9,Unknown,Unknown,,-,-,-,-,-,4,
+MEX,Mexico,10,Unknown,Unknown,,-,-,-,-,-,3,
+SGP,Singapore,1,Unknown,Unknown,,-,-,-,-,-,22,Gold
+SGP,Singapore,2,Unknown,Unknown,,-,-,-,-,-,20,Silver
+SGP,Singapore,3,Unknown,Unknown,,-,-,-,-,-,18,Silver
+SGP,Singapore,4,Unknown,Unknown,,-,-,-,-,-,17,Bronze
+SGP,Singapore,5,Unknown,Unknown,,-,-,-,-,-,16,Bronze
+SGP,Singapore,6,Unknown,Unknown,,-,-,-,-,-,17,Bronze
+SGP,Singapore,7,Unknown,Unknown,,-,-,-,-,-,15,Bronze
+SGP,Singapore,8,Unknown,Unknown,,-,-,-,-,-,15,Hon. Men.
+SGP,Singapore,9,Unknown,Unknown,,-,-,-,-,-,14,Hon. Men.
+SGP,Singapore,10,Unknown,Unknown,,-,-,-,-,-,14,Hon. Men.
+HKG,Hong Kong,1,Unknown,Unknown,,-,-,-,-,-,26,Gold
+HKG,Hong Kong,2,Unknown,Unknown,,-,-,-,-,-,21,Silver
+HKG,Hong Kong,3,Unknown,Unknown,,-,-,-,-,-,21,Silver
+HKG,Hong Kong,4,Unknown,Unknown,,-,-,-,-,-,19,Bronze
+HKG,Hong Kong,5,Unknown,Unknown,,-,-,-,-,-,14,Bronze
+HKG,Hong Kong,6,Unknown,Unknown,,-,-,-,-,-,13,Bronze
+HKG,Hong Kong,7,Unknown,Unknown,,-,-,-,-,-,13,Bronze
+HKG,Hong Kong,8,Unknown,Unknown,,-,-,-,-,-,12,Hon. Men.
+HKG,Hong Kong,9,Unknown,Unknown,,-,-,-,-,-,12,Hon. Men.
+HKG,Hong Kong,10,Unknown,Unknown,,-,-,-,-,-,11,Hon. Men.
+CAN,Canada,1,Unknown,Unknown,,-,-,-,-,-,27,Gold
+CAN,Canada,2,Unknown,Unknown,,-,-,-,-,-,26,Silver
+CAN,Canada,3,Unknown,Unknown,,-,-,-,-,-,23,Silver
+CAN,Canada,4,Unknown,Unknown,,-,-,-,-,-,21,Bronze
+CAN,Canada,5,Unknown,Unknown,,-,-,-,-,-,16,Bronze
+CAN,Canada,6,Unknown,Unknown,,-,-,-,-,-,15,Bronze
+CAN,Canada,7,Unknown,Unknown,,-,-,-,-,-,13,Bronze
+CAN,Canada,8,Unknown,Unknown,,-,-,-,-,-,13,Hon. Men.
+CAN,Canada,9,Unknown,Unknown,,-,-,-,-,-,13,
+CAN,Canada,10,Unknown,Unknown,,-,-,-,-,-,10,

@@ -1,11 +1,11 @@
 code,country,rank,last,first,sex,p1,p2,p3,p4,p5,total,award
-AUS,Australia,1,Field,Laurence,,-,-,-,-,-,14,Bronze
-AUS,Australia,2,Guo,Ivan,,-,-,-,-,-,14,Bronze
-AUS,Australia,3,Nadasi,Daniel,,-,-,-,-,-,13,Bronze
-AUS,Australia,4,White,Graham,,-,-,-,-,-,13,Bronze
-AUS,Australia,5,Nandakumar,Vinoth,,-,-,-,-,-,13,Bronze
-AUS,Australia,6,Ngai,Andrew,,-,-,-,-,-,12,Bronze
-AUS,Australia,7,Wan,James,,-,-,-,-,-,10,
-AUS,Australia,8,Hua,Alex,,-,-,-,-,-,10,
-AUS,Australia,9,Coleman,Patrick,,-,-,-,-,-,9,Hon. Men.
-AUS,Australia,10,Zhang,Alexander,,-,-,-,-,-,6,
+AUS,Australia,1,Field,Laurence,M,7,0,0,7,0,14,Bronze
+AUS,Australia,2,Guo,Ivan,M,7,7,0,0,0,14,Bronze
+AUS,Australia,3,Nadasi,Daniel,M,7,0,0,6,0,13,Bronze
+AUS,Australia,4,White,Graham,M,7,0,5,1,0,13,Bronze
+AUS,Australia,5,Nandakumar,Vinoth,M,1,6,0,6,0,13,Bronze
+AUS,Australia,6,Ngai,Andrew,M,4,6,0,0,2,12,Bronze
+AUS,Australia,7,Wan,James,M,4,1,0,5,0,10,
+AUS,Australia,8,Hua,Alex,M,4,0,0,0,6,10,
+AUS,Australia,9,Coleman,Patrick,M,7,0,1,0,1,9,Hon. Men.
+AUS,Australia,10,Zhang,Alexander,M,6,0,0,0,0,6,

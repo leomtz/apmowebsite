@@ -1,11 +1,11 @@
 code,country,rank,last,first,sex,p1,p2,p3,p4,p5,total,award
-AUS,Australia,1,Elvey Price,Andrew,,-,-,-,-,-,18,Silver
-AUS,Australia,2,Zealand,Kathryn,,-,-,-,-,-,13,Bronze
-AUS,Australia,3,Menzies,Max,,-,-,-,-,-,12,Bronze
-AUS,Australia,4,Morris,Anthony,,-,-,-,-,-,12,Bronze
-AUS,Australia,5,Lin,Sen,,-,-,-,-,-,12,Bronze
-AUS,Australia,6,Gaisin,Ildar,,-,-,-,-,-,12,Bronze
-AUS,Australia,7,Wong,Sampson,,-,-,-,-,-,11,Bronze
-AUS,Australia,8,Gardam,Giles,,-,-,-,-,-,8,
-AUS,Australia,9,Lo,Irene,,-,-,-,-,-,8,
-AUS,Australia,10,Nandakumar,Vinoth,,-,-,-,-,-,7,
+AUS,Australia,1,Elvey Price,Andrew,M,3,6,2,0,7,18,Silver
+AUS,Australia,2,Zealand,Kathryn,F,2,6,2,0,3,13,Bronze
+AUS,Australia,3,Menzies,Max,M,3,7,2,0,0,12,Bronze
+AUS,Australia,4,Morris,Anthony,M,6,6,0,0,0,12,Bronze
+AUS,Australia,5,Lin,Sen,M,6,6,0,0,0,12,Bronze
+AUS,Australia,6,Gaisin,Ildar,M,5,7,0,0,0,12,Bronze
+AUS,Australia,7,Wong,Sampson,M,5,6,0,0,0,11,Bronze
+AUS,Australia,8,Gardam,Giles,M,6,0,2,0,0,8,
+AUS,Australia,9,Lo,Irene,F,6,0,2,0,0,8,
+AUS,Australia,10,Nandakumar,Vinoth,M,1,6,0,0,0,7,
