@@ -178,9 +178,9 @@ def year_report(year):
         year=int(year)
     except:
         return render_template('not_enough_info.html')
-    if year in range(2010,2022):
+    if year in range(2010,2023):
         problem_stats=False
-        if year in range(2016,2022):
+        if year in range(2016,2023):
             problem_stats=True
         competition_info=load_info(year)
         table=ranked_table(year)
@@ -202,7 +202,7 @@ def country(code, year):
             return render_template('not_enough_info.html')
     try:
         year=int(year)
-        if year in range(1989,2022):
+        if year in range(1989,2023):
             table, country = country_year_table(code, year)
             table_short, country= country_year_table_short(code, year)
             return render_template('year_country_report.html', code=code, year=year, country=country, table=table, table_short=table_short)
