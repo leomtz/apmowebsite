@@ -1,6 +1,6 @@
 Rank,Code,Country,# of Contestants,Total Score,Gold Awards,Silver Awards,Bronze Awards,Honorable Mentions
 1,KOR,Republic of Korea,10,310,1,2,4,3
-2,,Unites States of America,10,294,1,2,4,3
+2,USA,United States of America,10,294,1,2,4,3
 3,TWN,Taiwan,10,223,1,2,4,3
 4,JPN,Japan,10,220,1,2,4,3
 5,IND,India,10,205,1,2,4,3
@@ -18,7 +18,7 @@ Rank,Code,Country,# of Contestants,Total Score,Gold Awards,Silver Awards,Bronze 
 17,MYS,Malaysia,10,130,0,2,4,3
 18,BGD,Bangladesh,10,129,0,1,6,3
 19,PHL,Philippines,10,117,0,1,4,4
-20,,Turkemnistan,10,117,0,1,4,5
+20,TKM,Turkmenistan,10,117,0,1,4,5
 21,IRN,Islamic Republic of Iran,8,114,0,3,2,3
 22,TJK,Tajikistan,10,111,0,0,5,1
 23,MAR,Morocco,10,76,0,0,1,3
