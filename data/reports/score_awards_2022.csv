@@ -1,10 +1,10 @@
 code,country,rank,last,first,sex,p1,p2,p3,p4,p5,total,award
-ARG,Argentina,1,Ziger,Bruno Marín,M,1,7,5,7,0,20,Silver
+ARG,Argentina,1,Ziger,Bruno Martín,M,1,7,5,7,0,20,Silver
 ARG,Argentina,2,Mierez,Federico Damián,M,7,7,5,0,0,19,Silver
 ARG,Argentina,3,Cabrera,Julián Máximo,M,6,7,5,1,0,19,Silver
 ARG,Argentina,4,Ricci,Nicolás,M,7,0,7,0,0,14,Bronze
 ARG,Argentina,5,Fernández,Joaquín,M,6,7,0,0,0,13,Bronze
-ARG,Argentina,6,Elizalde,María De Los Milagros,F,7,5,0,0,0,12,Bronze
+ARG,Argentina,6,Elizalde,María de los Milagros,F,7,5,0,0,0,12,Bronze
 ARG,Argentina,7,Flores,Iván Nicolás,M,7,0,5,0,0,12,Bronze
 ARG,Argentina,8,Ruzak,Emanuel Pablo,M,7,1,0,0,0,8,Hon. Men.
 ARG,Argentina,9,Digestani,Uriel,M,7,0,0,0,0,7,Hon. Men.
@@ -202,7 +202,7 @@ NZL,New Zealand,6,Yin,Belle,F,7,0,1,0,0,8,Hon. Men.
 NZL,New Zealand,7,Kenix,Grady,M,7,0,0,0,0,7,Hon. Men.
 NZL,New Zealand,8,Kang,Sun-Woong,M,1,0,5,0,0,6,
 NZL,New Zealand,9,Aurora,Wang,F,3,0,0,0,0,3,
-NZL,New Zealand,10,Dawn,Chen,F,1,0,0,0,0,1,
+NZL,New Zealand,10,Dawn,Chen,F,0,0,1,0,0,1,
 PAN,Panama,1,Frauca,Adrian David,M,7,0,0,0,0,7,Hon. Men.
 PAN,Panama,2,Gomez ,Jose Luis,M,0,0,0,0,0,0,
 PAN,Panama,3,Perez,Eidrian,M,0,0,0,0,0,0,
@@ -287,15 +287,15 @@ TJK,Tajikistan,8,Normurodzoda,Farahnoz,F,6,0,1,0,0,7,
 TJK,Tajikistan,9,Asoev,Bejan,M,6,1,0,0,0,7,
 TJK,Tajikistan,10,Sobirov,Eraj,M,6,0,0,0,0,6,
 THA,Thailand,1,Rungaramsin,Worrawat,M,6,7,5,7,0,25,Gold
-THA,Thailand,2,Pipittanaban,Sirawit,M,4,7,4,6,0,21,Silver
-THA,Thailand,3,Suwanich,Tayakorn,M,7,7,7,0,0,21,Silver
-THA,Thailand,4,Pailee,Archwath,M,7,7,6,0,0,20,Bronze
-THA,Thailand,5,Thongjarast,Sarunyu,M,7,7,4,1,0,19,Bronze
-THA,Thailand,6,Kitsamret,Wiphu,M,7,7,5,0,0,19,Bronze
-THA,Thailand,7,Tantikul,Sitta,M,7,7,5,0,0,19,Bronze
-THA,Thailand,8,Sirimalaisuwan,Nitiwit,M,7,7,5,0,0,19,Hon. Men.
-THA,Thailand,9,Weraarchakul ,Kornpholkrit ,M,5,7,5,0,1,18,Hon. Men.
-THA,Thailand,10,Rawangwong,Vasawat,M,7,0,7,4,0,18,Hon. Men.
+THA,Thailand,2,Rawangwong,Vasawat,M,7,7,7,4,0,25,Silver
+THA,Thailand,3,Pipittanaban,Sirawit,M,4,7,4,6,0,21,Silver
+THA,Thailand,4,Suwanich,Tayakorn,M,7,7,7,0,0,21,Bronze
+THA,Thailand,5,Pailee,Archwath,M,7,7,6,0,0,20,Bronze
+THA,Thailand,6,Thongjarast,Sarunyu,M,7,7,4,1,0,19,Bronze
+THA,Thailand,7,Kitsamret,Wiphu,M,7,7,5,0,0,19,Bronze
+THA,Thailand,8,Tantikul,Sitta,M,7,7,5,0,0,19,Hon. Men.
+THA,Thailand,9,Sirimalaisuwan,Nitiwit,M,7,7,5,0,0,19,Hon. Men.
+THA,Thailand,10,Weraarchakul,Kornpholkrit,M,5,7,5,0,1,18,Hon. Men.
 TKM,Turkmenistan,1,Vellekov,Emir,M,7,7,4,0,0,18,Silver
 TKM,Turkmenistan,2,Zamanova,Jennet,F,4,7,5,0,0,16,Bronze
 TKM,Turkmenistan,3,Abdullayev,Abdulla,M,7,7,0,0,0,14,Bronze
