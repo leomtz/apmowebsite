@@ -110,7 +110,7 @@ SLV,El Salvador,6,Luna Cabrera,Melissa Yaneth,F,0,0,0,0,0,0
 SLV,El Salvador,7,Sanchéz Lozano,Ricardo Johann,M,0,0,0,0,0,0
 SLV,El Salvador,8,Hernández López,Arleth Karolina,F,0,0,0,0,0,0
 HKG,Hong Kong,1,Chu,Cheuk Hei,M,6,7,7,7,2,29
-HKG,Hong Kong,2,Liu,Lincohn,M,7,7,3,7,0,24
+HKG,Hong Kong,2,Liu,Lincoln,M,7,7,3,7,0,24
 HKG,Hong Kong,3,Hsieh,Chong Ho,M,7,7,2,7,0,23
 HKG,Hong Kong,4,Yiu,Chun Hei,M,7,7,2,7,0,23
 HKG,Hong Kong,5,Ng,Hok Lai,M,7,7,0,0,3,17
@@ -126,7 +126,7 @@ IND,India,4,,Aditya,M,7,7,7,0,0,21
 IND,India,5,Choppara,Siddharth,M,7,7,7,0,0,21
 IND,India,6,Bhaduri,Ananda,M,0,7,3,7,0,17
 IND,India,7,Talwar,Kanav,M,6,7,0,2,0,15
-IND,India,8,Aslam,Sahid,M,6,7,2,0,0,15
+IND,India,8,Islam,Sahid,M,6,7,2,0,0,15
 IND,India,9,Sodani,Kshitij,M,7,7,0,0,0,14
 IND,India,10,Noronha,Arrol Sebastian,M,7,0,7,0,0,14
 JPN,Japan,1,Ryunosuke,Kitamura,M,7,7,7,7,2,30
@@ -139,7 +139,7 @@ JPN,Japan,7,Shiu,Kimu,M,7,2,7,1,2,19
 JPN,Japan,8,Yasuo,Hayashi,M,6,5,7,0,0,18
 JPN,Japan,9,Naohiro,Miyahara,M,7,7,0,1,2,17
 JPN,Japan,10,Aya,Nagao,F,6,7,2,1,0,16
-KAZ,Kazakhstan,1,Baishuak,Raimbek,M,7,7,7,2,0,23
+KAZ,Kazakhstan,1,Baishuak,Raiymbek,M,7,7,7,2,0,23
 KAZ,Kazakhstan,2,Yurkevich,Miron,M,7,7,7,2,0,23
 KAZ,Kazakhstan,3,Dautov,Zhan,M,7,7,2,7,0,23
 KAZ,Kazakhstan,4,Nurlanov,Damir,M,0,7,2,7,0,16
@@ -167,10 +167,10 @@ MKD,Macedonia,5,Jangelovski,Branko,M,0,0,0,0,0,0
 MYS,Malaysia,1,Jer Ren,Wong,M,7,7,7,7,2,30
 MYS,Malaysia,2,Kwong Weng,Loh,M,7,7,0,7,0,21
 MYS,Malaysia,3,Chan Guan Yu,Ivan,M,7,7,0,0,0,14
-MYS,Malaysia,4,Lee Shi Yang,Brian,M,7,7,0,0,0,14
-MYS,Malaysia,5,Ming Heng,Tan,M,7,5,0,0,2,14
-MYS,Malaysia,6,Qing Hing,Boon,M,7,0,2,0,0,9
-MYS,Malaysia,7,Hong Yong,Choy,M,0,7,0,0,0,7
+MYS,Malaysia,4,Lee Shi Yang,Bryan,M,7,7,0,0,0,14
+MYS,Malaysia,5,Min Heng,Tan,M,7,5,0,0,2,14
+MYS,Malaysia,6,Qing Hong,Boon,M,7,0,2,0,0,9
+MYS,Malaysia,7,Chong Hong,Choy,M,0,7,0,0,0,7
 MYS,Malaysia,8,Jia Herng,Chuah,M,0,1,5,1,0,7
 MYS,Malaysia,9,Lee Ker Ru,Daryl,M,6,1,0,0,0,7
 MYS,Malaysia,10,Hoi Mun,Kong,M,0,5,0,0,0,5
@@ -281,14 +281,14 @@ SYR,Syria,7,Alnajjar,Saad Alden,M,3,0,0,0,0,3
 SYR,Syria,8,Abo Ali,Mahmoud,M,3,0,0,0,0,3
 SYR,Syria,9,Ozone,Abd Alwahab,M,0,0,0,1,1,2
 SYR,Syria,10,Alkhalaf,Saad,M,0,0,0,1,0,1
-TWN,Taiwan,1,Hung,Bo-Chen,M,7,7,7,7,0,28
+TWN,Taiwan,1,Huang,Bo-Cheng,M,7,7,7,7,0,28
 TWN,Taiwan,2,Chiang,En-Hua,M,7,7,7,7,0,28
 TWN,Taiwan,3,Cho,Yu-An,M,7,7,7,2,0,23
 TWN,Taiwan,4,Li,Cheng-Han,M,6,7,2,7,0,22
 TWN,Taiwan,5,Chang,Po-Shen,M,7,7,6,1,0,21
 TWN,Taiwan,6,Chang,Chi-An,M,6,0,7,7,0,20
 TWN,Taiwan,7,Jhang,Hong-Ruei,M,6,7,7,0,0,20
-TWN,Taiwan,8,Yang,Cheng-His,M,6,7,6,0,0,19
+TWN,Taiwan,8,Yang,Cheng-Hsi,M,6,7,6,0,0,19
 TWN,Taiwan,9,Chang,I-Chan,M,5,0,7,7,0,19
 TWN,Taiwan,10,Yang,You-Jie,M,7,3,7,0,0,17
 TJK,Tajikistan,1,Dushanov,Azamat,M,0,0,0,7,0,7
@@ -302,12 +302,12 @@ TJK,Tajikistan,8,Abdurasulov,Abdurauf,M,0,0,2,0,0,2
 TJK,Tajikistan,9,Sharapova,Mehrona,M,0,0,2,0,0,2
 TJK,Tajikistan,10,Shernazarov,Muhammadrasul,M,0,0,2,0,0,2
 THA,Thailand,1,Pinijpichitkul,Patanasang,M,0,7,6,7,0,20
+THA,Thailand,7,Suwanich,Tayakorn,M,0,6,7,5,1,19
 THA,Thailand,2,Tantikul,Sitta,M,7,7,2,1,0,17
 THA,Thailand,3,Korsakulthum,Thammarak,M,7,3,7,0,0,17
 THA,Thailand,4,Hualcharoenthon,Atigunt,M,7,7,2,0,0,16
 THA,Thailand,5,Rungaramsin,Worrawat,M,7,1,6,0,1,15
 THA,Thailand,6,Naulkhao,Krittitee,M,1,7,0,7,0,15
-THA,Thailand,7,Suwanich,Tayakorn,M,0,6,7,0,1,14
 THA,Thailand,8,Sirimalaisuwan,Nitiwit,M,5,7,2,0,0,14
 THA,Thailand,9,Trakulthongchai,Tanupat,M,5,7,0,1,0,13
 THA,Thailand,10,Khawplad,Siraphop,M,4,7,2,0,0,13
