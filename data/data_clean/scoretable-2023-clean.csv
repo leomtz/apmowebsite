@@ -51,16 +51,16 @@ BRA,Brazil,7,de Oliveira da Silva,Vitor,M,6,7,0,2,0,15
 BRA,Brazil,8,Costa Viana,João Guilherme,M,7,0,2,5,0,14
 BRA,Brazil,9,Nogueira D'Emidio,Marco Aurelio,M,5,7,2,0,0,14
 BRA,Brazil,10,Duarte Borges,Pedro,M,7,0,7,0,0,14
-BGR,Bulgaria,1,Hristov,Marin,M,7,7,7,2,,23
+BGR,Bulgaria,1,Hristov,Marin,M,7,7,7,2,0,23
 BGR,Bulgaria,2,Tagarev,Ivan,M,7,7,2,1,2,19
 BGR,Bulgaria,3,Drencheva,Maria,F,3,6,7,1,1,18
-BGR,Bulgaria,4,Shumanov,Milen,M,7,6,2,,,15
-BGR,Bulgaria,5,Markovich,Vesselin,M,7,7,,,,14
-BGR,Bulgaria,6,Penchev,Jasen,M,7,7,,0,,14
-BGR,Bulgaria,7,Vassilev,Ilia,M,3,5,2,1,,11
-BGR,Bulgaria,8,Noman,Iliyas,M,,7,2,1,,10
-BGR,Bulgaria,9,Hadzhi-Manich,Deyan,M,5,5,0,0,,10
-BGR,Bulgaria,10,Dimitrova,Bilyana,F,6,,2,1,,9
+BGR,Bulgaria,4,Shumanov,Milen,M,7,6,2,0,0,15
+BGR,Bulgaria,5,Markovich,Vesselin,M,7,7,0,0,0,14
+BGR,Bulgaria,6,Penchev,Jasen,M,7,7,0,0,0,14
+BGR,Bulgaria,7,Vassilev,Ilia,M,3,5,2,1,0,11
+BGR,Bulgaria,8,Noman,Iliyas,M,0,7,2,1,0,10
+BGR,Bulgaria,9,Hadzhi-Manich,Deyan,M,5,5,0,0,0,10
+BGR,Bulgaria,10,Dimitrova,Bilyana,F,6,0,2,1,0,9
 CAN,Canada,1,Bei,Warren,M,7,7,7,7,7,35
 CAN,Canada,2,Yang,Ming,M,7,7,7,7,2,30
 CAN,Canada,3,Basu,Dhruv,M,7,7,0,7,2,23
@@ -209,8 +209,8 @@ NIC,Nicaragua,2,Isaac Dahir,Rodriguez Gutiérrez,M,0,0,0,1,0,1
 NIC,Nicaragua,3,Carlos Andrés,Sequeira Álvarez,M,0,0,0,0,0,0
 NIC,Nicaragua,4,Kelly Valentin,Vallejos Cárcamo,M,0,0,0,0,0,0
 NIC,Nicaragua,5,Jean Carlos,Rodriguez Rosales,M,0,0,0,0,0,0
-PAN,Panama,1,Frauca,Adrian,M/F,3,,0,,0,3
-PAN,Panama,1,Frauca,Adrian,M/F,,,,,,0
+PAN,Panama,1,Frauca,Adrian,M/F,3,0,0,0,0,3
+PAN,Panama,1,Frauca,Adrian,M/F,0,0,0,0,0,0
 PER,Peru,1,Lozada Galvez,Sebastian Enrick,M,6,6,7,7,0,26
 PER,Peru,2,Tasayco Pachas,Juan Mathius,M,2,7,5,0,0,14
 PER,Peru,3,Farfan Ore,Angelo Dsteffano,M,2,7,2,2,0,13

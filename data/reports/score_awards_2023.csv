@@ -51,16 +51,16 @@ BRA,Brazil,7,de Oliveira da Silva,Vitor,M,6,7,0,2,0,15,Bronze
 BRA,Brazil,8,Costa Viana,João Guilherme,M,7,0,2,5,0,14,Hon. Men.
 BRA,Brazil,9,Nogueira D'Emidio,Marco Aurelio,M,5,7,2,0,0,14,Hon. Men.
 BRA,Brazil,10,Duarte Borges,Pedro,M,7,0,7,0,0,14,Hon. Men.
-BGR,Bulgaria,1,Hristov,Marin,M,7,7,7,2,,23,Hon. Men.
+BGR,Bulgaria,1,Hristov,Marin,M,7,7,7,2,0,23,Gold
 BGR,Bulgaria,2,Tagarev,Ivan,M,7,7,2,1,2,19,Silver
 BGR,Bulgaria,3,Drencheva,Maria,F,3,6,7,1,1,18,Silver
-BGR,Bulgaria,4,Shumanov,Milen,M,7,6,2,,,15,Hon. Men.
-BGR,Bulgaria,5,Markovich,Vesselin,M,7,7,,,,14,Hon. Men.
-BGR,Bulgaria,6,Penchev,Jasen,M,7,7,,0,,14,Hon. Men.
-BGR,Bulgaria,7,Vassilev,Ilia,M,3,5,2,1,,11,
-BGR,Bulgaria,8,Noman,Iliyas,M,,7,2,1,,10,
-BGR,Bulgaria,9,Hadzhi-Manich,Deyan,M,5,5,0,0,,10,
-BGR,Bulgaria,10,Dimitrova,Bilyana,F,6,,2,1,,9,
+BGR,Bulgaria,4,Shumanov,Milen,M,7,6,2,0,0,15,Bronze
+BGR,Bulgaria,5,Markovich,Vesselin,M,7,7,0,0,0,14,Bronze
+BGR,Bulgaria,6,Penchev,Jasen,M,7,7,0,0,0,14,Bronze
+BGR,Bulgaria,7,Vassilev,Ilia,M,3,5,2,1,0,11,Bronze
+BGR,Bulgaria,8,Noman,Iliyas,M,0,7,2,1,0,10,Hon. Men.
+BGR,Bulgaria,9,Hadzhi-Manich,Deyan,M,5,5,0,0,0,10,
+BGR,Bulgaria,10,Dimitrova,Bilyana,F,6,0,2,1,0,9,
 CAN,Canada,1,Bei,Warren,M,7,7,7,7,7,35,Gold
 CAN,Canada,2,Yang,Ming,M,7,7,7,7,2,30,Silver
 CAN,Canada,3,Basu,Dhruv,M,7,7,0,7,2,23,Silver
@@ -209,8 +209,8 @@ NIC,Nicaragua,2,Isaac Dahir,Rodriguez Gutiérrez,M,0,0,0,1,0,1,
 NIC,Nicaragua,3,Carlos Andrés,Sequeira Álvarez,M,0,0,0,0,0,0,
 NIC,Nicaragua,4,Kelly Valentin,Vallejos Cárcamo,M,0,0,0,0,0,0,
 NIC,Nicaragua,5,Jean Carlos,Rodriguez Rosales,M,0,0,0,0,0,0,
-PAN,Panama,1,Frauca,Adrian,M/F,3,,0,,0,3,
-PAN,Panama,1,Frauca,Adrian,M/F,,,,,,0,
+PAN,Panama,1,Frauca,Adrian,M/F,3,0,0,0,0,3,
+PAN,Panama,1,Frauca,Adrian,M/F,0,0,0,0,0,0,
 PER,Peru,1,Lozada Galvez,Sebastian Enrick,M,6,6,7,7,0,26,Gold
 PER,Peru,2,Tasayco Pachas,Juan Mathius,M,2,7,5,0,0,14,Bronze
 PER,Peru,3,Farfan Ore,Angelo Dsteffano,M,2,7,2,2,0,13,Bronze
@@ -302,12 +302,12 @@ TJK,Tajikistan,8,Abdurasulov,Abdurauf,M,0,0,2,0,0,2,
 TJK,Tajikistan,9,Sharapova,Mehrona,M,0,0,2,0,0,2,
 TJK,Tajikistan,10,Shernazarov,Muhammadrasul,M,0,0,2,0,0,2,
 THA,Thailand,1,Pinijpichitkul,Patanasang,M,0,7,6,7,0,20,Silver
-THA,Thailand,2,Suwanich,Tayakorn,M,0,6,7,5,1,19,Silver
-THA,Thailand,3,Tantikul,Sitta,M,7,7,2,1,0,17,Silver
-THA,Thailand,4,Korsakulthum,Thammarak,M,7,3,7,0,0,17,Bronze
-THA,Thailand,5,Hualcharoenthon,Atigunt,M,7,7,2,0,0,16,Bronze
-THA,Thailand,6,Rungaramsin,Worrawat,M,7,1,6,0,1,15,Bronze
-THA,Thailand,7,Naulkhao,Krittitee,M,1,7,0,7,0,15,Bronze
+THA,Thailand,7,Suwanich,Tayakorn,M,0,6,7,5,1,19,Bronze
+THA,Thailand,2,Tantikul,Sitta,M,7,7,2,1,0,17,Silver
+THA,Thailand,3,Korsakulthum,Thammarak,M,7,3,7,0,0,17,Silver
+THA,Thailand,4,Hualcharoenthon,Atigunt,M,7,7,2,0,0,16,Bronze
+THA,Thailand,5,Rungaramsin,Worrawat,M,7,1,6,0,1,15,Bronze
+THA,Thailand,6,Naulkhao,Krittitee,M,1,7,0,7,0,15,Bronze
 THA,Thailand,8,Sirimalaisuwan,Nitiwit,M,5,7,2,0,0,14,Hon. Men.
 THA,Thailand,9,Trakulthongchai,Tanupat,M,5,7,0,1,0,13,Hon. Men.
 THA,Thailand,10,Khawplad,Siraphop,M,4,7,2,0,0,13,Hon. Men.
