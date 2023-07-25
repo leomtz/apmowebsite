@@ -1,0 +1,227 @@
+\documentclass[12pt,oneside,a4paper]{book}
+
+%\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphics}
+\usepackage{enumerate}
+\usepackage{amscd}
+\usepackage{tikz}
+\usetikzlibrary{shapes}
+
+%%%% Layout %%%%%%%%%%%%%%%%%
+\addtolength{\evensidemargin}{-2cm}
+\addtolength{\oddsidemargin}{-2cm}
+\setlength{\textwidth}{17cm} 
+\setlength{\textheight}{26.5cm} 
+\addtolength{\topmargin}{-3cm}
+\setlength{\parindent}{0pt}
+\pagestyle{plain}
+
+\newcounter{probnum}
+\newcounter{solnum}
+\setcounter{probnum}{0}
+\newcommand{\prob}{\ifnum\value{probnum}>0\newpage\fi\setcounter{solnum}{0}\stepcounter{probnum}\textbf{Problem \theprobnum}\\}
+\newcommand{\ans}{\medskip\hrule\medbreak\emph{Answer: }}
+\newcommand{\comment}{\medskip\hrule\medbreak\emph{Comment: }}
+\newcommand{\sol}{\medskip\hrule\medbreak\textbf{Solution}\\}
+\newcommand{\soln}{\stepcounter{solnum}\medskip\hrule\medbreak\textbf{Solution \thesolnum}\\}
+\newcommand{\marking}{\medskip\hrule\medbreak\textbf{Marking scheme -- Problem \theprobnum}}
+
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+
+\newcommand{\s}{\phantom{s}}
+
+\begin{document}
+\begin{center}
+\textbf{\large APMO 1994 -- Problems and Solutions}
+\end{center}
+
+% Problem 1
+\prob Let $f\colon \mathbb{R}\to \mathbb{R}$ be a function such that
+\begin{enumerate}[(i)]
+\item For all $x,y\in\mathbb{R}$,
+\[f(x)+f(y)+1\ge f(x+y)\ge f(x)+f(y),\]
+\item For all $x\in [0,1)$, $f(0)\ge f(x)$,
+\item $-f(-1)=f(1)=1$.
+\end{enumerate}
+
+Find all such functions $f$.
+
+\ans $f(x) = \lfloor x\rfloor$, the largest integer that does not exceed $x$, is the only function.
+
+\sol
+Plug $y\to1$ in (i):
+\[f(x) + f(1) + 1 \ge f(x+1) \ge f(x)+f(1)\iff f(x)+1 \le f(x+1) \le f(x)+2.\]
+
+Now plug $y\to -1$ and $x\to x+1$ in (i):
+\[f(x+1) + f(-1) + 1\ge f(x) \ge f(x+1)+f(-1)\iff f(x)\le f(x+1) \le f(x)+1.\]
+
+Hence $f(x+1) = f(x)+1$ and we only need to define $f(x)$ on $[0,1)$. Note that $f(1) = f(0)+1\implies f(0)=0$.
+
+Condition (ii) states that $f(x) \le 0$ in $[0,1)$.
+
+Now plug $y\to 1-x$ in (i):
+\[f(x) + f(1-x) + 1 \le f(x+(1-x)) \le f(x) + f(1-x)\implies f(x)+f(1-x) \ge 0.\]
+
+If $x\in (0,1)$ then $1-x\in (0,1)$ as well, so $f(x)\le 0$ and $f(1-x)\le 0$, which implies $f(x) + f(1-x) \le 0$. Thus, $f(x) = f(1-x) = 0$ for $x\in (0,1)$. This combined with $f(0)=0$ and $f(x+1) = f(x)+1$ proves that $f(x) = \lfloor x\rfloor$, which satisfies the problem conditions, as since
+\[x+y = \lfloor x \rfloor + \lfloor y\rfloor + \{x\} + \{y\}\text{ and }0\le \{x\} + \{y\} < 2 \implies \lfloor x \rfloor + \lfloor y\rfloor \le x+y< \lfloor x \rfloor + \lfloor y\rfloor + 2\] 
+implies
+\[\lfloor x\rfloor + \lfloor y\rfloor +1 \ge \lfloor x+y\rfloor \ge \lfloor x\rfloor + \lfloor y\rfloor.\]
+
+% Problem 2
+\prob Given a nondegenerate triangle $ABC$, with circumcentre $O$, orthocentre $H$, and circumradius $R$, prove that $|OH|<3R$.
+
+\soln
+Embed $ABC$ in the complex plane, with $A$, $B$ and $C$ in the circle $|z|=R$, so $O$ is the origin. Represent each point by its lowercase letter. It is well known that $h = a+b+c$, so
+\[OH = |a+b+c| \le |a| + |b| + |c| = 3R.\]
+
+The equality cannot occur because $a$, $b$, and $c$ are not collinear, so $OH < 3R$.
+
+\soln
+Suppose with loss of generality that $\angle A < 90^\circ$. Let $BD$ be an altitude. Then
+\[AH = \frac{AD}{\cos(90^\circ-C)} = \frac{AB\cos A}{\sin C} = 2R\cos A.\]
+
+By the triangle inequality,
+\[OH < AO + AH = R + 2R\cos A < 3R.\]
+
+\comment
+With a bit more work, if $a,b,c$ are the sidelengths of $ABC$, one can show that
+\[OH^2 = 9R^2 - a^2 - b^2 - c^2.\]
+
+In fact, using vectors in a coordinate system with $O$ as origin, by the Euler line
+\[\overrightarrow{OH} = 3\overrightarrow{OG} = 3\cdot \frac{\overrightarrow{OA} + \overrightarrow{OB} + \overrightarrow{OC}}3 = \overrightarrow{OA} + \overrightarrow{OB} + \overrightarrow{OC}.\]
+so
+\[OH^2 = \overrightarrow{OH}\cdot \overrightarrow{OH}
+= (\overrightarrow{OA} + \overrightarrow{OB} + \overrightarrow{OC})\cdot(\overrightarrow{OA} + \overrightarrow{OB} + \overrightarrow{OC})\]
+
+Expanding and using the fact that $\overrightarrow{OX}\cdot \overrightarrow{OX} = OX^2 = R^2$ for $X \in \{A,B,C\}$, as well as
+\[\overrightarrow{OA}\cdot \overrightarrow{OB} = OA\cdot OB\cdot\cos\angle AOB = R^2\cos 2C = R^2(1-2\sin^2C) = R^2\left(1 - 2\left(\frac c{2R}\right)^2\right)
+= R^2 - \frac{c^2}2,\]
+we find that
+\begin{align*}
+OH^2 &= \overrightarrow{OA}\cdot \overrightarrow{OA} + \overrightarrow{OB}\cdot \overrightarrow{OB} + \overrightarrow{OC}\cdot \overrightarrow{OC}
++ 2\overrightarrow{OA}\cdot \overrightarrow{OB} + 2\overrightarrow{OA}\cdot \overrightarrow{OC} + \overrightarrow{OB}\cdot \overrightarrow{OC}\\
+&= 3R^2 + (2R^2-c^2) + (2R^2-b^2) + (2R^2-c^2)\\
+&= 9R^2 - a^2 - b^2 - c^2,
+\end{align*}
+as required.
+
+This proves that $OH^2 < 9R^2\implies OH < 3R$, and since $a,b,c$ can be arbitrarily small (fix the circumcircle and choose $A,B,C$ arbitrarily close in this circle), the bound is sharp.
+
+% Problem 3
+\prob Let $n$ be an integer of the form $a^2+b^2$, where $a$ and $b$ are relatively prime integers and such that if $p$ is a prime, $p\le \sqrt n$, then $p$ divides $ab$. Determine all such $n$.
+
+\ans $n=2,5,13$.
+
+\sol
+A prime $p$ divides $ab$ if and only if divides either $a$ or $b$. If $n=a^2+b^2$ is a composite then it has a prime divisor $p\le \sqrt n$, and if $p$ divides $a$ it divides $b$ and vice-versa, which is not possible because $a$ and $b$ are coprime. Therefore $n$ is a prime.
+
+Suppose without loss of generality that $a\ge b$ and consider $a-b$. Note that $a^2+b^2 = (a-b)^2 + 2ab$.
+\begin{itemize}
+\item If $a = b$ then $a=b=1$ because $a$ and $b$ are coprime. $n=2$ is a solution.
+\item If $a - b = 1$ then $a$ and $b$ are coprime and $a^2+b^2 = (a-b)^2 + 2ab = 2ab+1 = 2b(b+1) + 1 = 2b^2+2b+1$. So any prime factor of any number smaller than $\sqrt{2b^2+2b+1}$ is a divisor of $ab = b(b+1)$.
+
+One can check that $b=1$ and $b=2$ yields the solutions $n=1^2+2^2=5$ (the only prime $p$ is $2$) and $n=2^2+3^2=13$ (the only primes $p$ are $2$ and $3$). Suppose that $b>2$.
+
+Consider, for instance, the prime factors of $b-1\le \sqrt{2b^2+2b+1}$, which is coprime with $b$. Any prime must then divide $a=b+1$. Then it divides $(b+1)-(b-1)=2$, that is, $b-1$ can only have $2$ as a prime factor, that is, $b-1$ is a power of $2$, and since $b-1\ge 2$, $b$ is odd.
+
+Since $2b^2+2b+1 - (b+2)^2 = b^2-2b-3 = (b-3)(b+1) \ge 0$, we can also consider any prime divisor of $b+2$. Since $b$ is odd, $b$ and $b+2$ are also coprime, so any prime divisor of $b+2$ must divide $a=b+1$. But $b+1$ and $b+2$ are also coprime, so there can be no such primes. This is a contradiction, and $b\ge 3$ does not yield any solutions.
+\item If $a-b>1$, consider a prime divisor $p$ of $a-b = \sqrt{a^2-2ab+b^2} < \sqrt{a^2+b^2}$. Since $p$ divides one of $a$ and $b$, $p$ divides both numbers (just add or subtract $a-b$ accordingly.) This is a contradiction.
+\end{itemize}
+
+Hence the only solutions are $n=2,5,13$.
+
+% Problem 4
+\prob Is there an infinite set of points in the plane such that no three points are collinear, and the distance between any two points is rational?
+
+\ans \emph{Yes.}
+
+\soln
+The answer is \emph{yes} and we present the following construction: the idea is considering points in the unit circle of the form $P_n = (\cos(2n\theta),\sin(2n\theta))$ for an appropriate $\theta$. Then the distance $P_mP_n$ is the length of the chord with central angle $(2m-2n)\theta\bmod\pi$, that is, $2|\sin((m-n)\theta)|$.
+
+Our task is then finding $\theta$ such that (i) $\sin(k\theta)$ is rational for all $k\in\mathbb{Z}$; (ii) points $P_n$ are all distinct. We claim that $\theta \in (0,\pi/2)$ such that $\cos\theta = \frac35$ and therefore $\sin\theta = \frac45$ does the job.
+
+\smallskip
+\emph{Proof of (i):} We know that $\sin((n+1)\theta) + \sin((n-1)\theta) = 2\sin(n\theta)\cos\theta$, so if $\sin((n-1)\theta$ and $\sin(n\theta)$ are both rational then $\sin((n+1)\theta)$ also is. Since $\sin(0\theta) = 0$ and $\sin\theta$ are rational, an induction shows that $\sin(n\theta)$ is rational for $n\in\mathbb{Z}_{>0}$; the result is also true if $n$ is negative because $\sin$ is an odd function.
+
+\smallskip
+\emph{Proof of (ii):} $P_m=P_n\iff 2n\theta=2m\theta + 2k\pi$ for some $k\in\mathbb{Z}$, which implies $\sin((n-m)\theta) = \sin(k\pi) = 0$. We show that $\sin(k\theta) \ne 0$ for all $k\ne 0$.
+
+We prove a stronger result: let $\sin(k\theta) = \frac{a_k}{5^k}$. Then
+\begin{align*}
+\sin((k+1)\theta) + \sin((k-1)\theta) = 2\sin(k\theta)\cos\theta
+&\iff \frac{a_{k+1}}{5^{k+1}} + \frac{a_{k-1}}{5^{k-1}} = 2\cdot \frac{a_k}{5^k}\cdot \frac35\\
+&\iff a_{k+1} = 6a_k - 25a_{k-1}.
+\end{align*}
+
+Since $a_0=0$ and $a_1=4$, $a_k$ is an integer for $k\ge 0$, and $a_{k+1} \equiv a_k\pmod 5$ for $k\ge 1$ (note that $a_{-1} = \frac3{25}$ is not an integer!). Thus $a_k\equiv 4\pmod 5$ for all $k\ge 1$, and $\sin(k\theta) = \frac{a_k}{5^k}$ is an irreducible fraction with $5^k$ as denominator and $a_k\equiv 4\pmod 5$. This proves (ii) and we are done.
+
+\soln
+We present a different construction. Consider the (collinear) points
+\[P_k = \left(1,\frac{x_k}{y_k}\right),\]
+such that the distance $OP_k$ from the origin $O$,
+\[OP_k = \frac{\sqrt{x_k^2+y_k^2}}{y_k},\]
+is rational, and $x_k$ and $y_k$ are integers. Clearly, $P_iP_j = \left|\frac{x_i}{y_i} - \frac{x_j}{y_j}\right|$ is rational.
+
+Perform an inversion with center $O$ and unit radius. It maps the line $x=1$, which contains all points $P_k$, to a circle (minus the origin). Let $Q_k$ be the image of $P_k$ under this inversion. Then
+\[Q_iQ_j = \frac{1^2 P_iP_j}{OP_i\cdot OP_j}\]
+is rational and we are done if we choose $x_k$ and $y_k$ accordingly. But this is not hard, as we can choose the legs of a Pythagorean triple, say
+\[x_k = k^2-1,\quad y_k=2k.\]
+
+This implies $OP_k = \frac{k^2+1}{2k}$, and then
+\[Q_iQ_j = \frac{\left|\frac{i^2-1}i - \frac{j^2-1}j\right|}{\frac{i^2+1}{2i}\cdot\frac{j^2+1}{2j}} = \frac{|4(i-j)(ij+1)|}{(i^2+1)(j^2+1)}.\]
+
+% Problem 5
+\prob You are given three lists $A$, $B$, and $C$. List $A$ contains the numbers of the form $10^k$ in base $10$, with $k$ any integer greater than or equal to $1$. Lists $B$ and $C$ contain the same numbers translated into base $2$ and $5$ respectively:
+\begin{center}
+\begin{tabular}{lll}
+$A$& $B$& $C$\\
+$10$& $1010$& $20$\\
+$100$& $1100100$& $400$\\
+$1000$& $1111101000$& $13000$\\
+$\vdots$& $\vdots$& $\vdots$
+\end{tabular}
+\end{center}
+
+Prove that for every integer $n>1$, there is exactly one number in exactly one of the lists $B$ or $C$ that has exactly $n$ digits.
+
+\sol
+Let $b_k$ and $c_k$ be the number of digits in the $k$th term in lists $B$ and $C$, respectively. Then
+\[2^{b_k-1} \le 10^k < 2^{b_k}\iff \log_210^k < b_k \le \log_210^k+1\iff b_k = \lfloor k\cdot\log_2 10\rfloor + 1\]
+and, similarly
+\[c_k = \lfloor k\cdot\log_5 10\rfloor + 1.\]
+
+\emph{Beatty's theorem} states that if $\alpha$ and $\beta$ are irrational positive numbers such that
+\[\frac1\alpha + \frac1\beta=1,\]
+then the sequences $\lfloor k\alpha\rfloor$ and $\lfloor k\beta\rfloor$, $k=1,2,\ldots$, partition the positive integers.
+
+Then, since
+\[\frac1{\log_210} + \frac1{\log_510} = \log_{10}2 + \log_{10}5 = \log_{10}(2\cdot 5) = 1,\]
+the sequences $b_k-1$ and $c_k-1$ partition the positive integers, and therefore each integer greater than $1$ appears in $b_k$ or $c_k$ exactly once. We are done.
+
+\comment For the sake of completeness, a proof of Beatty's theorem follows.
+
+Let $x_n = \alpha n$ and $y_n = \beta n$, $n\ge 1$ integer. Note that, since $\alpha m = \beta n$ implies that $\frac\alpha\beta$ is rational but
+\[\frac\alpha\beta = \alpha \cdot \frac1\beta = \alpha\left(1-\frac1\alpha\right) = \alpha - 1\]
+is irrational, the sequences have no common terms, and all terms in both sequences are irrational.
+
+The theorem is equivalent to proving that exactly one term of either $x_n$ of $y_n$ lies in the interval $(N,N+1)$ for each $N$ positive integer. For that purpose we count the number of terms of the union of the two sequences in the interval $(0,N)$: since $n\alpha < N\iff n < \frac N\alpha$, there are $\left\lfloor\frac N\alpha\right\rfloor$ terms of $x_n$ in the interval and, similarly, $\left\lfloor\frac N\beta\right\rfloor$ terms of $y_n$ in the same interval. Since the sequences are disjoint, the total of numbers is
+\[T(N) = \left\lfloor\frac N\alpha\right\rfloor + \left\lfloor\frac N\beta\right\rfloor.\]
+
+However, $x-1< \lfloor x\rfloor < x$ for nonintegers $x$, so
+\begin{align*}
+\frac N\alpha - 1 + \frac N\beta - 1 < T(N) < \frac N\alpha + \frac N\beta
+\iff &N\left(\frac1\alpha + \frac1\beta\right) - 2 < T(N) < N\left(\frac1\alpha + \frac1\beta\right)\\
+\iff &N - 2 < T(N) < N,
+\end{align*}
+that is, $T(N) = N-1$.
+
+Therefore the number of terms in $(N,N+1)$ is $T(N+1) - T(N) = N - (N-1) = 1$, and the result follows.
+
+\end{document}

@@ -1,0 +1,181 @@
+\documentclass[12pt,oneside,a4paper]{book}
+
+%\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphics}
+\usepackage{enumerate}
+\usepackage{amscd}
+\usepackage{tikz}
+\usetikzlibrary{shapes}
+
+%%%% Layout %%%%%%%%%%%%%%%%%
+\addtolength{\evensidemargin}{-2cm}
+\addtolength{\oddsidemargin}{-2cm}
+\setlength{\textwidth}{17cm} 
+\setlength{\textheight}{26.5cm} 
+\addtolength{\topmargin}{-3cm}
+\setlength{\parindent}{0pt}
+\pagestyle{plain}
+
+\newcounter{probnum}
+\newcounter{solnum}
+\setcounter{probnum}{0}
+\newcommand{\prob}{\ifnum\value{probnum}>0\newpage\fi\setcounter{solnum}{0}\stepcounter{probnum}\textbf{Problem \theprobnum}\\}
+\newcommand{\ans}{\medskip\hrule\medbreak\emph{Answer: }}
+\newcommand{\comment}{\medskip\hrule\medbreak\emph{Comment: }}
+\newcommand{\sol}{\medskip\hrule\medbreak\textbf{Solution}\\}
+\newcommand{\soln}{\stepcounter{solnum}\medskip\hrule\medbreak\textbf{Solution \thesolnum}\\}
+\newcommand{\marking}{\medskip\hrule\medbreak\textbf{Marking scheme -- Problem \theprobnum}}
+
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+
+\newcommand{\s}{\phantom{s}}
+
+\begin{document}
+\begin{center}
+\textbf{\large APMO 1992 -- Problems and Solutions}
+\end{center}
+
+% Problem 1
+\prob A triangle with sides $a$, $b$, and $c$ is given. Denote by $s$ the semiperimeter, that is $s= (a+b+c)/2$. Construct a triangle with sides $s-a$, $s-b$, and $s-c$. This process is repeated until a triangle can no longer be constructed with the sidelengths given.
+
+For which original triangles can this process be repeated indefinitely?
+
+\ans Only equilateral triangles.
+
+\sol
+The perimeter of each new triangle constructed by the process is $(s-a)+(s-b)+(s-c) = 3s-(a+b+c) = 3s-2s=s$, that is, it is halved. Consider a new equivalent process in which a similar triangle with sidelengths $2(s-a),2(s-b),2(s-c)$ is constructed, so the perimeter is kept invariant.
+
+Suppose without loss of generality that $a\le b\le c$. Then $2(s-c) \le 2(s-b) \le 2(s-a)$, and the difference between the largest side and the smallest side changes from $c-a$ to $2(s-a) - 2(s-c) = 2(c-a)$, that is, it doubles. Therefore, if $c-a>0$ then eventually this difference becomes larger than $a+b+c$, and it's immediate that a triangle cannot be constructed with the sidelengths.
+
+Hence the only possibility is $c-a=0\implies a=b=c$, and it is clear that equilateral triangles can yield an infinite process, because all generated triangles are equilateral. 
+
+% Problem 2
+\prob In a circle $C$ with centre $O$ and radius $r$, let $C_1,C_2$ be two circles with centres $O_1,O_2$ and radii $r_1,r_2$ respectively, so that each circle $C_i$ is internally tangent to $C$ at $A_i$ and so that $C_1,C_2$ are externally tangent to each other at $A$.
+
+Prove that the three lines $OA$, $O_1A_2$, and $O_2A_1$ are concurrent.
+
+\sol
+Because of the tangencies, the following triples of points (two centers and a tangency point) are collinear:
+\[O_1;O_2;A,\quad O;O_1;A_1, \quad O;O_1;A_2.\]
+
+Because of that we can ignore the circles and only draw their centers and tangency points.
+\begin{center}
+\begin{tikzpicture}
+\draw[thick] (3,4) node[anchor=south] {$A_1$} -- (0,0) node[anchor=north] {$O$} -- (5,0) node[anchor=north west] {$A_2$};
+\draw[thick] (2.4,3.2) node[anchor=south east] {$O_1$} -- (2.78,0) node[anchor=north] {$O_2$};
+\draw[thick] (2.4,3.2) -- (5,0);
+\draw[thick] (2.78,0) -- (3,4);
+\draw[fill=black] (2.52,2.21) circle (2pt) node[anchor=south east] {$A$};
+\draw[fill=black] (0,0) circle (2pt);
+\draw[fill=black] (5,0) circle (2pt);
+\draw[fill=black] (2.4,3.2) circle (2pt);
+\draw[fill=black] (2.78,0) circle (2pt);
+\draw[fill=black] (3,4) circle (2pt);
+\draw[thick,dashed] (0,0) -- (2.92,2.56);
+\draw[dashed,color=gray] (0,0) circle (5);
+\draw[dashed,color=gray] (2.4,3.2) circle (1);
+\draw[dashed,color=gray] (2.78,0) circle (2.22);
+\end{tikzpicture}
+\end{center}
+
+Now the problem is immediate from Ceva's theorem in triangle $OO_1O_2$, because
+\[\frac{OA_1}{A_1O_1}\cdot\frac{O_1A}{AO_2}\cdot\frac{O_2A_2}{A_2O} = \frac{r}{r_1}\cdot\frac{r_1}{r_2}\cdot\frac{r_2}r=1.\]
+
+% Problem 3
+\prob Let $n$ be an integer such that $n>3$. Suppose that we choose three numbers from the set $\{1,2,\ldots,n\}$. Using each of these three numbers only once and using addition, multiplication, and parenthesis, let us form all possible combinations.
+\begin{enumerate}[(a)]
+\item Show that if we choose all three numbers greater than $n/2$, then the values of these combinations are all distinct.
+\item Let $p$ be a prime number such that $p\le \sqrt n$. Show that the number of ways of choosing three numbers so that the smallest one is $p$ and the values of the combinations are not all distinct is precisely the number of positive divisors of $p-1$.
+\end{enumerate}
+
+\sol
+In both items, the smallest chosen number is at least $2$: in part (a), $n/2 > 1$ and in part (b), $p$ is a prime. So let $1<x<y<z$ be the chosen numbers. Then all possible combinations are
+\[x+y+z,\quad x+yz,\quad xy+z,\quad y+zx,\quad (x+y)z,\quad (z+x)y,\quad (x+y)z, \quad xyz.\]
+
+Since, for $1<m<n$ and $t>1$, $(m-1)(n-1) \ge 1\cdot 2\implies mn > m+n$, $tn + m - (tm+n) = (t-1)(n-m)>0\implies tn+m>tm+n$, and $(t+m)n - (t+n)m = t(n-m) > 0$,
+\[x+y+z < z+xy < y+zx < x+yz\]
+and
+\[(y+z)x < (x+z)y < (x+y)z < xyz.\]
+
+Also, $(y+z)x - (y+zx) = (x-1)y > 0\implies (y+z)x > y+zx$ and $(x+z)y - (x+yz) = (y-1)x>0\implies (x+z)y > x+yz$. Therefore the only numbers that can be equal are $x+yz$ and $(y+z)x$. In this case,
+\[x+yz = (y+z)x\iff (y-x)(z-x) = x(x-1).\]
+
+Now we can solve the items.
+\begin{enumerate}[(a)]
+\item if $n/2 < x < y < z$ then $z-x < n/2$, and since $y-x < z-x$, $y-x < n/2-1$; then
+\[(y-x)(z-x) < \frac n2\left(\frac n2 - 1\right) < x(x-1),\]
+and therefore $x+yz < (y+z)x$.
+\item if $x=p$, then $(y-p)(z-p) = p(p-1)$. Since $y-p < z-p$, $(y-p)^2 < (y-p)(z-p) = p(p-1)\implies y-p < p$, that is, $p$ does not divide $y-p$. Then $y-p$ is a divisor $d$ of $p-1$ and $z-p = \frac{p(p-1)}d$. Therefore,
+\[x=p,\quad, y=p+d,\quad z=p+\frac{p(p-1)}d,\]
+which is a solution for every divisor $d$ of $p-1$ because
+\[x=p < y=p+d < 2p \le p + p\cdot\frac{p-1}d = z.\]
+\end{enumerate}
+
+\comment
+If $x=1$ was allowed, then any choice $1,y,z$ would have repeated numbers in the combination, as $1\cdot y + z = y + 1\cdot z$.
+
+% Problem 4
+\prob Determine all pairs $(h,s)$ of positive integers with the following property:
+
+If one draws $h$ horizontal lines and another $s$ lines which satisfy
+\begin{enumerate}[(i)]
+\item they are not horizontal,
+\item no two of them are parallel,
+\item no three of the $h+s$ lines are concurrent,
+\end{enumerate}
+then the number of regions formed by these $h+s$ lines is $1992$.
+
+\ans $(995,1)$, $(176,10)$, and $(80,21)$.
+
+\sol
+Let $a_{h,s}$ the number of regions formed by $h$ horizontal lines and $s$ another lines as described in the problem. Let $\mathcal{F}_{h,s}$ be the union of the $h+s$ lines and pick any line $\ell$. If it intersects the other lines in $n$ (distinct!) points then $\ell$ is partitioned into $n-1$ line segments and $2$ rays, which delimit regions. Therefore if we remove $\ell$ the number of regions decreases by exactly $n-1+2=n+1$.
+
+Then $a_{0,0} = 1$ (no lines means there is only one region), and since every one of $s$ lines intersects the other $s-1$ lines, $a_{0,s} = a_{0,s-1} + s$ for $s\ge 0$. Summing yields
+\[a_{0,s} = s + (s-1) + \cdots + 1 + a_{0,0} = \frac{s^2+s+2}2.\]
+
+Each horizontal line only intersects the $s$ lines, so each new horizontal line adds $s+1$ new regions. Therefore
+\[a_{h,s} = \frac{s^2+s+2}2 + h(s+1).\]
+
+Our final task is solving
+\[a_{h,s} = 1992\iff \frac{s^2+s+2}2 + h(s+1) = 1992 \iff (s+1)(s+2h) = 2\cdot 1991 = 2\cdot 11\cdot 181.\]
+
+The divisors of $2\cdot 1991$ are $1,2,11,22,181,362,1991,3982$. Since $s,h>0$, $2\le s+1<s+2h$, so the possibilities for $s+1$ can only be $2$, $11$ and $22$, yielding the following possibilities for $(h,s)$:
+\[(995,1),\quad (176,10),\quad\text{and}\quad (80,21).\]
+
+% Problem 5
+\prob Find a sequence of maximal length consisting of non-zero integers in which the sum of any seven consecutive terms is positive and that of any eleven consecutive terms is negative.
+
+\ans The maximum length is $16$. There are several possible sequences with this length; one such sequence is $(-7,-7,18,-7,-7,-7,-7,18,-7,-7,18,-7,-7,-7,-7,18,-7,-7)$.
+
+\sol
+Suppose it is possible to have more than $16$ terms in the sequence. Let $a_1,a_2,\ldots,a_{17}$ be the first $17$ terms of the sequence. Consider the following array of terms in the sequence:
+\[\setcounter{MaxMatrixCols}{11}
+\begin{matrix}
+a_1& a_2& a_3& a_4& a_5& a_6& a_7& a_8& a_9& a_{10}& a_{11}\\
+a_2& a_3& a_4& a_5& a_6& a_7& a_8& a_9& a_{10}& a_{11}& a_{12}\\
+a_3& a_4& a_5& a_6& a_7& a_8& a_9& a_{10}& a_{11}& a_{12}& a_{13}\\
+a_4& a_5& a_6& a_7& a_8& a_9& a_{10}& a_{11}& a_{12}& a_{13}& a_{14}\\
+a_5& a_6& a_7& a_8& a_9& a_{10}& a_{11}& a_{12}& a_{13}& a_{14}& a_{15}\\
+a_6& a_7& a_8& a_9& a_{10}& a_{11}& a_{12}& a_{13}& a_{14}& a_{15}& a_{16}\\
+a_7& a_8& a_9& a_{10}& a_{11}& a_{12}& a_{13}& a_{14}& a_{15}& a_{16}& a_{17}
+\end{matrix}\]
+
+Let $S$ the sum of the numbers in the array. If we sum by rows we obtain negative sums in each row, so $S<0$; however, it we sum by columns we obtain positive sums in each column, so $S>0$, a contradiction. This implies that the sequence cannot have more than $16$ terms.
+
+One idea to find a suitable sequence with $16$ terms is considering cycles of $7$ numbers. For instance, one can try
+\[-a,-a,b,-a,-a,-a,-a,b,-a,-a,b,-a,-a,-a,-a,b,-a,-a\]
+
+The sum of every seven consecutive numbers is $-5a+2b$ and the sum of every eleven consecutive numbers is $-8a+3b$, so $-5a+2b > 0$ and $-8a+3b < 0$, that is,
+\[\frac{5a}2 < b < \frac{8a}3\iff 15a < 6b < 16a.\]
+
+Then we can choose, say, $a=7$ and $105 < 6b < 112\iff b = 18$. A valid sequence is then
+\[-7,-7,18,-7,-7,-7,-7,18,-7,-7,18,-7,-7,-7,-7,18,-7,-7.\]
+
+\end{document}
