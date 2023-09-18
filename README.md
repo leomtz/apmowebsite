@@ -82,6 +82,7 @@ You can contribute to the project in several ways. We need help with the followi
 - Richard Eden - Solutions APMO 1990 and 1995-2003
 - Richard Eden - Detailed information Philippines 2008-2015
 - Angelo Di Pasquale - More details on Australia participations 1989-2007
+- Suthee Ruangwises - Found information at the old Canadian Website in the wayback machine. Awards for 1999 and 2000. Awards and country rankings for 2003.
 
 ## Licencing
 
