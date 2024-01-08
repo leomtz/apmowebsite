@@ -68,7 +68,6 @@ You can contribute to the project in several ways. We need help with the followi
 - Provide any kind of APMO results for the pre-2005 era
 - Provide your country individual scores for the 2010-2015 era
 - Provide scores or country rankings for the 2005-2016 era
-- Write problem solutions for 1989, 1991, 1992, 1993, 1994, 2000, 2004
 - Provide full texts of the regulations for the pre-2015 era 
 - Transform files from the 2005-2015 era from PDF to a data-friendly .csv format
 - Explore the data that we have and get new insights
@@ -80,6 +79,8 @@ You can contribute to the project in several ways. We need help with the followi
 - Richard Bollard - Information Australia 1989-2009
 - OBM Webpage - Names Brazil contestants 2010-2011
 - Richard Eden - Solutions APMO 1990 and 1995-2003
+- Daniel Redd - Solutions 2004
+- Carlos Yuzo Shine and Brazil team - Solutions APMO 1989, 1991-1994, 2000, 2004
 - Richard Eden - Detailed information Philippines 2008-2015
 - Angelo Di Pasquale - More details on Australia participations 1989-2007
 
