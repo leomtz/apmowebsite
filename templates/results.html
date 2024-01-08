@@ -6,7 +6,7 @@
       <hr>
       <p> Full-reports </p>
       
-      {% for j in range(2023,2015, -1) %}
+      {% for j in full_results %}
       <a href="/year_report/{{ j }}" class="btn btn-success btn-sm d-but active mb-1" role="button" aria-pressed="true">{{j}}</a>
       {% endfor %}
 
@@ -14,7 +14,7 @@
 
       <p> Country rankings and awards only </p>
       
-      {% for j in range(2015,2009, -1) %}
+      {% for j in country_rankings %}
       <a href="/static/results/apmo{{j}}_res.pdf" class="btn btn-info btn-sm d-but active mb-1" role="button" aria-pressed="true">{{j}}</a>
       {% endfor %}
 
@@ -22,7 +22,7 @@
 
       <p> Awards only </p>
 
-      {% for j in range(2009,2004, -1) %}
+      {% for j in awards_only %}
       <a href="/static/results/apmo{{j}}_res.pdf" class="btn btn-secondary btn-sm d-but active mb-1" role="button" aria-pressed="true">{{j}}</a>
       {% endfor %}
 

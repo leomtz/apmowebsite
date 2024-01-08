@@ -83,6 +83,7 @@ You can contribute to the project in several ways. We need help with the followi
 - Carlos Yuzo Shine and Brazil team - Solutions APMO 1989, 1991-1994, 2000, 2004
 - Richard Eden - Detailed information Philippines 2008-2015
 - Angelo Di Pasquale - More details on Australia participations 1989-2007
+- Suthee Ruangwises - Found information at the old Canadian Website in the wayback machine. Awards for 1999 and 2000. Awards and country rankings for 2003.
 
 ## Licencing
 
