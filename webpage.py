@@ -166,7 +166,7 @@ def problems():
 @app.route('/results')
 def results():
     countries=[[x['code'],x['country']]  for _, x in pd.read_csv('data/apmo_countries.csv')[['code','country']].iterrows()]
-    full_results=[2016,2017,2018,2019,2020,2021,2022,2023]
+    full_results=[2016,2017,2018,2019,2020,2021,2022,2023,2024]
     country_rankings=[2003,2010,2011,2012,2013,2014,2015]
     awards_only=[2000,2001,2005,2006,2007,2008,2009]
     return render_template("results.html",countries=countries, full_results=full_results, country_rankings=country_rankings, awards_only=awards_only)
