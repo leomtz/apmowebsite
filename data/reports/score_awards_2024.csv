@@ -29,6 +29,16 @@ AZE,Azerbaijan,7,Gambarova,Rafiga,F,7,0,0,0,0,7,Hon. Men.
 AZE,Azerbaijan,8,Bakirov,Said,M,7,0,0,0,0,7,Hon. Men.
 AZE,Azerbaijan,9,Asadova,Fatima,F,7,0,0,0,0,7,Hon. Men.
 AZE,Azerbaijan,10,Atayev,Fuad,M,7,0,0,0,0,7,Hon. Men.
+BGD,Bangladesh,1,Uddin Ahmad Hasin,Imad ,,7,7,0,0,2,16,Silver
+BGD,Bangladesh,2,Ahmed Disha,Nujhat ,,7,7,0,0,2,16,Silver
+BGD,Bangladesh,3,Ahmed,Musahid,,7,7,0,0,0,14,Bronze
+BGD,Bangladesh,4,Nahian,SMA ,,7,7,0,0,0,14,Bronze
+BGD,Bangladesh,5,Barua,Jitendra ,,7,7,0,0,0,14,Bronze
+BGD,Bangladesh,6,Nafis Noor Taseen,Md ,,7,7,0,0,0,14,Bronze
+BGD,Bangladesh,7,Zaman,Monamy ,,7,7,0,0,0,14,Bronze
+BGD,Bangladesh,8,Al Jarif,Abdullah ,,7,5,0,0,0,12,Hon. Men.
+BGD,Bangladesh,9,Hameem Chowdhury,Jawad ,,7,3,0,0,0,10,Hon. Men.
+BGD,Bangladesh,10,Arif Shahriar Munim,Khan ,,2,7,0,0,0,9,Hon. Men.
 BOL,Bolivia,1,Villlán Gabriel,Luis André,M,7,0,0,0,7,14,Bronze
 BOL,Bolivia,2,Gonzales Tapia,Brittany Celeste,F,0,2,0,0,0,2,
 BRA,Brazil,1,Silva dos Santos,João Victor,M,7,7,0,0,7,21,Gold
@@ -38,7 +48,7 @@ BRA,Brazil,4,Bandeira Lemos,João Pedro,M,7,7,0,1,0,15,Bronze
 BRA,Brazil,5,Akira Koga,Erick,M,7,7,0,0,0,14,Bronze
 BRA,Brazil,6,Ferraz de Campos,Fábio Medeiros,M,7,7,0,0,0,14,Bronze
 BRA,Brazil,7,Machado Feltran,Bruno,M,7,7,0,0,0,14,Bronze
-BRA,Brazil,8,Santos de Souza,Jakson Emanuel,M,7,7,0,0,0,14,Hon. Men.
+BRA,Brazil,8, Santos de Souza,Jakson Emanuel,M,7,7,0,0,0,14,Hon. Men.
 BRA,Brazil,9,Sarmento de Almeida,Gustavo Ruas,M,7,7,0,0,0,14,Hon. Men.
 BRA,Brazil,10,de Oliveira Linhares,Rodrigo Fontenele,M,7,7,0,0,0,14,Hon. Men.
 CAN,Canada,1,Bei,Warren,M,7,7,7,2,4,27,Gold
@@ -271,12 +281,12 @@ TWN,Taiwan,4,Jen,Ho Hsiang,M,7,6,7,0,0,20,Bronze
 TWN,Taiwan,5,Chiang,En-Hua,M,7,7,2,0,0,16,Bronze
 TWN,Taiwan,6,Hsueh,Te-Yu,M,7,7,2,0,0,16,Bronze
 TWN,Taiwan,7,Hong,Yi-Jun,M,7,7,0,0,0,14,Bronze
-TWN,Taiwan,8,Luna Cabrera,Pin Chun,M,7,7,0,0,0,14,Hon. Men.
+TWN,Taiwan,8,Lu,Pin Chun,M,7,7,0,0,0,14,Hon. Men.
 TWN,Taiwan,9,Tsai,Ruei-Gen,M,7,7,0,0,0,14,Hon. Men.
 TWN,Taiwan,10,Li,Chia-Sheng,M,7,7,0,0,0,14,Hon. Men.
 TJK,Tajikistan,1,Sitamov ,Mehrubon,M,7,1,0,0,0,8,Hon. Men.
 TJK,Tajikistan,2,Inomov ,Mashrafjon,M,7,0,0,0,0,7,Hon. Men.
-TJK,Tajikistan,3,Saimuhudinzoda,Muhamahammadidris,M,7,0,0,0,0,7,Hon. Men.
+TJK,Tajikistan,3,Saimuhudinzoda,Muhammadidris,M,7,0,0,0,0,7,Hon. Men.
 TJK,Tajikistan,4,Shernazarov,Muhamahammadrasul,M,7,0,0,0,0,7,Hon. Men.
 TJK,Tajikistan,5,Ahmedov,Suhail,M,7,0,0,0,0,7,Hon. Men.
 TJK,Tajikistan,6,Sabirov,Eraj,M,2,3,1,0,0,6,
