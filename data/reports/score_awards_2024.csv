@@ -99,7 +99,7 @@ HKG,Hong Kong,10,Chan,Tsz Long,M,7,7,0,0,0,14,Hon. Men.
 IND,India,1,Gupta,Arjun,M,7,7,7,2,0,23,Gold
 IND,India,2,Talwar,Kanav,M,7,7,0,1,7,22,Silver
 IND,India,3,Mangudy,Adhitya,M,7,7,0,3,0,17,Silver
-IND,India,4,Kutte,Omar,M,7,7,0,0,2,16,Bronze
+IND,India,4,Kutte,Om,M,7,7,0,0,2,16,Bronze
 IND,India,5,Choppara,Siddharth,M,7,3,0,0,6,16,Bronze
 IND,India,6,Tiwari,Anmol,M,7,2,0,0,6,15,Bronze
 IND,India,7,Khetan,Abhinav,M,7,7,0,1,0,15,Bronze
@@ -195,11 +195,11 @@ NZL,New Zealand,2,McKinlay,Nicholas,M,7,6,0,0,0,13,Bronze
 NZL,New Zealand,3,Dai,Boning,M,7,6,0,0,0,13,Bronze
 NZL,New Zealand,4,Zhao,Jay,M,7,4,0,0,0,11,Hon. Men.
 NZL,New Zealand,5,Wang,Haotian,M,7,3,0,0,0,10,Hon. Men.
-NZL,New Zealand,6,Dawn,Chen,F,7,0,0,1,0,8,Hon. Men.
-NZL,New Zealand,7,William,Fan,M,0,6,0,0,0,6,
-NZL,New Zealand,8,Gwang Ho,Kim,M,0,3,0,0,0,3,
-NZL,New Zealand,9,Alan,Sun,M,2,0,0,0,0,2,
-NZL,New Zealand,10,Rex,Chu,M,0,2,0,0,0,2,
+NZL,New Zealand,6,Chen,Dawn,F,7,0,0,1,0,8,Hon. Men.
+NZL,New Zealand,7,Fan,William,M,0,6,0,0,0,6,
+NZL,New Zealand,8,Kim,Gwang Ho,M,0,3,0,0,0,3,
+NZL,New Zealand,9,Sun,Alan,M,2,0,0,0,0,2,
+NZL,New Zealand,10,Chu,Rex,M,0,2,0,0,0,2,
 NIC,Nicaragua,1,Isaac Dahir,Rodriguez Gutiérrez,M,7,0,0,0,0,7,Hon. Men.
 NIC,Nicaragua,2,Carlos Andrés,Sequeira Álvarez,M,7,0,0,0,0,7,Hon. Men.
 NIC,Nicaragua,3,Hans Marcelo,Núñez Jerez,M,2,0,0,0,0,2,
@@ -327,13 +327,13 @@ URY,Uruguay,10,Zales,Máximo,M,0,1,0,0,0,1,
 UZB,Uzbekistan,1,Khoshimjonov ,Begzod,M,7,7,0,0,0,14,Bronze
 UZB,Uzbekistan,2,Suyunova ,Madina,F,7,7,0,0,0,14,Bronze
 UZB,Uzbekistan,3,Gafforov,Rasulbek,M,7,7,0,0,0,14,Bronze
-UZB,Uzbekistan,4,Jaylolov ,Tulkin,M,7,7,0,0,0,14,Bronze
+UZB,Uzbekistan,4,Jaylovov,Tulkin,M,7,7,0,0,0,14,Bronze
 UZB,Uzbekistan,5,Urolova ,Shoira,F,7,7,0,0,0,14,Bronze
 UZB,Uzbekistan,6,Ortikov,Yusufjon,M,7,7,0,0,0,14,Bronze
 UZB,Uzbekistan,7,Abdukayumov,Asilbek,M,7,6,0,0,0,13,Bronze
 UZB,Uzbekistan,8,Erkinov,Behruz,M,7,3,0,0,0,10,Hon. Men.
 UZB,Uzbekistan,9,Normamatov,Hasan,M,7,2,0,0,0,9,Hon. Men.
-UZB,Uzbekistan,10,Rajabov ,Abdulaziz,M,7,1,0,0,0,8,Hon. Men.
+UZB,Uzbekistan,10,Radjabov ,Abdulaziz,M,7,1,0,0,0,8,Hon. Men.
 TTO,Trinidad and Tobago,1,Pinto,Liam,M,0,6,0,0,0,6,
 TTO,Trinidad and Tobago,2,Rampersad,Saiesh,M,0,3,0,0,0,3,
 TTO,Trinidad and Tobago,3,Mahadeo,Amir,M,2,0,0,0,0,2,
