@@ -3,6 +3,13 @@ import glob, re, json
 import pandas as pd
 import os
 
+# To update each year:
+# 1. Upload files of problems and solutions.
+# 2. Upload new clean data and run scripts.
+# 3. Change the year variable below:
+
+this_year = 2025
+
 THIS_FILE = os.path.abspath(__file__)
 THIS_DIR = os.path.dirname(THIS_FILE)
 os.chdir(THIS_DIR)
@@ -166,7 +173,7 @@ def problems():
 @app.route('/results')
 def results():
     countries=[[x['code'],x['country']]  for _, x in pd.read_csv('data/apmo_countries.csv')[['code','country']].iterrows()]
-    full_results=[2016,2017,2018,2019,2020,2021,2022,2023,2024]
+    full_results=list(range(2016, this_year+1))
     country_rankings=[2003,2010,2011,2012,2013,2014,2015]
     awards_only=[2000,2001,2005,2006,2007,2008,2009]
     return render_template("results.html",countries=countries, full_results=full_results, country_rankings=country_rankings, awards_only=awards_only)
@@ -181,9 +188,9 @@ def year_report(year):
         year=int(year)
     except:
         return render_template('not_enough_info.html')
-    if year in range(2010,2025):
+    if year in range(2010,this_year+1):
         problem_stats=False
-        if year in range(2016,2025):
+        if year in range(2016,this_year+1):
             problem_stats=True
         competition_info=load_info(year)
         table=ranked_table(year)
@@ -203,14 +210,14 @@ def country(code, year):
             return render_template('country.html', country=country, table=table,  table_short=table_short)
         except:
             return render_template('not_enough_info.html')
-    try:
-        year=int(year)
-        if year in range(1989,2025):
-            table, country = country_year_table(code, year)
-            table_short, country= country_year_table_short(code, year)
-            return render_template('year_country_report.html', code=code, year=year, country=country, table=table, table_short=table_short)
-        else:
-            return render_template('not_enough_info.html')
-    except:
+    # try:
+    year=int(year)
+    if year in range(1989,this_year+1):
+        table, country = country_year_table(code, year)
+        table_short, country= country_year_table_short(code, year)
+        return render_template('year_country_report.html', code=code, year=year, country=country, table=table, table_short=table_short)
+    else:
         return render_template('not_enough_info.html')
+    # except:
+    #     return render_template('not_enough_info.html')
        
