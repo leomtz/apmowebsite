@@ -8,7 +8,7 @@ import os
 # 2. Upload new clean data and run scripts.
 # 3. Change the year variable below:
 
-this_year = 2025
+this_year = 2026
 
 THIS_FILE = os.path.abspath(__file__)
 THIS_DIR = os.path.dirname(THIS_FILE)
