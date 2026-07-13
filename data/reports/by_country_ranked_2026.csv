@@ -1,16 +1,16 @@
 Rank,Code,Country,# of Contestants,Total Score,Gold Awards,Silver Awards,Bronze Awards,Honorable Mentions
 1,USA,United States of America,10,324,1,2,4,3
-2,,Korea,10,306,1,2,4,3
+2,KOR,Republic of Korea,10,306,1,2,4,3
 3,JPN,Japan,10,246,1,2,4,3
 4,IND,India,10,221,1,2,4,3
 5,SGP,Singapore,10,220,1,2,4,3
 6,MYS,Malaysia,10,220,1,2,4,3
-7,,Vietnam,10,204,1,2,4,3
+7,VNM,Vietnam,10,204,1,2,4,3
 8,CAN,Canada,10,196,1,2,4,3
 9,TWN,Taiwan,10,191,1,2,4,3
 10,HKG,Hong Kong,10,182,1,2,4,3
 11,KAZ,Kazakhstan,10,181,1,2,4,3
-12,,Iran,10,181,1,2,4,3
+12,IRN,Islamic Republic of Iran,10,181,1,2,4,3
 13,AUS,Australia,10,172,1,2,4,2
 14,BRA,Brazil,10,170,0,3,4,2
 15,THA,Thailand,10,160,1,2,4,3
@@ -36,9 +36,9 @@ Rank,Code,Country,# of Contestants,Total Score,Gold Awards,Silver Awards,Bronze 
 35,BOL,Bolivia,7,54,1,0,0,3
 36,NIC,Nicaragua,10,44,0,0,1,4
 37,ECU,Ecuador,10,43,0,0,0,1
-38,,North Macedonia,5,39,0,0,0,5
+38,MKD,Macedonia,5,39,0,0,0,5
 39,PAK,Pakistan,6,33,0,0,0,4
 40,URY,Uruguay,6,32,0,0,0,3
 41,CRI,Costa Rica,7,25,0,0,0,1
-42,SLV,El Salvador,3,8,0,0,0,0
-43,PAN,Panama,5,8,0,0,0,0
+42,PAN,Panama,5,8,0,0,0,0
+43,SLV,El Salvador,3,8,0,0,0,0
